@@ -1,0 +1,44 @@
+  # Delete previously built Deltaretrovirus project if it exists
+  delete project deltavirus
+
+  # Build Deltaretrovirus project
+  create project deltavirus "A GLUE project for deltaviruses" --minVersion 0.1.66
+
+  # Create DB schema
+  schema-project deltavirus
+	run file glue/deltaSchemaExtensions.glue
+	exit
+
+
+  project deltavirus
+
+	#~#  Build the project extension with 'curated' sequences
+
+	# Create deltavirus project extension-specific modules 
+	run file glue/rv/rvProjectSettings.glue
+	run file glue/deltaModules.glue  
+
+	# Define features 
+	run file glue/rv/rvFeatures.glue
+
+	# Import reference sequences from GenBank XML files 
+	run file glue/deltaImportSources.glue  
+
+	# Create deltavirus references
+	run file glue/deltaReferences.glue  
+
+	# Set links to isolate table for deltavirus curated sequences
+	run script glue/deltaLoadIsolateData.js
+
+	# Populate fields using GenBank file data
+	module deltaGenbankXmlPopulator populate
+
+	# Import alignments & created constrained alignment tree
+	run file glue/deltaAlignments.glue
+
+	# Import alignments & created constrained alignment tree
+	run file glue/deltaAlignmentTree.glue
+
+	validate
+	exit
+

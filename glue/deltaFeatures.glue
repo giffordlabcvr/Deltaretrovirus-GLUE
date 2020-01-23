@@ -14,72 +14,72 @@
   create feature PBS "Primer binding site"
   create feature LEA "Leader region"
 
-  create feature Gag "Group-specific antigen"
-  feature Gag set metatag CODES_AMINO_ACIDS true
-  feature Gag set metatag OWN_CODON_NUMBERING true
+  create feature gag "Group-specific antigen"
+  feature gag set metatag CODES_AMINO_ACIDS true
+  feature gag set metatag OWN_CODON_NUMBERING true
 
-  create feature MA   --parentName Gag "Matrix"
+  create feature MA   --parentName gag "Matrix"
   feature MA set metatag CODES_AMINO_ACIDS true
   feature MA set metatag OWN_CODON_NUMBERING true
 
-  create feature CA   --parentName Gag "Capsid"
+  create feature CA   --parentName gag "Capsid"
   feature CA set metatag CODES_AMINO_ACIDS true
   feature CA set metatag OWN_CODON_NUMBERING true
 
-  create feature NC   --parentName Gag "Nucleocapsid"
+  create feature NC   --parentName gag "Nucleocapsid"
   feature NC set metatag CODES_AMINO_ACIDS true
   feature NC set metatag OWN_CODON_NUMBERING true
   
-  create feature Pro "Protease"
-  feature Pro set metatag CODES_AMINO_ACIDS true
-  feature Pro set metatag OWN_CODON_NUMBERING true
+  create feature pro "protease"
+  feature pro set metatag CODES_AMINO_ACIDS true
+  feature pro set metatag OWN_CODON_NUMBERING true
 
   create feature DU "dUTPase"
   feature DU set metatag CODES_AMINO_ACIDS true
   feature DU set metatag OWN_CODON_NUMBERING true
 
-  create feature Pol "Polymerase"
-  feature Pol set metatag CODES_AMINO_ACIDS true
-  feature Pol set metatag OWN_CODON_NUMBERING true
+  create feature pol "polymerase"
+  feature pol set metatag CODES_AMINO_ACIDS true
+  feature pol set metatag OWN_CODON_NUMBERING true
 
-  create feature RT     --parentName POL "Reverse transcriptase"
+  create feature RT     --parentName pol "Reverse transcriptase"
   feature RT set metatag CODES_AMINO_ACIDS true
   feature RT set metatag OWN_CODON_NUMBERING true
 
-  create feature IN     --parentName POL "Integrase"
+  create feature IN     --parentName pol "Integrase"
   feature IN set metatag CODES_AMINO_ACIDS true
   feature IN set metatag OWN_CODON_NUMBERING true
 
-  create feature RNaseH --parentName POL "RNaseH"
+  create feature RNaseH --parentName pol "RNaseH"
   feature RNaseH set metatag CODES_AMINO_ACIDS true
   feature RNaseH set metatag OWN_CODON_NUMBERING true
  
-  create feature Env "Envelope"
-  feature Env set metatag CODES_AMINO_ACIDS true
-  feature Env set metatag OWN_CODON_NUMBERING true
+  create feature env "envelope"
+  feature env set metatag CODES_AMINO_ACIDS true
+  feature env set metatag OWN_CODON_NUMBERING true
   
-  create feature SU --parentName Env "Surface glycoprotein"
+  create feature SU --parentName env "Surface glycoprotein"
   feature SU set metatag CODES_AMINO_ACIDS true
   feature SU set metatag OWN_CODON_NUMBERING true
   
-  create feature TM --parentName Env "Transmembrane domain"
+  create feature TM --parentName env "Transmembrane domain"
   feature TM set metatag CODES_AMINO_ACIDS true
   feature TM set metatag OWN_CODON_NUMBERING true
   
-  create feature ISD --parentName Env "Immunosuppressive domain"
+  create feature ISD --parentName env "Immunosuppressive domain"
   
-  create feature Tax "Trans-activator of transcription"
+  create feature tax "Trans-activator of transcription"
   feature Tat set metatag CODES_AMINO_ACIDS true
   feature Tat set metatag OWN_CODON_NUMBERING true
 
-  create feature Rex "Regulator of expression protein"
+  create feature rex "Regulator of expression protein"
   feature Rev set metatag CODES_AMINO_ACIDS true
   feature Rev set metatag OWN_CODON_NUMBERING true
 
-  create feature GagPol "Gag-Pol fusion protein"
-  create feature ProPol "Pro-Pol fusion protein"
+  create feature gagpol "gag-pol fusion protein"
+  create feature propol "pro-pol fusion protein"
         
-  create feature PPT "Polypurine tract"
+  create feature PPT "polypurine tract"
   create feature 3LTR "3' LTR"
   create feature U3_3LTR --parentName 3LTR "U3 region of 3' LTR"
   create feature R_3LTR  --parentName 3LTR "R region of 3' LTR"
