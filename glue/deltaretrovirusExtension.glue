@@ -10,7 +10,7 @@
 	run file glue/deltaModules.glue  
 
 	# Import reference sequences from GenBank XML files 
-	run file glue/deltaImportSources.glue  
+	import source sources/ncbi-
 
 	# Create deltavirus references
 	run file glue/deltaReferences.glue  
@@ -23,8 +23,6 @@
 
 	# Import alignments & created constrained alignment tree
 	#run file glue/deltaAlignments.glue
-
-	# Import alignments & created constrained alignment tree
 	#run file glue/deltaAlignmentTree.glue
 
 	validate
