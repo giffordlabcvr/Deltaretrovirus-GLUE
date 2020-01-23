@@ -1,0 +1,12 @@
+### Declare reference sequencess
+
+  create reference REF_PTLV-1    ncbi-curated-deltaretrovirus J02029
+  create reference REF_PTLV-2    ncbi-curated-deltaretrovirus M10060
+  create reference REF_PTLV-3    ncbi-curated-deltaretrovirus DQ093792
+  create reference REF_PTLV-3    ncbi-curated-deltaretrovirus EF488483
+
+  create reference REF_HTLV-1    ncbi-curated-deltaretrovirus AF033817
+  create reference REF_HTLV-2    ncbi-curated-deltaretrovirus NC_001488
+  create reference REF_HTLV-4    ncbi-curated-deltaretrovirus EF488483
+
+  create reference REF_BLV       ncbi-curated-deltaretrovirus NC_001414

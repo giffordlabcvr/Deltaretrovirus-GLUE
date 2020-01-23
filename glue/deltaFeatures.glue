@@ -1,0 +1,91 @@
+  create feature whole_genome "Retrovirus proviral genome"
+  feature whole_genome set field displayName "Whole genome"
+  feature whole_genome set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 5flank "5 prime genomic flanking sequence"
+  feature 5flank set field displayName "5' flank"
+  feature 5flank set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 5LTR "5' LTR"
+  create feature U3_5LTR --parentName 5LTR "U3 region of 5' LTR"
+  create feature R_5LTR  --parentName 5LTR "R region of 5' LTR"
+  create feature U5_5LTR --parentName 5LTR "U5 region of 5' LTR"
+  
+  create feature PBS "Primer binding site"
+  create feature LEA "Leader region"
+
+  create feature Gag "Group-specific antigen"
+  feature Gag set metatag CODES_AMINO_ACIDS true
+  feature Gag set metatag OWN_CODON_NUMBERING true
+
+  create feature MA   --parentName Gag "Matrix"
+  feature MA set metatag CODES_AMINO_ACIDS true
+  feature MA set metatag OWN_CODON_NUMBERING true
+
+  create feature CA   --parentName Gag "Capsid"
+  feature CA set metatag CODES_AMINO_ACIDS true
+  feature CA set metatag OWN_CODON_NUMBERING true
+
+  create feature NC   --parentName Gag "Nucleocapsid"
+  feature NC set metatag CODES_AMINO_ACIDS true
+  feature NC set metatag OWN_CODON_NUMBERING true
+  
+  create feature Pro "Protease"
+  feature Pro set metatag CODES_AMINO_ACIDS true
+  feature Pro set metatag OWN_CODON_NUMBERING true
+
+  create feature DU "dUTPase"
+  feature DU set metatag CODES_AMINO_ACIDS true
+  feature DU set metatag OWN_CODON_NUMBERING true
+
+  create feature Pol "Polymerase"
+  feature Pol set metatag CODES_AMINO_ACIDS true
+  feature Pol set metatag OWN_CODON_NUMBERING true
+
+  create feature RT     --parentName POL "Reverse transcriptase"
+  feature RT set metatag CODES_AMINO_ACIDS true
+  feature RT set metatag OWN_CODON_NUMBERING true
+
+  create feature IN     --parentName POL "Integrase"
+  feature IN set metatag CODES_AMINO_ACIDS true
+  feature IN set metatag OWN_CODON_NUMBERING true
+
+  create feature RNaseH --parentName POL "RNaseH"
+  feature RNaseH set metatag CODES_AMINO_ACIDS true
+  feature RNaseH set metatag OWN_CODON_NUMBERING true
+ 
+  create feature Env "Envelope"
+  feature Env set metatag CODES_AMINO_ACIDS true
+  feature Env set metatag OWN_CODON_NUMBERING true
+  
+  create feature SU --parentName Env "Surface glycoprotein"
+  feature SU set metatag CODES_AMINO_ACIDS true
+  feature SU set metatag OWN_CODON_NUMBERING true
+  
+  create feature TM --parentName Env "Transmembrane domain"
+  feature TM set metatag CODES_AMINO_ACIDS true
+  feature TM set metatag OWN_CODON_NUMBERING true
+  
+  create feature ISD --parentName Env "Immunosuppressive domain"
+  
+  create feature Tax "Trans-activator of transcription"
+  feature Tat set metatag CODES_AMINO_ACIDS true
+  feature Tat set metatag OWN_CODON_NUMBERING true
+
+  create feature Rex "Regulator of expression protein"
+  feature Rev set metatag CODES_AMINO_ACIDS true
+  feature Rev set metatag OWN_CODON_NUMBERING true
+
+  create feature GagPol "Gag-Pol fusion protein"
+  create feature ProPol "Pro-Pol fusion protein"
+        
+  create feature PPT "Polypurine tract"
+  create feature 3LTR "3' LTR"
+  create feature U3_3LTR --parentName 3LTR "U3 region of 3' LTR"
+  create feature R_3LTR  --parentName 3LTR "R region of 3' LTR"
+  create feature U5_3LTR --parentName 3LTR "U5 region of 3' LTR"
+  
+  create feature 3flank "3 prime genomic flanking sequence"
+  feature 3flank set field displayName "5' flank"
+  feature 3flank set metatag INCLUDE_IN_SUMMARY true
+  
