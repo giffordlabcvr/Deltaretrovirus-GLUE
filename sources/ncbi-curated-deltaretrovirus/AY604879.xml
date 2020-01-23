@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY604879</GBSeq_locus>
+    <GBSeq_length>1467</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-JAN-2005</GBSeq_update-date>
+    <GBSeq_create-date>30-AUG-2004</GBSeq_create-date>
+    <GBSeq_definition>Human T-lymphotropic virus 1 isolate 2055-A from French Guiana envelope glycoprotein (env) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY604879</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY604879.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY604879.1|</GBSeqid>
+      <GBSeqid>gi|51511198</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1467</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Capdepont,S.</GBAuthor>
+          <GBAuthor>Londos-Gagliardi,D.</GBAuthor>
+          <GBAuthor>Joubert,M.</GBAuthor>
+          <GBAuthor>Correze,P.</GBAuthor>
+          <GBAuthor>Lafon,M.E.</GBAuthor>
+          <GBAuthor>Guillemain,B.</GBAuthor>
+          <GBAuthor>Fleury,H.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>New insights in HTLV-I phylogeny by sequencing and analyzing the entire envelope gene</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 21 (1), 28-42 (2005)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1089/aid.2005.21.28</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>15665642</GBReference_pubmed>
+        <GBReference_remark>submitted</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1467</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Capdepont,S.</GBAuthor>
+          <GBAuthor>Londos-Gagliardi,D.</GBAuthor>
+          <GBAuthor>Joubert,M.</GBAuthor>
+          <GBAuthor>Correze,P.</GBAuthor>
+          <GBAuthor>Lafon,M.-E.</GBAuthor>
+          <GBAuthor>Guillemain,B.J.</GBAuthor>
+          <GBAuthor>Fleury,H.J.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (20-APR-2004) Laboratoire de Virologie EA2968, Universite Victor Segalen Bordeaux2, 146 Rue Leo Saignat, Bordeaux Cedex 33076, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1467</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1467</GBInterval_to>
+            <GBInterval_accession>AY604879.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>2055-A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>asymptomatic patient 2055 peripheral blood mononuclear cells and peripheral blood lymphocytes</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>French Guiana</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1467</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1467</GBInterval_to>
+            <GBInterval_accession>AY604879.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1467</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1467</GBInterval_to>
+            <GBInterval_accession>AY604879.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains surface gp46 and transmembrane gp21 glycoproteins</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAU04888.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGKFLATLILFFQFCPLILGDYSPSCCTITVGVSSYHSKPCNPAQPVCSWTLDLLALSADQALQPPCPNLVSYSSYHATYSLYLFPHWIKKPNRNGGGYYSASYSDPCSLKCPYLGCQSWTCPYTGAVSSPYWKFQQDVNFTQEVSHLNINLHFSKCGFPFSLLVDAPGYDPIWFLNTEPSQLPPTAPPLLSHSNLDHILEPSIPWKSKLLTLVQLTLQSTNYTCIVCIDRASLSTWHVLYSPNVSVPSPSSTPLLYPSLALPAPHLTLPFNWTHCFDPQIQAIVSSPCHNSLILPPFSLSPVPTLGSRSRRAVPVAVWLVSALAMGAGVAGGITGSMSLASGKSLLHEVDKDISQLTQAIVKNHKNLLKIAQYAAQNRRGLDLLFWEQGGLCKALQEQCCFLNITNSHVSILQERPPLENRVLTGWGLNWDLGLSQWAREALQTGITLVALLLLVILAGPCILRQLRHLPSRVRYPHYSLINPESSL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggtaagtttctcgccactttgattttattcttccagttctgccccctcatcctcggtgattacagccccagctgctgtactatcacagttggagtctcctcataccactctaaaccctgcaatcctgcccagccagtttgttcatggaccctcgacctgctggccctttcagcggatcaggccctacagccaccctgccctaatctagtaagttactccagctaccatgccacttattccctatatctattccctcattggatcaaaaagccaaaccgaaatggcggaggctattattcagcctcttattcagacccttgttccttaaagtgcccatacctagggtgccaatcatggacctgcccctatacaggagccgtctccagcccctactggaaatttcagcaagatgtcaattttactcaagaagtttcacacctcaatattaatctccatttttcaaaatgcggttttcccttctcccttctagtcgacgctccaggatatgaccccatctggttccttaataccgaacccagccaactgcctcccaccgcccctcctctactctcccactctaacctagaccatatcctcgagccctctataccatggaaatcaaaactcctgactcttgtccagttaaccctacaaagcactaattatacttgcattgtctgtatcgatcgtgccagcctatccacttggcacgtcctatactctcccaacgtctctgttccatccccttcttctacccccctcctttacccatcgttagcgcttccagccccccacctgacgttaccatttaactggacccactgctttgacccccagattcaagctatagtctcctccccctgtcataactccctcatcctgccccccttttccttgtcacctgttcccacgctaggatcccgctcccgccgagcagtaccggtggcggtctggcttgtctccgccctggccatgggagccggagtggctggcgggattaccggctccatgtccctcgcctcaggaaagagcctcctacatgaggtggacaaagatatttcccaattaactcaagcaatagtcaaaaaccacaaaaatctgctcaaaattgcacagtatgctgcccagaacagacgaggccttgatctcctgttctgggagcaaggaggattatgcaaagcattacaagaacagtgctgttttctaaatattactaattcccatgtctcaatactacaagagagacccccccttgagaatcgagtcctgactggctggggccttaactgggaccttggcctctcacagtgggctcgagaagccttacaaactggaatcacccttgtcgcgctactccttcttgttatccttgcaggaccatgcatcctccgtcagctacgacacctcccctcgcgcgtcagatacccccattactctcttataaaccctgagtcatccctgtaa</GBSeq_sequence>
+  </GBSeq>

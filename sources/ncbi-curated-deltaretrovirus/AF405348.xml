@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF405348</GBSeq_locus>
+    <GBSeq_length>1467</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-AUG-2002</GBSeq_update-date>
+    <GBSeq_create-date>19-SEP-2001</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell lymphotropic virus type 1 isolate Co-011 envelope glycoprotein (env) mRNA, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF405348</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF405348.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF405348.1|</GBSeqid>
+      <GBSeqid>gi|15667870</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1467</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Dominguez,M.C.</GBAuthor>
+          <GBAuthor>Castillo,A.</GBAuthor>
+          <GBAuthor>Cabrera,J.</GBAuthor>
+          <GBAuthor>Eizuru,Y.</GBAuthor>
+          <GBAuthor>Garcia-Vallejo,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Envelope sequence variation and phylogenetic relations of human T cell lymphotropic virus type 1 from endemic areas of Colombia</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 18 (12), 887-890 (2002)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1089/08892220260190371</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>12201912</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1467</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Dominguez,M.</GBAuthor>
+          <GBAuthor>Castillo,A.</GBAuthor>
+          <GBAuthor>Cabrera,J.</GBAuthor>
+          <GBAuthor>Eizuru,Y.</GBAuthor>
+          <GBAuthor>Garcia-Vallejo,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-AUG-2001) Laboratory of Molecular Biology and Pathogenesis, Department of Physiological Sciences, Faculty of Health, University of Valle, Street 4B # 36-00 Site of San Fernando, Cali, Colombia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1467</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1467</GBInterval_to>
+            <GBInterval_accession>AF405348.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Co-011</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1467</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1467</GBInterval_to>
+            <GBInterval_accession>AF405348.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1467</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1467</GBInterval_to>
+            <GBInterval_accession>AF405348.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAL05543.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGKFLATLIXFFQFCPLIFGNYSPSCCTLXIGVSSYHSKPCNPAQPVCSWTLDLLALSADQALQPXCPNLXXYSXYHATYSLYLFPHWIKKPNRNGGGYYSASYSDPCSLKCPYLGCQSWTCPYTGAVSSPYWKFQHDVNFTQEVSRLNINLHFSKCGFPFSLLVDAPGYDPIWFLNTEPSQLPPTAPPLLPHSNLDHILEPSIPWKSKLLTLVQLTLQSTNYTCIVCIDRASLSTWHVLYSPNVSFPSSSSTPLLYPSLALPAPHLTLPFNWTHCFXPQIQAIVSSPCHNSLILPPFSLSPVPTLXSRSRRAVPVAVWLVSALAMGAGVAGGITGSMSLXSGKSLLHEVDKDISQLTQXIVXNHKNLLKIAQYAAQNRRGLDLXFWEQGGLCKALQEQCXFXNITNSHVXILQERPPLENRVLTGWGLNXDLGLSQWAREALQTGITLVALLLLVILAGPCILRQLRHLPSRVRYPHYSLIXPESSL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggtaagtttctcgccactttgattttmttcttccagttctgccccctcatcttcggtaattacagccccagctgctgtactctcncaattggagtctcctcataccactctaaaccttgcaatcctgcccagccagtttgttcgtggaccctcgacctgctggccctttcagcagatcaggccctacagcccmcctgccctaacctrrtaakttactccwgctaccatgccacctattccctatatctattccctcattggattaaraagccaaaccgaaatggcggaggmtattattcagcctcttattcagacccttgttccttaaagtgcccatacctggggtgccaatcatggacctgcccctatacaggagccgtctccagcccctactggaagtttcarcacgatgtcaattttactcaagaagtttcacgcctcaatattaatctccatttttcaaaatgcggttttccyttctcccttctagtcgacgctccaggatatgaccccatctggttccttaataccgaacccagccaactgcctcccaccgcccctcctctactcccccactctaacctagaccacatcctcgagccctctataccatggaaatcraaactcytgacccttgtccagttaaccctacaaagcactaattatacttgcattgtctgtatcgatcgygccagcctctccacttggcacgtcctatactctcccaacgtctcttttccatcctcttcttctacccccctcctttacccatcgttagcgcttccagccccccacctgacgttaccatttaactggacccactgctttgasccccagattcaagctatagtctcctccccctgtcataactccctcatcctgccccccttttccttgtcacctgttcccaccctrrgatcccgctcccgccgagcggtaccggtggcggtctggcttgtctccgccctggccatgggagccggagtggctggcgggattaccggctccatgtccctsscctcaggaaagagcctcctacatgaggtggacaaagatatttcccagttaactcaagyaatagtcaawaaccacaaaaatctactcaaaattgcgcagtatgctgcccagaacagacgaggccttgatctccyrttctgggagcaaggaggattatgcaaagcattacaagaacagtgcygttttcyraatattacyaattcccatgtcycaatactacaagaaagacccccccttgagaatcgagtcctgactggctggggccttaactrggaccttggcctctcacagtgggctcgagaggccttacaaactggaatcacccttgtygcgctactccttcttgttatccttgcaggaccatgcatcctccgtcagctacgacacctcccctcgcgcgtcagatacccccattactctcttataaamcctgagtcatccctgtaa</GBSeq_sequence>
+  </GBSeq>

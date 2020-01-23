@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LC057268</GBSeq_locus>
+    <GBSeq_length>1175</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>08-JAN-2016</GBSeq_update-date>
+    <GBSeq_create-date>03-JUN-2015</GBSeq_create-date>
+    <GBSeq_definition>Bovine leukemia virus proviral gag gene for gag polyprotein precursor, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>LC057268</GBSeq_primary-accession>
+    <GBSeq_accession-version>LC057268.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LC057268.1|</GBSeqid>
+      <GBSeqid>gi|827884000</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bovine leukemia virus</GBSeq_source>
+    <GBSeq_organism>Bovine leukemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1175</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Bai,L.</GBAuthor>
+          <GBAuthor>Otsuki,H.</GBAuthor>
+          <GBAuthor>Sato,H.</GBAuthor>
+          <GBAuthor>Kohara,J.</GBAuthor>
+          <GBAuthor>Isogai,E.</GBAuthor>
+          <GBAuthor>Takeshima,S.N.</GBAuthor>
+          <GBAuthor>Aida,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification and characterization of common B cell epitope in bovine leukemia virus via high-throughput peptide screening system in infected cattle</GBReference_title>
+        <GBReference_journal>Retrovirology 12 (1), 106 (2015)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1186/s12977-015-0233-x</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>26715158</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1175</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Aida,Y.</GBAuthor>
+          <GBAuthor>Takeshima,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (29-MAY-2015) Contact:Yoko Aida RIKEN, Viral Infectious Diseases Unit; 2-1 Hirosawa, Wako, Saitama 351-0198, Japan URL :http://www.riken.jp</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1175</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1175</GBInterval_to>
+            <GBInterval_accession>LC057268.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bovine leukemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Bos Taurus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11901</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Japan</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2010-10-09</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..&gt;1175</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1175</GBInterval_to>
+            <GBInterval_accession>LC057268.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..&gt;1175</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1175</GBInterval_to>
+            <GBInterval_accession>LC057268.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gag polyprotein precursor</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BAR88278.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGNSPSYNPPAGISPSDWLNLVQSAQRLNPRPSPSDFTDLKNYIHWFHKTQKKPWTFTSGGPTSCPPGRFGRVPLVLATLNEVLSNEGGAPGASAPEEQPPPYDPPAILPIISEGNRNRHRAWALRELQDIKKEIENKAPGSQVWIQTLRLAILQADPTPADLEQLCQYIASPVDQTAHMTSLTAAIAAAEAANTLQGFNPQNGTLTQQSAQPNAGDLRSQYQNLWLQAWKNLPTRPSVQPWSTIVQGPAESYVEFVNRLQISLADNLPDGVPKEPIIDSLSYANANKECQQILQGRGLVAAPVGQKLQACAHWAPKMKQPAILVHTPGPKMPGPRQPAPKRPPPGPCYRCLKEGHWARDCPTKATGPPPGPCPICKDPSHWKRDCPTLKS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggaaattccccctcctataacccccccgctggtatctccccctcagactggctcaaccttgtgcaaagcgcgcaaaggctcaatccgcgaccctctcctagcgattttaccgatttaaagaattacatccattggtttcataagacccagaaaaaaccatggactttcacttctggtggccccacctcatgtccacccgggagattcggccgggttcccctcgtcttggccaccctaaacgaagtactctcaaacgaagggggcgccccgggtgcatcggccccagaagaacaacctcccccttatgacccccccgccattttgccaatcatatctgaagggaatcgcaaccgccatcgtgcttgggcactccgagaattacaagatatcaaaaaagaaattgaaaataaggcaccgggttcgcaagtatggatacaaacactacgacttgcaatcctgcaggccgaccctactccggctgacctagaacaactttgccaatatattgcttccccggtcgaccaaacggcccatatgaccagcctaacggcagcaatagccgccgctgaagcggccaacaccctccagggttttaacccccaaaacgggaccctaacccaacaatcagctcagcccaacgccggggatcttagaagtcaatatcaaaacctctggcttcaggcctggaaaaatctccctactcgtccttcagtacaaccttggtccaccatcgtccagggccccgccgaaagctatgtagagtttgtcaaccggttacaaatttcattagctgacaaccttcccgacggagtccctaaggaacccattattgactcccttagttatgcaaatgctaacaaagagtgtcagcaaattttgcaggggcgaggcctagtggccgccccggtggggcaaaaactgcaggcttgcgcacattgggcccccaagatgaaacagcctgcaattctcgtccacaccccagggcccaagatgcccgggcctcggcaaccggcccccaaaaggcctcccccaggaccatgctatcgatgcctcaaagaaggccattgggcccgggattgtcctaccaaggccaccggcccccctccgggaccttgccccatatgtaaagatccttcccattggaaacgagactgtccaaccctcaaatcaaa</GBSeq_sequence>
+  </GBSeq>

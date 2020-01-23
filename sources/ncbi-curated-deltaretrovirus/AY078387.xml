@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY078387</GBSeq_locus>
+    <GBSeq_length>1548</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>08-OCT-2002</GBSeq_update-date>
+    <GBSeq_create-date>24-FEB-2002</GBSeq_create-date>
+    <GBSeq_definition>Bovine leukemia virus envelope glycoprotein polyprotein precursor gPr72 mRNA, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY078387</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY078387.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY078387.1|</GBSeqid>
+      <GBSeqid>gi|18874405</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bovine leukemia virus</GBSeq_source>
+    <GBSeq_organism>Bovine leukemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1548</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Johnston,E.R.</GBAuthor>
+          <GBAuthor>Albritton,L.M.</GBAuthor>
+          <GBAuthor>Radke,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Envelope proteins containing single amino acid substitutions support a structural model of the receptor-binding domain of bovine leukemia virus surface protein</GBReference_title>
+        <GBReference_journal>J. Virol. 76 (21), 10861-10872 (2002)</GBReference_journal>
+        <GBReference_pubmed>12368329</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1548</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Johnston,E.R.</GBAuthor>
+          <GBAuthor>Radke,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-FEB-2002) Animal Science Dept., Univ. of California, Davis, One Shields Ave., Davis, CA 95616-8521, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1548</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1548</GBInterval_to>
+            <GBInterval_accession>AY078387.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bovine leukemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11901</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>468-22</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isolated from PBMC of sheep injected with BLV from cell line bat2clone6</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1548</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1548</GBInterval_to>
+            <GBInterval_accession>AY078387.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein polyprotein precursor gPr72</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAL78062.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPKERRSRRRPQPIIRWVSLTLTLLALCRPIQTWRCSLSLGNQQWMTAYNQEAKFSISIDQILEAHNQSPFCAKSPRYTLDSVNGYPKIYWPPPQGRRRFGARAMVTHDCEPRCPYVGADRFDCPHWDNASQADQGSFYVNHQILFLHLKQCHGIFTLTWEIWGYDPLITFSLHKIPDPPQPDFPQLNSDWVPSVRSWALLLNQTARAFPDCAICWEPSPPWAPEILVYNKTISSSGPGLALPDAQIFWVNTSSFNTTQGWHHPSQRLLFNVSQGNALLLPPISLVNLSTASSAPPTRVRRSPVAALTLGLALSVGLTGINVAVSSLSHQRLTSLIHVLEQDQQRLITAINQTHYNLLNVASVVAQNRRGLDWLYIRLGFQSLCPTINEPCCFLRIQNDSIIRLGDLQPLSQRVSTDWQWPWNWDLGLTAWVRETIHSVLSLFLLALFLLFLAPCLIKCLTSRLLKLLRQAPHFPEISLTPKPDSDYQALLPSAPEIYSHLSPVKPDYINLRPCP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>sig_peptide</GBFeature_key>
+        <GBFeature_location>1..99</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>99</GBInterval_to>
+            <GBInterval_accession>AY078387.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>MPKERRSRRRPQPIIRWVSLTLTLLALCRPIQT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>100..903</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>100</GBInterval_from>
+            <GBInterval_to>903</GBInterval_to>
+            <GBInterval_accession>AY078387.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>SU glycoprotein gp51</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>WRCSLSLGNQQWMTAYNQEAKFSISIDQILEAHNQSPFCAKSPRYTLDSVNGYPKIYWPPPQGRRRFGARAMVTHDCEPRCPYVGADRFDCPHWDNASQADQGSFYVNHQILFLHLKQCHGIFTLTWEIWGYDPLITFSLHKIPDPPQPDFPQLNSDWVPSVRSWALLLNQTARAFPDCAICWEPSPPWAPEILVYNKTISSSGPGLALPDAQIFWVNTSSFNTTQGWHHPSQRLLFNVSQGNALLLPPISLVNLSTASSAPPTRVRR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>904..1545</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>904</GBInterval_from>
+            <GBInterval_to>1545</GBInterval_to>
+            <GBInterval_accession>AY078387.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>TM glycoprotein gp30</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>SPVAALTLGLALSVGLTGINVAVSSLSHQRLTSLIHVLEQDQQRLITAINQTHYNLLNVASVVAQNRRGLDWLYIRLGFQSLCPTINEPCCFLRIQNDSIIRLGDLQPLSQRVSTDWQWPWNWDLGLTAWVRETIHSVLSLFLLALFLLFLAPCLIKCLTSRLLKLLRQAPHFPEISLTPKPDSDYQALLPSAPEIYSHLSPVKPDYINLRPCP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgcctaaagaacgacggtcccgaagacgcccacaaccgatcatcagatgggtaagtctcactctcactctcctcgctctctgtcggcccatccagacttggagatgctccctgtccctaggaaaccaacaatggatgacagcatataaccaagaggcaaaattttccatctccattgaccaaatactagaggctcataatcagtcacctttctgtgccaagtctcccagatacaccttggactctgtaaatggctatcctaagatctactggccccccccacaagggcggcgccggtttggagccagggccatggtcacacatgattgcgagccccgatgcccttatgtgggggcagatcgcttcgactgcccccactgggacaatgcctcccaggccgatcaaggatccttttatgtcaatcatcagattttattcctgcatcttaaacaatgtcatggaattttcactctaacctgggagatatggggatatgatcccctgatcaccttttctttacataagatccctgatccccctcaacccgactttccccagttgaacagtgactgggttccctctgtcagatcatgggccctgcttttaaaccaaacagcacgggccttcccagactgtgctatatgttgggaaccttcccctccctgggctcccgaaatattagtatataacaaaaccatctccagctctggacccggcctcgccctcccggacgcccaaatcttctgggtcaacacgtcctcgtttaacaccacccaaggatggcaccacccttcccagaggttgttgttcaatgtttctcaaggcaacgccttgttattacctcctatctccctggttaatctctctacggcttcctccgcccctcctacccgggtcagacgtagtcccgtcgcagccctgaccttaggcctagccctgtcagtggggctcactggaattaatgtggccgtgtcttcccttagccatcagagactcacctccctgatccacgttctggagcaagatcagcaacgcttgatcacagcaattaaccagacccactataatttgcttaatgtggcctctgtggttgcccagaaccgacgggggcttgattggttgtacatccggctgggttttcaaagcctatgtcccacaattaatgagccttgctgtttcctgcgcattcaaaatgactccattatccgcctcggtgatctccagcctctctcgcaaagagtctctacagactggcagtggccctggaattgggatctggggctcactgcctgggtgcgagagaccattcattctgttctaagcctgttcctattagccctttttttgctcttcctggccccctgcctgataaaatgcttgacctctcgccttttaaagctcctccggcaggctccccacttccctgaaatctccttaacccctaaacccgattctgattatcaggccttgctaccatctgcaccagagatctactctcacctctcccccgtcaaacccgattacatcaacctccgaccctgcccttga</GBSeq_sequence>
+  </GBSeq>

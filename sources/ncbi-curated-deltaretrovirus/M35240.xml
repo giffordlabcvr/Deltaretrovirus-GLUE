@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>BLVENVC</GBSeq_locus>
+    <GBSeq_length>1545</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>19-JUN-1990</GBSeq_update-date>
+    <GBSeq_create-date>28-APR-1993</GBSeq_create-date>
+    <GBSeq_definition>Bovine leukemia virus (isolate LB285) envelope glycoprotein (env) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>M35240</GBSeq_primary-accession>
+    <GBSeq_accession-version>M35240.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M35240.1|BLVENVC</GBSeqid>
+      <GBSeqid>gi|210778</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>envelope protein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Bovine leukemia virus</GBSeq_source>
+    <GBSeq_organism>Bovine leukemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1545</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mamoun,R.Z.</GBAuthor>
+          <GBAuthor>Morisson,M.</GBAuthor>
+          <GBAuthor>Rebeyrotte,N.</GBAuthor>
+          <GBAuthor>Busetta,B.</GBAuthor>
+          <GBAuthor>Couez,D.</GBAuthor>
+          <GBAuthor>Kettmann,R.</GBAuthor>
+          <GBAuthor>Hospital,M.</GBAuthor>
+          <GBAuthor>Guillemain,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Sequence variability of bovine leukemia virus env gene and its relevance to the structure and antigenicity of the glycoproteins</GBReference_title>
+        <GBReference_journal>J. Virol. 64 (9), 4180-4188 (1990)</GBReference_journal>
+        <GBReference_pubmed>1696635</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Bovine leukemia virus (isolate LB285; from bovine tumor) RNA.; Draft entry and computer-readable sequence for [1] kindly submitted by R.Z.Mamoun, 15-JUN-1990, for release after publication.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1545</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1545</GBInterval_to>
+            <GBInterval_accession>M35240.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bovine leukemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11901</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..&gt;1545</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1545</GBInterval_to>
+            <GBInterval_accession>M35240.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein (env) precursor (gpr72)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA42791.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPKERRSRRRPQPIIRWVSLTLTLLSLCQPIQTWRCSLSLGNQQWMTTYNQEAKFSIAIDQILEAHNQSPFCPRSPRYTLDFVNGYPKIYWPPPQGRRRFGARAMVTYDCEPRCPYVGADHFDCPHWDNASQADQGSFYVNHQILFLHLKQCHGIFTLTWEIWGYDPLITFSLHKIPDPPQPDFPQLNSDWVPSVRSWALLLNQTARAFPDCAICWEPSPPWAPEILVYNKTISNSGPGLALPDAQIFWVNTSLFNTTQGWHHPSQRLLFNVSQGNALLLPPISLVNLSTASSAPPTRVRRSPAAALTLGLALSVGLTGINVAVSALSHQRLTSLIHVLEQDQQRLITAINQTHYNLLNVASVVAQNRRGLDWLYIRLGFQSLCPTINEPCCFLRIQNDSIIRLGDLQPLSQRVSTDWQWPWNWDLGLTAWVRETIHSVLSLFLLALFLLFLAPCLIKCLTSRLLKLLRQAPHFPEISLAPKPDSDYQALLPSAPEIYSHLSPTKPDYINLRPCP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>sig_peptide</GBFeature_key>
+        <GBFeature_location>1..99</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>99</GBInterval_to>
+            <GBInterval_accession>M35240.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein signal peptide</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>MPKERRSRRRPQPIIRWVSLTLTLLSLCQPIQT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>100..903</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>100</GBInterval_from>
+            <GBInterval_to>903</GBInterval_to>
+            <GBInterval_accession>M35240.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>SU protein (gp51)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>WRCSLSLGNQQWMTTYNQEAKFSIAIDQILEAHNQSPFCPRSPRYTLDFVNGYPKIYWPPPQGRRRFGARAMVTYDCEPRCPYVGADHFDCPHWDNASQADQGSFYVNHQILFLHLKQCHGIFTLTWEIWGYDPLITFSLHKIPDPPQPDFPQLNSDWVPSVRSWALLLNQTARAFPDCAICWEPSPPWAPEILVYNKTISNSGPGLALPDAQIFWVNTSLFNTTQGWHHPSQRLLFNVSQGNALLLPPISLVNLSTASSAPPTRVRR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>904..1545</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>904</GBInterval_from>
+            <GBInterval_to>1545</GBInterval_to>
+            <GBInterval_accession>M35240.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>TM protein (gp35)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>SPAAALTLGLALSVGLTGINVAVSALSHQRLTSLIHVLEQDQQRLITAINQTHYNLLNVASVVAQNRRGLDWLYIRLGFQSLCPTINEPCCFLRIQNDSIIRLGDLQPLSQRVSTDWQWPWNWDLGLTAWVRETIHSVLSLFLLALFLLFLAPCLIKCLTSRLLKLLRQAPHFPEISLAPKPDSDYQALLPSAPEIYSHLSPTKPDYINLRPCP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>71</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_point>71</GBInterval_point>
+            <GBInterval_accession>M35240.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>splice donor for pX gene</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgcccaaagaacgacggtcccgaagacgcccacaaccgatcatcagatgggtaagtctcactcttactctcctctctctctgtcagcccatccagacttggagatgctccctgtccctaggaaatcaacaatggatgacaacatataaccaagaggcaaaattttccatcgccattgaccaaatactagaggctcataatcaatcgcctttctgtcccaggtctcccagatacaccttggactttgtaaatggttatcctaagatctattggccccccccacaagggcgacgccggtttggagccagggccatggtcacatatgattgcgagccccgatgcccttatgtgggggcagatcacttcgactgcccccactgggacaatgcttcccaggccgatcaagggtccttttatgtcaatcatcagattttattcctgcatctcaaacaatgtcatggaattttcactctaacctgggaaatatggggatatgatcccctgatcaccttttctttacataaaatccctgatccccctcaacccgacttccctcagctgaacagtgactgggttccctctgtcaggtcatgggccctgcttttaaatcaaacggcacgggccttcccagactgtgctatatgttgggaaccttcccctccctgggctcccgaaatattagtatataacaaaaccatctccaactctggacccggtctcgccctcccggacgcccaaatcttctgggtcaacacgtccttgtttaacaccacccaaggatggcaccacccttcccagaggttgttgttcaacgtttctcaaggcaacgccttattattaccccctatctccctggttaatctctctacggcttcctccgcccctcctacccgggtcagacgcagtcctgccgcagccctgaccttgggcctagccctgtcagtggggctcactggaattaatgtagccgtgtccgcccttagccatcagagactcacctccctgatccacgttctggagcaagatcagcaacgcttgatcacagcaattaaccagacccactataatttgcttaatgtggcctctgtggtcgcccagaaccgacgggggcttgattggttgtacatccggctgggttttcaaagcctatgtcccacgatcaatgaaccttgctgtttcctgcgcattcaaaatgactccattatccgcctcggtgatctccagcctctctcgcaaagagtctctacagactggcaatggccctggaattgggatctggggctcaccgcctgggtgcgagaaaccattcattctgttctaagcctattcctattagccctttttttgctcttcttggccccctgcctgataaaatgcttgacctctcgccttttaaaactcctccggcaggctccccacttccctgaaatctccttggcccctaaacccgattctgattatcaggccttgctaccatccgcgccagagatctactctcacctctcccccaccaaacccgattacatcaaccttcgaccctgccct</GBSeq_sequence>
+  </GBSeq>

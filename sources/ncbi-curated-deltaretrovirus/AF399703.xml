@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF399703</GBSeq_locus>
+    <GBSeq_length>1548</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>16-SEP-2004</GBSeq_update-date>
+    <GBSeq_create-date>14-AUG-2001</GBSeq_create-date>
+    <GBSeq_definition>Bovine leukemia virus isolate 30 envelope glycoprotein precursor (env) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF399703</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF399703.3</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF399703.3|</GBSeqid>
+      <GBSeqid>gi|40795470</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bovine leukemia virus</GBSeq_source>
+    <GBSeq_organism>Bovine leukemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1548</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Camargos,M.F.</GBAuthor>
+          <GBAuthor>Stancek,D.</GBAuthor>
+          <GBAuthor>Rocha,M.A.</GBAuthor>
+          <GBAuthor>Lessa,L.M.</GBAuthor>
+          <GBAuthor>Reis,J.K.</GBAuthor>
+          <GBAuthor>Leite,R.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Partial sequencing of env gene of bovine leukaemia virus from Brazilian samples and phylogenetic analysis</GBReference_title>
+        <GBReference_journal>J. Vet. Med. B Infect. Dis. Vet. Public Health 49 (7), 325-331 (2002)</GBReference_journal>
+        <GBReference_pubmed>12420867</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1548</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Camargos,M.F.</GBAuthor>
+          <GBAuthor>Rocha,M.A.</GBAuthor>
+          <GBAuthor>Leite,R.C.</GBAuthor>
+          <GBAuthor>Stancek,D.</GBAuthor>
+          <GBAuthor>Reis,J.K.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-JUL-2001) Veterinary Preventive Medicine, Veterinary School Federal University of Minas Gerais, Av. Antonio Carlos 6627, Belo Horizonte, MG 30270-010, Brazil</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..1548</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Camargos,M.F.</GBAuthor>
+          <GBAuthor>Rocha,M.A.</GBAuthor>
+          <GBAuthor>Leite,R.C.</GBAuthor>
+          <GBAuthor>Stancek,D.</GBAuthor>
+          <GBAuthor>Reis,J.K.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (26-NOV-2002) Veterinary Preventive Medicine, Veterinary School Federal University of Minas Gerais, Av. Antonio Carlos 6627, Belo Horizonte, MG 30270-010, Brazil</GBReference_journal>
+        <GBReference_remark>Sequence update by submitter</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>4</GBReference_reference>
+        <GBReference_position>1..1548</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Camargos,M.F.</GBAuthor>
+          <GBAuthor>Rocha,M.A.</GBAuthor>
+          <GBAuthor>Leite,R.C.</GBAuthor>
+          <GBAuthor>Stancek,D.</GBAuthor>
+          <GBAuthor>Reis,J.K.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-JAN-2004) Veterinary Preventive Medicine, Veterinary School Federal University of Minas Gerais, Av. Antonio Carlos 6627, Belo Horizonte, MG 30270-010, Brazil</GBReference_journal>
+        <GBReference_remark>Sequence update by submitter</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Jan 12, 2004 this sequence version replaced AF399703.2.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1548</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1548</GBInterval_to>
+            <GBInterval_accession>AF399703.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bovine leukemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>30</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>cow</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11901</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil: Northern Paran State</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isolated from blood leukocytes</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1548</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1548</GBInterval_to>
+            <GBInterval_accession>AF399703.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1548</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1548</GBInterval_to>
+            <GBInterval_accession>AF399703.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>gp51</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein precursor</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAK85429.3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPKERRSRRRPQPIIRWVSLTLTVLAFCQPIQTWRCSLSLGNQQWMTAYNQEAKFSISIDQILEAHNQSPFCAKSPRYTLDFVNGYPKIYWPPPQGRRRFGARAMVTYDCEPRCPYVGADRFDCPHWDNASQANQGSFYVNHQILFLHLKQCHGIFTLTWEIWGYDPLITFSLHKIPDPPQPDFPQLNSDWVPSVRSWALLLNQTARAFPDCAICWEPSPPWAPEILVYNKTISSSGPGLALPDAQIFWVNTSSFNTTQGWHHPSQRLLFNVSQGNALLLPPISLVNLSTASSAPPTRVRRSPVAALTLGLALSVGLTGINVAVSALSHQRLTSLIHVLEQDQQRLITAINQTHYNLLNVASVVAQNRRGLDWLYIRLGFQSLCPTINEPCCFLRIQNDSIIRLGDLQPLSQRVSTDWQWPWNWDLGLTAWVRETIHSVLSLFLLALFLLFLAPCLIKCLTSRLLKLLRQAPHFPEISFTPKPDSDYQALLPSAPEIYSHLSPVKPDYINLRPCP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgcctaaagaacgacggtcccgaagacgcccacaaccgatcatcagatgggtaagtctcactctcactgtcctcgctttctgtcagcccatccagacttggagatgctccctgtccctaggaaaccaacaatggatgacagcatataaccaagaggcaaaattttccatctccattgaccaaatactagaggctcataatcaatcacctttctgtgccaagtctcccagatacaccttggactttgtaaatggctatcctaagatctactggccccccccacaagggcggcgccggtttggagccagggccatggtcacatatgattgcgagccccgatgcccttatgtgggggcagatcgcttcgactgcccccactgggacaatgcctcccaggccaatcaaggatccttttatgtcaatcatcagattttattcctgcatctcaaacaatgtcatggaattttcactctaacctgggagatatggggatatgatcccctgatcaccttttctttacataagatccctgatccccctcaacccgactttccccagttgaacagtgactgggttccctctgtcagatcatgggccctgcttttaaatcaaacggcacgggccttcccagactgtgctatatgttgggaaccttcccctccctgggctcccgaaatattagtatataacaaaaccatctccagctctggacccggcctcgccctcccggacgcccaaatcttctgggtcaacacgtcctcgtttaacaccacccaaggatggcaccacccttcccagaggttgttgttcaatgtttctcaaggcaacgccttgttattacctcctatctccctggttaatctctctacggcttcctccgcccctcctacccgggtcagacgtagtcccgtcgcagccctgaccttaggcctagccctgtcagtggggctcactggaattaatgtggccgtgtctgcccttagccatcagagactcacctccctgatccacgttctggagcaagatcagcaacgcttgatcacagcaattaaccagacccactataatttgcttaatgtggcctctgtggttgcccagaaccgacgggggctggattggttgtacatccggctgggttttcaaagcctatgtcccacaatcaatgagccttgctgttttctgcgcattcaaaatgactccattatccgcctcggtgatctccagcctctctcgcaaagagtctctacagactggcagtggccctggaattgggatctggggctcactgcctgggtgcgagaaaccattcattctgttctgagcctgttcctattagccctttttttgctcttcctggccccctgcctgataaaatgcttgacctctcgccttttaaagctcctccggcaggctccccacttccctgaaatctccttcacccctaaacccgattctgattatcaggccttgctaccatctgcaccagagatctactctcacctctcccccgtcaaacccgattacatcaacctccgaccctgcccttga</GBSeq_sequence>
+  </GBSeq>

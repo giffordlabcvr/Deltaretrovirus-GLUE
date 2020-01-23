@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>X15951</GBSeq_locus>
+    <GBSeq_length>1290</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>09-DEC-2005</GBSeq_update-date>
+    <GBSeq_create-date>23-NOV-1989</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell leukemia virus type 1 RNA for gag protein</GBSeq_definition>
+    <GBSeq_primary-accession>X15951</GBSeq_primary-accession>
+    <GBSeq_accession-version>X15951.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|X15951.1|</GBSeqid>
+      <GBSeqid>gi|60425</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>core antigen</GBKeyword>
+      <GBKeyword>gag gene</GBKeyword>
+      <GBKeyword>gag protein</GBKeyword>
+      <GBKeyword>provirus</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1290</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gray,G.S.</GBAuthor>
+          <GBAuthor>Bartman,T.</GBAuthor>
+          <GBAuthor>White,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Nucleotide sequence of the core (gag) gene from HTLV-1 isolate MT-2</GBReference_title>
+        <GBReference_journal>Nucleic Acids Res. 17 (19), 7998 (1989)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1093/nar/17.19.7998</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>2678008</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1290</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gray,G.S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (25-JUL-1989) Gray G.S., Repligen Corp., One Kendall Sq, Bldg 700, Cambridge, MASS 02139, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1290</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1290</GBInterval_to>
+            <GBInterval_accession>X15951.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>MT2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1290</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1290</GBInterval_to>
+            <GBInterval_accession>X15951.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>unnamed protein product; gag gene (AA 1-429)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAA34075.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:P14077</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000721</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR001878</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR003139</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR008916</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR008919</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR010999</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR013084</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>PDB:1G03</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/Swiss-Prot:P14077</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGQIFSRSASPIPRPPRGLAAHHWLNFLQAAYRLEPGPSSYDFHQLKKFLKIALETPVWICPINYSLLASLLPKGYPGRVNEILHILIQTQAQIPSRPAPPPPSSPTHDPPDSDPQIPPPYVEPTAPQVLPVMHPHGAPPNHRPWQMKDLQAIKQEVSQAAPGSPQFMQTIRLAVQQFDPTAKDLQDLLQYLCSSLVASLHHQQLDSLISEAETRGITSYNPLAGPLRVQANNPQQQGLRREYQQLWLAAFAALPGSAKDPSWASILQGLEEPYHAFVERLNIALDNGLPEGTPKDPILRSLAYSNANKECQKLLQARGHTNSPLGDMLRACQTWTPKDKTKVLVVQPKKPPPNQPCFRCGKAGHWSRDCTQPRPPPGPCPLCQDPTHWKRDCPRLKPTIPEPEPEEDALLLDLPADIPHPKNSIGGEV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggccaaatcttttcccgtagcgctagccctattccgcggccgccccgggggctggccgctcatcactggcttaacttcctccaagcggcatatcgcctagaacccggtccctccagttacgatttccaccagttgaaaaaatttcttaaaatagctttagaaacaccggtctggatctgtcccattaactactccctcctagccagcctactcccaaaaggataccccggccgggtgaatgaaattttacacatactcatccaaacccaagcccagatcccgtcccgtcccgcgccaccgccgccgtcatcccccacccacgaccccccggattctgatccacaaatcccccctccctatgttgagcctacggccccccaagttcttccagtcatgcacccacatggtgcccctcccaaccatcgcccatggcaaatgaaagacctacaggccattaagcaagaagtctcccaagcagcccctgggagcccccagtttatgcagaccatccggcttgcggtgcagcagtttgaccccactgccaaagacctccaagacctcctgcagtacctttgctcctccctcgtggcttccctccatcaccagcagctagatagccttatatcagaggccgaaacccgaggtattacaagttataaccccttagccggtcccctccgtgtccaagccaacaatccacaacaacaaggattaaggcgagaataccagcaactctggctcgccgccttcgccgccctgccagggagtgccaaagacccttcctgggcctctatcctccaaggcctggaggagccttaccacgccttcgtagaacgcctcaacatagctcttgacaatgggctgccagaaggcacgcccaaagaccccatcttacgttccttagcctactccaatgcaaacaaagaatgccaaaaattactacaggcccgaggacacactaatagccctctaggagatatgttgcgggcttgtcagacctggacccccaaagacaaaaccaaagtgttagttgtccagcctaaaaaaccccccccaaatcagccgtgcttccggtgcgggaaagcaggccactggagtcgggactgcactcagccccgtcccccccccgggccatgccccctatgtcaagacccaactcactggaagcgagactgcccccgcctaaagcccactatcccagaaccagagccagaggaagatgccctcctattagacctccccgctgacattccacacccaaaaaactccatagggggggaggtttaa</GBSeq_sequence>
+  </GBSeq>

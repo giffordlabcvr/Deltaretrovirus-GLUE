@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AH002351</GBSeq_locus>
+    <GBSeq_length>1668</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-AUG-2016</GBSeq_update-date>
+    <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Human T-lymphotropic virus 2 viral mRNA genes, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AH002351</GBSeq_primary-accession>
+    <GBSeq_accession-version>AH002351.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AH002351.2|</GBSeqid>
+      <GBSeqid>gi|1059793898</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_secondary-accessions>
+      <GBSecondary-accn>M12524</GBSecondary-accn>
+      <GBSecondary-accn>M19203</GBSecondary-accn>
+    </GBSeq_secondary-accessions>
+    <GBSeq_keywords>
+      <GBKeyword>long terminal repeat (LTR)</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Human T-lymphotropic virus 2</GBSeq_source>
+    <GBSeq_organism>Human T-lymphotropic virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1668</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sodroski,J.</GBAuthor>
+          <GBAuthor>Trus,M.</GBAuthor>
+          <GBAuthor>Perkins,D.</GBAuthor>
+          <GBAuthor>Patarca,R.</GBAuthor>
+          <GBAuthor>Wong-Staal,F.</GBAuthor>
+          <GBAuthor>Gelmann,E.</GBAuthor>
+          <GBAuthor>Gallo,R.</GBAuthor>
+          <GBAuthor>Haseltine,W.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Repetitive structure in the long-terminal-repeat element of a type II human T-cell leukemia virus</GBReference_title>
+        <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 81 (15), 4617-4621 (1984)</GBReference_journal>
+        <GBReference_pubmed>6087335</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On or before Aug 25, 2016 this sequence version replaced M12524.1, M19203.1, AH002351.1.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1668</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1668</GBInterval_to>
+            <GBInterval_accession>AH002351.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-lymphotropic virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11909</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..1668</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1668</GBInterval_to>
+            <GBInterval_accession>AH002351.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Original segmented set titles: Human proviral T-cell leukemia virus type II 5' LTR.; Human proviral T-cell leukemia virus type II 3' LTR.</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..763</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>763</GBInterval_to>
+            <GBInterval_accession>AH002351.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>5' LTR</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>314..&gt;780</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>314</GBInterval_from>
+            <GBInterval_to>780</GBInterval_to>
+            <GBInterval_accession>AH002351.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>viral mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>GGCTCGCTCCCTCACCGACCCTCTGGTCACGGAGACTCACCTTGGGGATCCATCCTCTCCAAGCGGCCTCGGTTGAGACGCCTTCCGTGGGACCGTCTCCCGGCCTCGGCACCTCCTGAACTGCTCCTCCCAAGGTAAGTCTCCTCTCAGGTCGAGCTCGGCTGCCCCTTAGGTAGTCGCTCCCCGAGGGTCTTTAGAGACACCCGGGTTTCCGCCTGCGCTCGGCTAGACTCTGCCTTAAACTTCACTTCCGCGTTCTTGTCTCGTTCTTTCCTCTTCGCCGTCACTGAAAACGAAACCTCAACGCCGCCCTCCTGGCAGGCTTGCCCGGGGCCAACATACTGCCGTGGAGCGCAGCAAGGGCTAGGGCTTCCTGAACCTCTCCGGGAGAGGTCTATTGCTATAGGCAGGCCCGCCCCAGGAGCATTGTCTTCCCGGGGAAGACAAACAATTGGGGGCTCGTCCGG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>314..560</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>314</GBInterval_from>
+            <GBInterval_to>560</GBInterval_to>
+            <GBInterval_accession>AH002351.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>R region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gap</GBFeature_key>
+        <GBFeature_location>781..880</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>781</GBInterval_from>
+            <GBInterval_to>880</GBInterval_to>
+            <GBInterval_accession>AH002351.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>estimated_length</GBQualifier_name>
+            <GBQualifier_value>unknown</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>&lt;881..1448</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>881</GBInterval_from>
+            <GBInterval_to>1448</GBInterval_to>
+            <GBInterval_accession>AH002351.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>viral mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>GAGGCGGATGACAATGGCGACTAGCCTCCCGAGCCAGCCACCCAGGGCGAGTCATCGACCCAAAAGGTCAGACCGTCTCACACAAACAATCCCAAGTAAAGGCTCTGACGTCTCCCCCTTTTTTTAGGAACTGAAACACCGGCCCTGACGTCCTCCCCCCCAGGAACCAGGAACAGCTCTCCAGAAAAATAGACCTCACCCTTACCCACTTCCCCTAGCGCTGAAAAACAAGGCTCTGACGATTACCCCCTGCCCATAAAATTTGCCTAGTCAAAATAAAAGATGCCGAGTCTATAAAAGCGCAAGGACAGTTCAGGAGGGGGCTCGCTCCCTCACCGACCCTCTGGTCACGGAGACTCACCTTGGGGATCCATCCTCTCCAAGCGGCCTCGGTTGAGACGCCTTCCGTGGGACCGTCTCCCGGCCTCGGCACCTCCTGAACTGCTCCTCCCAAGGTAAGTCTCCTCTCAGGTCGAGCTCGGCTGCCCCTTAGGTAGTCGCTCCCCGAGGGTCTTTAGAGACACCCGGGTTTCCGCCTGCGCTCGGCTAGACTCTGCCTTAAACTTCA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>889..1651</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>889</GBInterval_from>
+            <GBInterval_to>1651</GBInterval_to>
+            <GBInterval_accession>AH002351.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>3' LTR</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1202..1448</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1202</GBInterval_from>
+            <GBInterval_to>1448</GBInterval_to>
+            <GBInterval_accession>AH002351.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>R region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgacaatggcgactagcctcccgagccagccacccagggcgagtcatcgacccaaaaggtcagaccgtctcacacaaacaatcccaagtaaaggctctgacgtctccccctttttttaggaactgaaacaccggccctgacgtcctcccccccaggaaccaggaacagctctccagaaaaatagacctcacccttacccacttcccctagcgctgaaaaacaaggctctgacgattaccccctgcccataaaatttgcctagtcaaaataaaagatgccgagtctataaaagcgcaaggacagttcaggagggggctcgctccctcaccgaccctctggtcacggagactcaccttggggatccatcctctccaagcggcctcggttgagacgccttccgtgggaccgtctcccggcctcggcacctcctgaactgctcctcccaaggtaagtctcctctcaggtcgagctcggctgccccttaggtagtcgctccccgagggtctttagagacacccgggtttccgcctgcgctcggctagactctgccttaaacttcacttccgcgttcttgtctcgttctttcctcttcgccgtcactgaaaacgaaacctcaacgccgccctcctggcaggcttgcccggggccaacatactgccgtggagcgcagcaagggctagggcttcctgaacctctccgggagaggtctattgctataggcaggcccgccccaggagcattgtcttcccggggaagacaaacaattgggggctcgtccggnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnngaggcggatgacaatggcgactagcctcccgagccagccacccagggcgagtcatcgacccaaaaggtcagaccgtctcacacaaacaatcccaagtaaaggctctgacgtctccccctttttttaggaactgaaacaccggccctgacgtcctcccccccaggaaccaggaacagctctccagaaaaatagacctcacccttacccacttcccctagcgctgaaaaacaaggctctgacgattaccccctgcccataaaatttgcctagtcaaaataaaagatgccgagtctataaaagcgcaaggacagttcaggagggggctcgctccctcaccgaccctctggtcacggagactcaccttggggatccatcctctccaagcggcctcggttgagacgccttccgtgggaccgtctcccggcctcggcacctcctgaactgctcctcccaaggtaagtctcctctcaggtcgagctcggctgccccttaggtagtcgctccccgagggtctttagagacacccgggtttccgcctgcgctcggctagactctgccttaaacttcacttccgcgttcttgtctcgttctttcctcttcgccgtcactgaaaacgaaacctcaacgccgccctcctggcaggcttgcccggggccaacatactgccgtggagcgcagcaagggctagggcttcctgaacctctccgggagaggtctattgctataggcaggcccgccccaggagcattgtcttcccggggaagacaaacaagtaatccaactcttgc</GBSeq_sequence>
+  </GBSeq>
