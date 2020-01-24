@@ -15,8 +15,7 @@
 	#~#  Build the project extension with 'curated' sequences
 
 	# Create deltavirus project extension-specific modules 
-	run file glue/rv/rvProjectSettings.glue
-	run file glue/deltaModules.glue  
+	run file glue/projectSettings.glue
 
 	# Define features 
 	run file glue/deltaFeatures.glue

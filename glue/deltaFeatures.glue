@@ -69,12 +69,12 @@
   create feature ISD --parentName env "Immunosuppressive domain"
   
   create feature tax "Trans-activator of transcription"
-  feature Tat set metatag CODES_AMINO_ACIDS true
-  feature Tat set metatag OWN_CODON_NUMBERING true
+  feature tax set metatag CODES_AMINO_ACIDS true
+  feature tax set metatag OWN_CODON_NUMBERING true
 
   create feature rex "Regulator of expression protein"
-  feature Rev set metatag CODES_AMINO_ACIDS true
-  feature Rev set metatag OWN_CODON_NUMBERING true
+  feature rex set metatag CODES_AMINO_ACIDS true
+  feature rex set metatag OWN_CODON_NUMBERING true
 
   create feature gagpol "gag-pol fusion protein"
   create feature propol "pro-pol fusion protein"
