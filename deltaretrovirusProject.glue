@@ -30,6 +30,7 @@
 	run script glue/deltaLoadIsolateData.js
 
 	# Populate fields using GenBank file data
+	create module -f modules/deltaGenbankXmlPopulator.xml
 	module deltaGenbankXmlPopulator populate
 
 	# Import alignments & created constrained alignment tree
