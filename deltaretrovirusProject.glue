@@ -19,7 +19,7 @@
 	run file glue/deltaModules.glue  
 
 	# Define features 
-	run file glue/rv/rvFeatures.glue
+	run file glue/deltaFeatures.glue
 
 	# Import reference sequences from GenBank XML files 
 	run file glue/deltaImportSources.glue  
