@@ -35,8 +35,6 @@
 
 	# Import alignments & created constrained alignment tree
 	run file glue/deltaAlignments.glue
-
-	# Import alignments & created constrained alignment tree
 	run file glue/deltaAlignmentTree.glue
 
 	validate
