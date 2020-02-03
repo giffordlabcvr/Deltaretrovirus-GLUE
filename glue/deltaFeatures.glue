@@ -14,19 +14,31 @@
   create feature PBS "Primer binding site"
   create feature LEA "Leader region"
 
+  create feature G4 "G4 protein"
+  feature G4 set metatag CODES_AMINO_ACIDS true
+  feature G4 set metatag OWN_CODON_NUMBERING true
+
   create feature gag "Group-specific antigen"
   feature gag set metatag CODES_AMINO_ACIDS true
   feature gag set metatag OWN_CODON_NUMBERING true
 
-  create feature MA   --parentName gag "Matrix"
+  create feature MA --parentName gag "Matrix"
   feature MA set metatag CODES_AMINO_ACIDS true
   feature MA set metatag OWN_CODON_NUMBERING true
 
-  create feature CA   --parentName gag "Capsid"
+  create feature CA --parentName gag "Capsid"
   feature CA set metatag CODES_AMINO_ACIDS true
   feature CA set metatag OWN_CODON_NUMBERING true
 
-  create feature NC   --parentName gag "Nucleocapsid"
+  create feature p2 --parentName gag "p2 protein"
+  feature p2 set metatag CODES_AMINO_ACIDS true
+  feature p2 set metatag OWN_CODON_NUMBERING true
+
+  create feature p6 --parentName gag "p6 protein"
+  feature p6 set metatag CODES_AMINO_ACIDS true
+  feature p6 set metatag OWN_CODON_NUMBERING true
+
+  create feature NC --parentName gag "Nucleocapsid"
   feature NC set metatag CODES_AMINO_ACIDS true
   feature NC set metatag OWN_CODON_NUMBERING true
   
@@ -42,11 +54,11 @@
   feature pol set metatag CODES_AMINO_ACIDS true
   feature pol set metatag OWN_CODON_NUMBERING true
 
-  create feature RT     --parentName pol "Reverse transcriptase"
+  create feature RT --parentName pol "Reverse transcriptase"
   feature RT set metatag CODES_AMINO_ACIDS true
   feature RT set metatag OWN_CODON_NUMBERING true
 
-  create feature IN     --parentName pol "Integrase"
+  create feature IN --parentName pol "Integrase"
   feature IN set metatag CODES_AMINO_ACIDS true
   feature IN set metatag OWN_CODON_NUMBERING true
 
@@ -59,6 +71,10 @@
   feature env set metatag OWN_CODON_NUMBERING true
   
   create feature SU --parentName env "Surface glycoprotein"
+  feature SU set metatag CODES_AMINO_ACIDS true
+  feature SU set metatag OWN_CODON_NUMBERING true
+
+  create feature V1 --parentName env "Surface glycoprotein"
   feature SU set metatag CODES_AMINO_ACIDS true
   feature SU set metatag OWN_CODON_NUMBERING true
   
