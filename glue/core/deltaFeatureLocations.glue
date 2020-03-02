@@ -1,0 +1,82 @@
+  # Define features on references
+
+  reference REF_PTLV-1_J02029
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9068
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 777
+      exit
+
+    add feature-location internal_region
+    feature-location internal_region
+      add segment 778 8300
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 824 2113
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 2520 5210  
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 5203 6669
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8301 9055
+      exit
+      
+  exit 
+
+
+  reference REF_PTLV-2_NC_001488
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8952
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 763
+      exit
+
+    add feature-location internal_region
+    feature-location internal_region
+      add segment 764 8189
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 807 2108
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 2239 5187  
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 5180 6640
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8190 8952
+      exit
+      
+  exit 
+
+

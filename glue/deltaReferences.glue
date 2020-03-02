@@ -1,8 +1,0 @@
-  # Declare reference sequencess
-
-  create reference REF_PTLV-1    ncbi-refseqs-deltaretrovirus J02029
-  create reference REF_PTLV-2    ncbi-refseqs-deltaretrovirus NC_001488
-  create reference REF_PTLV-3    ncbi-refseqs-deltaretrovirus DQ093792
-  create reference REF_PTLV-4    ncbi-refseqs-deltaretrovirus EF488483
-  create reference REF_BLV       ncbi-refseqs-deltaretrovirus NC_001414
-
