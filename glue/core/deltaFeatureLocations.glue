@@ -80,3 +80,57 @@
   exit 
 
 
+  # Define features on references
+
+  reference REF_BLV_NC_001414
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8720
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 531
+      exit
+
+    add feature-location internal_region
+    feature-location internal_region
+      add segment 629 8655
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 629 1804
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 1804 2343
+      exit
+           
+    add feature-location pol
+    feature-location pol
+      add segment 2343 4880  
+      exit
+
+    add feature-location tax
+    feature-location tat
+      add segment 5857 6071 --spliceIndex 1
+      add segment 8370 8460 --spliceIndex 2
+      exit
+
+    add feature-location rex
+    feature-location rev
+      add segment 5996 6071 --spliceIndex 1
+      add segment 8370 8644 --spliceIndex 2
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 6261 8786
+      exit
+
+      
+  exit 
+
