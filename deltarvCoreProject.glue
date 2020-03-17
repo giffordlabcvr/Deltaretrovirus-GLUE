@@ -2,7 +2,7 @@
   delete project deltavirus
 
   # Build Deltaretrovirus project
-  create project deltavirus "A glue/core project for deltaviruses" --minVersion 0.1.66
+  create project deltavirus "A glue project for deltaretroviruses" --minVersion 0.1.66
 
   # Create DB schema
   schema-project deltavirus
