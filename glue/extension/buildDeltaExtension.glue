@@ -1,0 +1,26 @@
+  project deltavirus
+
+    run file glue/extension/deltaDeleteExtensionBuild.glue
+
+	# Import NCBI references for deltaviruses
+	import source sources/ncbi-curated/
+
+	# Link references to isolate data
+	run script glue/extension/deltaLoadCuratedIsolateData1.js
+
+	# Extract data from the XML files
+	module deltaGenbankXmlPopulator populate
+  
+	# Add curated sequences constrained alignment tree
+	run file glue/extension/deltaExtensionAlignmentTree.glue
+	
+	# Create alignments
+	run file glue/extension/deltavirusCreateAlignments.glue
+
+	# Create alignments
+	run file glue/extension/deltaRecordFeaturePresence.glue
+
+	# Validate
+	validate
+
+	exit

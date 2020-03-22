@@ -1,3 +1,0 @@
-  # Import NCBI references for deltaviruses
-  import source sources/ncbi-refseqs-deltaretrovirus/
-  import source sources/ncbi-curated-deltaretrovirus/

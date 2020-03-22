@@ -1,0 +1,24 @@
+
+  # Delete modules
+  delete module lentiNcbiImporterBLV
+  delete module lentiNcbiImporterPTLV-1
+  delete module lentiNcbiImporterPTLV-2
+  delete module lentiNcbiImporterPTLV-3
+
+  # Create modules
+  create module -f modules/extension/lentiNcbiImporterBLV.xml
+  create module -f modules/extension/lentiNcbiImporterPTLV-1.xml
+  create module -f modules/extension/lentiNcbiImporterPTLV-2.xml
+  create module -f modules/extension/lentiNcbiImporterPTLV-3.xml
+
+  # Download NCBI sequences 
+  module lentiNcbiImporterBLV import
+  module lentiNcbiImporterPTLV-1 import
+  module lentiNcbiImporterPTLV-2 import
+  module lentiNcbiImporterPTLV-3 import
+
+  # Export sources
+  export source ncbi-curated-BLV
+  export source ncbi-curated-PTLV-1
+  export source ncbi-curated-PTLV-2
+  export source ncbi-curated-PTLV-3

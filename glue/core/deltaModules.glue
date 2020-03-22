@@ -1,0 +1,8 @@
+  # Create modules
+  
+  # Core project
+  create module -f modules/core/deltaGenbankXmlPopulator.xml
+
+  # Importers 
+  create module -f modules/core/unconstrainedAlignmentImporter.xml
+

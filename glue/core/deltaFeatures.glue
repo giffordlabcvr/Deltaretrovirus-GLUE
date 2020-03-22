@@ -14,6 +14,15 @@
   create feature PBS "Primer binding site"
   create feature LEA "Leader region"
 
+  create feature internal_region -p whole_genome "internal region (bounded by LTRs)"
+  feature internal_region set field displayName "internal region"
+
+  create feature gag-pol -p whole_genome "gag-pol"
+  feature gag-pol set field displayName "gag-pol"
+  feature gag-pol set metatag OWN_CODON_NUMBERING true
+  feature gag-pol set metatag INCLUDE_IN_SUMMARY true
+  feature gag-pol set metatag CODES_AMINO_ACIDS true
+
   create feature gag "Group-specific antigen"
   feature gag set metatag CODES_AMINO_ACIDS true
   feature gag set metatag OWN_CODON_NUMBERING true
@@ -37,6 +46,12 @@
   create feature DU "dUTPase"
   feature DU set metatag CODES_AMINO_ACIDS true
   feature DU set metatag OWN_CODON_NUMBERING true
+
+  create feature pro-pol -p whole_genome "pro-pol polyprotein"
+  feature pro-pol set field displayName "pro-pol"
+  feature pro-pol set metatag OWN_CODON_NUMBERING true
+  feature pro-pol set metatag INCLUDE_IN_SUMMARY true
+  feature pro-pol set metatag CODES_AMINO_ACIDS true
 
   create feature pol "polymerase"
   feature pol set metatag CODES_AMINO_ACIDS true

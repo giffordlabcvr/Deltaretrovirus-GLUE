@@ -1,0 +1,12 @@
+alignment AL_ROOT
+ 
+  add member -w "source.name like 'ncbi-curated-%'"
+ 
+  demote member AL_BLV    -w "sequence.source.name = 'ncbi-curated-blv'"
+ 
+  demote member AL_PTLV-4 -w "sequence.source.name = 'ncbi-curated-ptlv4'"
+  demote member AL_PTLV-3 -w "sequence.source.name = 'ncbi-curated-ptlv3'"
+  demote member AL_PTLV-2 -w "sequence.source.name = 'ncbi-curated-ptlv2'"
+  demote member AL_PTLV-1 -w "sequence.source.name = 'ncbi-curated-ptlv1'"
+  exit
+

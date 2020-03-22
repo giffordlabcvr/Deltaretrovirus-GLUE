@@ -1,0 +1,126 @@
+  ## Reference sequence declarations
+
+  # HIV-1 non-M 
+  create reference REF_HIV-1N	        ncbi-refseqs DQ017382
+  create reference REF_HIV-1O	        ncbi-refseqs L20571
+  create reference REF_HIV-1P	        ncbi-refseqs HQ179987
+
+  ## HIV-2 
+  create reference REF_HIV2A	        ncbi-refseqs M30502
+  create reference REF_HIV2B	        ncbi-refseqs X61240
+
+  ## Simian lentiviruses
+  create reference REF_SIVgsn           ncbi-refseqs AF468659
+  create reference REF_SIVden           ncbi-refseqs AJ580407
+  create reference REF_SIVdrl1          ncbi-refseqs AY159321
+  create reference REF_SIVcol           ncbi-refseqs AF301156
+  create reference REF_SIVlhoest        ncbi-refseqs AF075269
+  create reference REF_SIVmac           ncbi-refseqs M33262
+  create reference REF_SIVmnd           ncbi-refseqs AF328295
+  create reference REF_SIVmus           ncbi-refseqs KF304707
+  create reference REF_SIVocm           ncbi-refseqs FM165200
+  create reference REF_SIVrcm           ncbi-refseqs AF382829
+  create reference REF_SIVrtg           ncbi-refseqs KJ461716
+  create reference REF_SIVsab           ncbi-refseqs U04005
+  create reference REF_SIVsmm           ncbi-refseqs JX860430
+  create reference REF_SIVsun           ncbi-refseqs AF131870
+  create reference REF_SIVsyk           ncbi-refseqs AY523867
+  create reference REF_SIVtal           ncbi-refseqs AY655744
+  create reference REF_SIVwrc           ncbi-refseqs AM713177
+  
+  ## Non-primate lentivirus reference sequence declarations
+
+  # SRLV reference sequence declarations
+  create reference REF_MASTER_NC_001452  ncbi-refseqs NC_001452
+  create reference REF_SRLV-A           ncbi-refseqs M60610
+  create reference REF_SRLV-B           ncbi-refseqs M33677
+  
+  # SRLV genotypes
+  create reference REF_A_NC_001452   ncbi-refseqs NC_001452
+  create reference REF_A_HQ848062    ncbi-refseqs HQ848062
+  create reference REF_A_M31646      ncbi-refseqs M31646
+  create reference REF_A_AY445885    ncbi-refseqs AY445885
+  create reference REF_A_S51392      ncbi-refseqs S51392
+  create reference REF_A_AF479638    ncbi-refseqs AF479638 
+  create reference REF_B_NC_001463   ncbi-refseqs NC_001463
+  create reference REF_B_HM210570    ncbi-refseqs HM210570
+  create reference REF_B_GU120138    ncbi-refseqs GU120138
+  create reference REF_B_FJ195346    ncbi-refseqs FJ195346
+  create reference REF_C_AF322109    ncbi-refseqs AF322109
+  create reference REF_D_DQ632733   ncbi-refseq-subgenomic DQ632733
+  create reference REF_E_EU293537    ncbi-refseqs EU293537
+  create reference REF_E_GQ381130    ncbi-refseqs GQ381130
+  create reference REF_F_KT898826    ncbi-refseqs KT898826
+
+  # SRLV-A subtypes
+  create reference REF_A4_AY445885   ncbi-refseqs AY445885
+  create reference REF_A2_HQ848062   ncbi-refseqs HQ848062  
+  create reference REF_A1_NC_001452  ncbi-refseqs NC_001452
+  create reference REF_A3_AY454189   ncbi-refseq-subgenomic AY454189
+  create reference REF_A5_AY454175   ncbi-refseq-subgenomic AY454175
+  create reference REF_A6_U35676     ncbi-refseq-subgenomic U35676 
+  create reference REF_A7_AY454208   ncbi-refseq-subgenomic AY454208 
+  create reference REF_A8_EU010125   ncbi-refseq-subgenomic EU010125  
+  create reference REF_A9_FR828809   ncbi-refseq-subgenomic FR828809  
+  create reference REF_A11_FR828809  ncbi-refseq-subgenomic FR693812  
+  create reference REF_A12_FJ623122  ncbi-refseq-subgenomic FJ623122
+  create reference REF_A13_FJ623120  ncbi-refseq-subgenomic FJ623120
+  create reference REF_A14_JX469607  ncbi-refseq-subgenomic JX469607
+  create reference REF_A15_JQ611029  ncbi-refseq-subgenomic JQ611029
+
+  # SRLV-B subtypes
+  create reference REF_B1_NC_001463  ncbi-refseqs NC_001463
+  create reference REF_B1_HM210570   ncbi-refseqs HM210570
+  create reference REF_B1_GU120138   ncbi-refseqs GU120138
+  create reference REF_B2_FJ195346   ncbi-refseqs FJ195346
+  create reference REF_B3_JF502416   ncbi-refseqs JF502416
+  create reference REF_B3_JF502417   ncbi-refseqs JF502417
+
+  # SRLV-E subtypes
+  create reference REF_E1_EU293537   ncbi-refseqs EU293537
+  create reference REF_E2_GQ381130   ncbi-refseqs GQ381130
+  
+  # SRLV concatenated references
+  #create reference REF_AB_AY101611  concatenated-refseqs AY101611_U64439
+
+
+  # BIV reference sequence declarations
+  create reference REF_BIV              ncbi-refseqs M32690
+  create reference REF_JDV              ncbi-refseqs U21603
+
+
+  # EIAV reference sequence declarations
+  create reference REF_EIAV             ncbi-refseqs M16575
+
+  # FIV reference sequence declarations
+  create reference REF_FIV              ncbi-refseqs M25381
+
+
+
+  create reference REF_HIV2B	        ncbi-refseqs-xrv X61240
+  create reference REF_HIV2B	        ncbi-refseqs-xrv X61240
+  create reference REF_SIVgsn           ncbi-refseqs-xrv AF468659
+  create reference REF_SIVden           ncbi-refseqs-xrv AJ580407
+  create reference REF_SIVdrl1          ncbi-refseqs-xrv AY159321
+  create reference REF_SIVcol           ncbi-refseqs-xrv AF301156
+  create reference REF_SIVlhoest        ncbi-refseqs-xrv AF075269
+  create reference REF_SIVmac           ncbi-refseqs-xrv M33262
+  create reference REF_SIVmnd           ncbi-refseqs-xrv AF328295
+  create reference REF_SIVmus           ncbi-refseqs-xrv KF304707
+  create reference REF_SIVocm           ncbi-refseqs-xrv FM165200
+  create reference REF_SIVrcm           ncbi-refseqs-xrv AF382829
+  create reference REF_SIVrtg           ncbi-refseqs-xrv KJ461716
+  create reference REF_SIVsab           ncbi-refseqs-xrv U04005
+  create reference REF_SIVsmm           ncbi-refseqs-xrv JX860430
+  create reference REF_SIVsun           ncbi-refseqs-xrv AF131870
+  create reference REF_SIVsyk           ncbi-refseqs-xrv AY523867
+  create reference REF_SIVtal           ncbi-refseqs-xrv AY655744
+  create reference REF_SIVwrc           ncbi-refseqs-xrv AM713177
+
+
+
+  create reference REF_FIV              ncbi-refseqs-xrv M25381
+  
+  
+
+

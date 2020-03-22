@@ -1,0 +1,7 @@
+delete module deltaCompoundAligner
+create module -f modules/extension/deltaCompoundAligner.xml
+
+compute alignment AL_BIV deltaCompoundAligner
+compute alignment AL_FIV deltaCompoundAligner
+compute alignment AL_EIAV deltaCompoundAligner
+compute alignment AL_SRLV deltaCompoundAligner

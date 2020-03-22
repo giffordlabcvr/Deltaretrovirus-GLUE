@@ -1,0 +1,4 @@
+  # Delete extension references
+
+  # Delete sources
+  delete source ncbi-curated
