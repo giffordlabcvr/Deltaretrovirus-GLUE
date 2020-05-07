@@ -17,8 +17,11 @@
 	# Create alignments
 	run file glue/extension/deltavirusCreateAlignments.glue
 
-	# Create alignments
+	# Record feature presence
 	run file glue/extension/deltaRecordFeaturePresence.glue
+
+	# Create gene alignments based on coverage
+	run script glue/extension/createAlignmentsBasedOnCoverage.js
 
 	# Validate
 	validate
