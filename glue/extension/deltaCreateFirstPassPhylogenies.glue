@@ -1,0 +1,65 @@
+  # Clean up from any previous run of this file
+  delete alignment felv_All
+  delete module felvFeaturePresenceRecorder
+  delete module fastaAlignmentExporter
+  delete module felvTreeAlignmentImporterNucs
+  delete module raxmlPhylogenyGenerator
+  delete module felvPhyloUtility
+  delete module felvFigTreeAnnotationExporter
+  
+  # Create all the modules we need
+  create module -f modules/felvFeaturePresenceRecorder.xml
+  create module -f modules/fastaAlignmentExporter.xml
+  create module -f modules/felvTreeAlignmentImporterNucs.xml
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/felvPhyloUtility.xml
+  create module -f modules/felvFigTreeAnnotationExporter.xml
+
+  # Create alignment of dependo-A sequences 
+  create alignment AL_Dependo-A_sort -r REF_MASTER_felv2
+  alignment AL_Dependo-A_sort add member -w "source.name != 'fasta-digs-epv' and subclade_ns = 'Dependo-A' or source.name != 'fasta-digs-epv' and subclade_vp like 'Dependo-A'"
+  compute alignment AL_Dependo-A_sort felvCompoundAligner
+
+  # Create alignment of dependo-B sequences 
+  create alignment AL_Dependo-B_sort -r REF_MASTER_felv2
+  alignment AL_Dependo-B_sort add member -w "source.name != 'fasta-digs-epv' and subclade_ns = 'Dependo-B' or source.name != 'fasta-digs-epv' and subclade_vp like 'Dependo-B'"
+  compute alignment AL_Dependo-B_sort felvCompoundAligner
+
+
+
+  module felvFeaturePresenceRecorder record feature-presence felv_All --recursive --featureName whole_genome --descendentFeatures
+  module fastaAlignmentExporter
+	export felv_All -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 60" -o alignments/tree/gag.export.aln.fna
+	export felv_All -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 60" -o alignments/tree/env.export.aln.fna
+	exit
+
+  # Import the alignments to GLUE
+  module rootTreeAlignmentImporterNucs import AL_UNC_felv_Tree_gag -f alignments/tree/gag.export.aln.fna
+  module rootTreeAlignmentImporterProtein import AL_UNC_felv_Tree_env -f alignments/tree/env.export.aln.fna
+
+  # Create the phylogeny
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_UNC_felv_Tree_gag -a -o trees/root/gag.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_felv_Tree_env -a -o trees/root/env.export_nucs.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  # Re-root phylogeny 
+  module felvPhyloUtility 
+	reroot-phylogeny \
+      --inputFile trees/root/gag.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/root/gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/root/env.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/root/env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAP
+    exit
+
+  # Export annotations
+  module felvFigTreeAnnotationExporter 
+    export figtree-annotation AL_UNC_felv_Tree_gag -f trees/root/gagFigtreeAnnotations.tsv
+    export figtree-annotation AL_UNC_felv_Tree_env -f trees/root/envFigtreeAnnotations.tsv
+  exit
+  
+  
