@@ -26,8 +26,6 @@
 	# Define constrained alignment tree
 	run file glue/core/deltaAlignmentTree.glue
 
-	# Inherit features from HIV-1 master reference to other reference sequences
-	#run script glue/core/deltaretrovirusInheritFeatureLocations.js
 
 	validate
 	exit
