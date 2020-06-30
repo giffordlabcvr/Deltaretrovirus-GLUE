@@ -1,0 +1,132 @@
+  ## Endogenous lentivirus reference sequence declarations
+
+  ## Endogenous lentiviruses
+  create reference REF_RELIK fasta-refseqs-erv RELIK-con
+  reference REF_RELIK
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1	8912
+	  exit
+  
+	add feature-location 5LTR
+	feature-location 5LTR
+	  add segment 1	496
+	  exit
+  
+	add feature-location gag
+	feature-location gag
+	  add segment 597	2030
+	  exit
+
+	add feature-location pol
+	feature-location pol
+	  add segment 2336	5212
+	  exit
+
+	add feature-location env
+	feature-location env
+	  add segment 5777	8386
+	  exit
+
+	add feature-location 3LTR
+	feature-location 3LTR
+	  add segment 8416 8912
+	  exit
+    
+	exit 
+
+  create reference REF_pSIV fasta-refseqs-erv pSIVgml-con
+  reference REF_pSIV
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1	7380
+	  exit
+  
+	add feature-location 5LTR
+	feature-location 5LTR
+	  add segment 1	424
+	  exit
+
+	add feature-location TAR
+	feature-location TAR
+	  add segment 280	396
+	  exit
+  
+	add feature-location gag
+	feature-location gag
+	  add segment 492	1544
+	  exit
+
+	add feature-location pol
+	feature-location pol
+	  add segment 1457	4708
+	  exit
+
+	add feature-location vif
+	feature-location vif
+	  add segment 4944	5012
+	  exit
+
+	add feature-location env
+	feature-location env
+	  add segment 5279	6976
+	  exit
+
+	add feature-location orfx
+	feature-location orfx
+	  add segment 7000	7272
+	  exit
+
+	add feature-location 3LTR
+	feature-location 3LTR
+	  add segment 6999 7380
+	  exit
+    
+	exit 
+
+
+  create reference REF_MELV fasta-refseqs-erv MELVmpf-con
+  reference REF_MELV
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1	9112
+	  exit
+  
+	add feature-location 5LTR
+	feature-location 5LTR
+	  add segment 1	530
+	  exit
+  
+	add feature-location gag
+	feature-location gag
+	  add segment 723 1892
+	  exit
+
+	add feature-location pol
+	feature-location pol
+	  add segment 1898 5260
+	  exit
+
+	add feature-location vif
+	feature-location vif
+	  add segment 5400 5849
+	  exit
+
+	add feature-location env
+	feature-location env
+	  add segment 6082 8664
+	  exit
+
+	add feature-location 3LTR
+	feature-location 3LTR
+	  add segment 8872 9112
+	  exit
+    
+	exit 
+
+
+  create reference REF_ELV fasta-refseqs-erv ELVgv-con
+  create reference REF_Springhare fasta-refseqs-erv Springhare-con

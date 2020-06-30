@@ -1,0 +1,35 @@
+schema-project lentivirus
+  run file glue/erv/lentiErvSchemaExtensions.glue
+  exit
+
+project lentivirus
+
+  # Import NCBI reference sequences 
+  import source sources/fasta-digs-erv/
+
+  # Link references to isolate data
+  run script glue/erv/lentiErvLoadLocusData1.js
+  run script glue/erv/lentiErvLoadLocusData2.js
+
+  # Create EHBV reference sequences
+  run file glue/erv/lentiErvReferences.glue
+
+  # Import alignments
+  run file glue/erv/lentiErvAlignments.glue
+
+  # Add lentivirus ERV alignments to constrained alignment tree 
+  run file glue/erv/lentiErvAlignmentTree.glue
+
+  # Record feature presence
+  run file glue/erv/lentiErvRecordFeaturePresence.glue
+
+  # Add lentivirus ERV alignments to constrained alignment tree 
+  run file glue/erv/lentiErvCreatePhylogeniesMelv.glue
+  run file glue/erv/lentiErvCreatePhylogeniesPsiv.glue
+  run file glue/erv/lentiErvCreatePhylogeniesRelik.glue
+
+  # Validate
+  validate
+
+  exit
+
