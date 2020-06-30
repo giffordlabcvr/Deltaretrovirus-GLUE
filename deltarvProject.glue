@@ -12,9 +12,9 @@
   # Build core project (reference sequences only)
   run file glue/core/buildDeltaCore.glue
 
-  # Build extension project  
-  run file glue/extension/buildDeltaExtension.glue
-  
   # Build EVE project
-  #run file glue/eve/buildDeltaEveExtension.glue
+  run file glue/eve/buildDeltaEveExtension.glue
+  
+  # Build extension project  
+  #run file glue/extension/buildDeltaExtension.glue
   
