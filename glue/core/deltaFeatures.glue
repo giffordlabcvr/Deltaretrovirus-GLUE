@@ -14,20 +14,9 @@
   create feature PBS "Primer binding site"
   create feature LEA "Leader region"
 
-<<<<<<< HEAD
   create feature internal_region -p whole_genome "internal region (bounded by LTRs)"
   feature internal_region set field displayName "internal region"
 
-  create feature gag-pol -p whole_genome "gag-pol"
-  feature gag-pol set field displayName "gag-pol"
-  feature gag-pol set metatag OWN_CODON_NUMBERING true
-  feature gag-pol set metatag INCLUDE_IN_SUMMARY true
-  feature gag-pol set metatag CODES_AMINO_ACIDS true
-=======
-  create feature G4 "G4 protein"
-  feature G4 set metatag CODES_AMINO_ACIDS true
-  feature G4 set metatag OWN_CODON_NUMBERING true
->>>>>>> master
 
   create feature gag "Group-specific antigen"
   feature gag set metatag CODES_AMINO_ACIDS true
