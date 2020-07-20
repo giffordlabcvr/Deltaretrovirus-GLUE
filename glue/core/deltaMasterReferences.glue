@@ -1,6 +1,14 @@
+
+  # Declare reference sequencess
+  create reference REF_PTLV-1     ncbi-refseqs J02029
+  create reference REF_PTLV-2     ncbi-refseqs NC_001488
+  create reference REF_PTLV-3     ncbi-refseqs DQ093792
+  create reference REF_PTLV-4     ncbi-refseqs EF488483
+  create reference REF_BLV        ncbi-refseqs NC_001414
+
   # Define features on references
 
-  reference REF_PTLV-1_J02029
+  reference REF_PTLV-1
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -40,7 +48,7 @@
   exit 
 
 
-  reference REF_PTLV-2_NC_001488
+  reference REF_PTLV-2
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -82,7 +90,7 @@
 
   # Define features on references
 
-  reference REF_BLV_NC_001414
+  reference REF_BLV
 
     add feature-location whole_genome
     feature-location whole_genome

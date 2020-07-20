@@ -8,17 +8,17 @@
 	# Create modules
 	run file glue/core/deltaModules.glue
 
-	# Import reference sequences from GenBank XML files 
-	import source sources/ncbi-refseqs/
-
 	# Define features 
 	run file glue/core/deltaFeatures.glue
 
-	# Create deltavirus references
-	run file glue/core/deltaReferences.glue  
+	# Import reference sequences from GenBank XML files 
+	import source sources/ncbi-refseqs/
 
-	# Attach feature locations to the reference sequences 
-	run file glue/core/deltaFeatureLocations.glue
+	# Create deltavirus references and attach feature locations
+	run file glue/core/deltaMasterReferences.glue  
+
+	# Import side data for reference sequences
+	run file glue/core/deltaImportSideData.glue
 
 	# Import alignments 
 	run file glue/core/deltaAlignments.glue
@@ -26,6 +26,11 @@
 	# Define constrained alignment tree
 	run file glue/core/deltaAlignmentTree.glue
 
+	# Record feature coverage in alignments
+	run file glue/core/deltaRecordFeaturePresence.glue
+
+	# Create phylogenies
+	run file glue/core/deltaCreateRootPhylogenies.glue
 
 	validate
 	exit

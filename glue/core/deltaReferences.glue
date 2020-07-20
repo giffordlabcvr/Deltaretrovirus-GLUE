@@ -1,9 +1,0 @@
-
-  # Declare reference sequencess
-  create reference REF_PTLV-1_J02029    ncbi-refseqs J02029
-  create reference REF_PTLV-2_NC_001488 ncbi-refseqs NC_001488
-  create reference REF_PTLV-3_DQ093792  ncbi-refseqs DQ093792
-  create reference REF_PTLV-4_EF488483  ncbi-refseqs EF488483
-  
-  create reference REF_BLV_NC_001414    ncbi-refseqs NC_001414
-

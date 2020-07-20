@@ -1,0 +1,5 @@
+#~# Import unconstrained reference alignments
+
+module unconstrainedAlignmentImporter
+  import AL_UNC_ROOT -f alignment/virus/root/deltaretrovirus-root.aln.fna
+

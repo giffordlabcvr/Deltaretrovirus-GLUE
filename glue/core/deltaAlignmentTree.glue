@@ -1,0 +1,38 @@
+#~# Define constrained alignment tree
+create alignment AL_ROOT -r REF_HIV-1M
+alignment AL_ROOT
+
+  set field displayName "Deltaretrovirus"
+
+  # Add all members
+  add member -a
+
+  extract child AL_PTLV1     --refName REF_PTLV1
+  demote member AL_PTLV1     --whereClause "sequence.name = 'PTLV-1'"
+ 
+  extract child AL_PTLV2     --refName REF_PTLV2
+  demote member AL_PTLV2     --whereClause "sequence.name = 'PTLV-2'"
+
+  extract child AL_PTLV3     --refName REF_SRLV-A
+  demote member AL_PTLV3     --whereClause "sequence.species = 'PTLV-3'"
+
+  extract child AL_BLV       --refName REF_BLV
+  demote member AL_BLV       --whereClause "sequence.species = 'BLV'"
+  
+  exit
+
+
+#~# Derive constrained alignment segments from unconstrained alignments
+alignment AL_ROOT
+  derive segments AL_UNC_ROOT -a --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
+
+
+
+  # Declare reference sequencess
+  create reference _J02029    ncbi-refseqs J02029
+  create reference REF_PTLV-2_NC_001488 ncbi-refseqs NC_001488
+  create reference REF_PTLV-3_DQ093792  ncbi-refseqs DQ093792
+  create reference REF_PTLV-4_EF488483  ncbi-refseqs EF488483
+  
+  create reference REF_BLV_NC_001414    ncbi-refseqs NC_001414
