@@ -26,6 +26,9 @@
 	# Define constrained alignment tree
 	run file glue/core/deltaAlignmentTree.glue
 
+	# Create phylogenies
+	run file glue/core/deltaInheritFeatureLocations.glue
+
 	# Record feature coverage in alignments
 	run file glue/core/deltaRecordFeaturePresence.glue
 

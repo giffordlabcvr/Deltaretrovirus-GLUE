@@ -62,6 +62,11 @@
   feature RNaseH set metatag CODES_AMINO_ACIDS true
   feature RNaseH set metatag OWN_CODON_NUMBERING true
  
+  create feature hbz -p whole_genome "basic leucine zipper factor"
+  feature hbz set metatag CODES_AMINO_ACIDS true
+  feature hbz set metatag OWN_CODON_NUMBERING true
+  feature hbz set metatag REVERSE_COMPLEMENT_TRANSLATION true
+
   create feature env -p whole_genome  "envelope"
   feature env set metatag CODES_AMINO_ACIDS true
   feature env set metatag OWN_CODON_NUMBERING true
