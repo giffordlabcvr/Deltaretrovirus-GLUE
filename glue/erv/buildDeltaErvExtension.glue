@@ -15,18 +15,13 @@ project deltaretrovirus
   run file glue/erv/deltaErvReferences.glue
 
   # Import alignments
-  run file glue/erv/deltaErvAlignments.glue
+  #run file glue/erv/deltaErvAlignments.glue
 
   # Add deltaretrovirus ERV alignments to constrained alignment tree 
-  run file glue/erv/deltaErvAlignmentTree.glue
+  #run file glue/erv/deltaErvAlignmentTree.glue
 
   # Record feature presence
-  run file glue/erv/deltaErvRecordFeaturePresence.glue
-
-  # Add deltaretrovirus ERV alignments to constrained alignment tree 
-  run file glue/erv/deltaErvCreatePhylogeniesMelv.glue
-  run file glue/erv/deltaErvCreatePhylogeniesPsiv.glue
-  run file glue/erv/deltaErvCreatePhylogeniesRelik.glue
+  #run file glue/erv/deltaErvRecordFeaturePresence.glue
 
   # Validate
   validate

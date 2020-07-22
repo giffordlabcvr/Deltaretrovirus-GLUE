@@ -1,45 +1,19 @@
-delete module lentiErvCompoundAlignerPsiv
-delete module lentiErvCompoundAlignerRelik
-delete module lentiErvCompoundAlignerMelv
-
-
-create module -f modules/erv/lentiErvCompoundAlignerPsiv.xml
-create module -f modules/erv/lentiErvCompoundAlignerRelik.xml
-create module -f modules/erv/lentiErvCompoundAlignerMelv.xml
-
-
 
 #~# Define constrained alignment tree
 alignment AL_ROOT
 
   # Add all ERV members
+  
   add member -w "source.name = 'fasta-digs-erv'"
 
-  extract child AL_RELIK      --refName REF_RELIK
-  demote member AL_RELIK      --whereClause "sequence.species = 'Oryctolagus_cuniculus'"
-  demote member AL_RELIK      --whereClause "sequence.species = 'Lepus_timidus'"
-  demote member AL_RELIK      --whereClause "sequence.species = 'Lepus_americanus'"
+  extract child AL_MinERVa      --refName REF_MinERVa
+  demote member AL_MinERVa      --whereClause "sequence.name = 'MinERVa'"
 
-  extract child AL_PSIV       --refName REF_pSIV
-  demote member AL_PSIV       --whereClause "sequence.species like '%Microcebus%'"
-  demote member AL_PSIV       --whereClause "sequence.species like '%Mirza%'"
+  extract child AL_Murina       --refName REF_Murina
+  demote member AL_Murina       --whereClause "sequence.name = 'Murina'"
 
-  extract child AL_MELV    --refName REF_MELV
-  demote member AL_MELV    --whereClause "sequence.species = 'Neovison_vison'"
-  demote member AL_MELV    --whereClause "sequence.species = 'Mustela_putorius_furo'"
-  demote member AL_MELV    --whereClause "sequence.species = 'Mustela_erminea'"
+  extract child AL_Platanista   --refName REF_Platanista
+  demote member AL_Platanista   --whereClause "sequence.name = 'Platanista'"
 
-  extract child AL_ELVgv      --refName REF_ELV
-  demote member AL_ELVgv      --whereClause "sequence.species = 'Galeopterus_variegatus'"
-
-  extract child AL_Springhare --refName REF_Springhare
-  demote member AL_Springhare --whereClause "sequence.species = 'Pedetes_capensis'"
-  
   exit
-
-#~# Compute alignments
-
-compute alignment AL_PSIV     lentiErvCompoundAlignerPsiv
-compute alignment AL_RELIK    lentiErvCompoundAlignerRelik
-compute alignment AL_MELV  lentiErvCompoundAlignerMelv
 

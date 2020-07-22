@@ -20,7 +20,6 @@ _.each(loadResult, function(ervObj) {
 	
 		glue.command(["set", "field", "name", ervObj.sequenceID]);
 		glue.command(["set", "field", "full_name", ervObj.sequenceID]);
-		glue.command(["set", "field", "species", ervObj.organism]);
 
 		glue.command(["set", "field", "length", ervObj.sequence_length]);
 	});
