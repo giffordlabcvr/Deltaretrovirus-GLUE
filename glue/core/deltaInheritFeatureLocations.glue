@@ -26,6 +26,5 @@ reference REF_PTLV4
 reference REF_BLV
 
   inherit feature-location AL_ROOT RT
-  inherit feature-location AL_ROOT IN
   exit
 

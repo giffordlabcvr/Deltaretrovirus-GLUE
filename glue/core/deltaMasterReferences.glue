@@ -4,7 +4,7 @@
   create reference REF_PTLV2     ncbi-refseqs M10060
   create reference REF_PTLV3     ncbi-refseqs DQ093792
   create reference REF_PTLV4     ncbi-refseqs EF488483
-  create reference REF_BLV        ncbi-refseqs K02120
+  create reference REF_BLV       ncbi-refseqs K02120
 
   # Define features on references
 
@@ -52,7 +52,7 @@
 
     add feature-location pol
     feature-location pol
-      add segment 3015 5210
+      add segment 2520 5210
       exit
 
     add feature-location RT
@@ -190,7 +190,7 @@
 
     add feature-location gag
     feature-location gag
-      add segment 756 2024
+      add segment 756 2023
       exit
 
     add feature-location pro
@@ -231,7 +231,7 @@
 
     add feature-location gag
     feature-location gag
-      add segment 750 2024
+      add segment 750 2023
       exit
 
     add feature-location pro
