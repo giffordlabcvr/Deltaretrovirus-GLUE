@@ -1,15 +1,17 @@
 <ncbiImporter>
-  <sourceName>ncbi-refseqs-deltaretrovirus</sourceName>
+  <sourceName>ncbi-refseqs</sourceName>
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   <specificPrimaryAccessions>
    
 	<primaryAccession>J02029</primaryAccession>
-	<primaryAccession>NC_001488</primaryAccession>
+	<primaryAccession>M10060</primaryAccession>
 	<primaryAccession>DQ093792</primaryAccession>
 	<primaryAccession>EF488483</primaryAccession>
-	<primaryAccession>NC_001414</primaryAccession>
+	<primaryAccession>K02120</primaryAccession>
 
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
 </ncbiImporter>
+
+

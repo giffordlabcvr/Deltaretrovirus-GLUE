@@ -6,7 +6,7 @@
   feature 5flank set field displayName "5' flank"
   feature 5flank set metatag INCLUDE_IN_SUMMARY true
 
-  create feature 5LTR "5' LTR"
+  create feature 5LTR --parentName whole_genome "5' LTR"
   create feature U3_5LTR --parentName 5LTR "U3 region of 5' LTR"
   create feature R_5LTR  --parentName 5LTR "R region of 5' LTR"
   create feature U5_5LTR --parentName 5LTR "U5 region of 5' LTR"
@@ -17,46 +17,36 @@
   create feature internal_region -p whole_genome "internal region (bounded by LTRs)"
   feature internal_region set field displayName "internal region"
 
-
-  create feature gag "Group-specific antigen"
+  create feature gag --parentName whole_genome "Group-specific antigen"
   feature gag set metatag CODES_AMINO_ACIDS true
   feature gag set metatag OWN_CODON_NUMBERING true
 
-  create feature MA --parentName gag "Matrix"
-  feature MA set metatag CODES_AMINO_ACIDS true
-  feature MA set metatag OWN_CODON_NUMBERING true
+  create feature gag-pro-pol -p whole_genome  "gag-pro-pol fusion protein"
+  create feature gag-pro -p whole_genome  "gag-pro fusion protein"
 
-  create feature CA --parentName gag "Capsid"
-  feature CA set metatag CODES_AMINO_ACIDS true
-  feature CA set metatag OWN_CODON_NUMBERING true
+  create feature matrix -p gag "matrix"
+  feature matrix set field displayName "matrix"
+  feature matrix set metatag OWN_CODON_NUMBERING true
+  feature matrix set metatag INCLUDE_IN_SUMMARY true
+  feature matrix set metatag CODES_AMINO_ACIDS true
+	
+  create feature capsid -p gag "capsid"
+  feature capsid set field displayName "CA"
+  feature capsid set metatag OWN_CODON_NUMBERING true
+  feature capsid set metatag INCLUDE_IN_SUMMARY true
+  feature capsid set metatag CODES_AMINO_ACIDS true
 
-  create feature p2 --parentName gag "p2 protein"
-  feature p2 set metatag CODES_AMINO_ACIDS true
-  feature p2 set metatag OWN_CODON_NUMBERING true
-
-  create feature p6 --parentName gag "p6 protein"
-  feature p6 set metatag CODES_AMINO_ACIDS true
-  feature p6 set metatag OWN_CODON_NUMBERING true
-
-  create feature NC --parentName gag "Nucleocapsid"
-  feature NC set metatag CODES_AMINO_ACIDS true
-  feature NC set metatag OWN_CODON_NUMBERING true
+  create feature nucleocapsid -p gag "nucleocapsid"
+  feature nucleocapsid set field displayName "nucleocapsid"
+  feature nucleocapsid set metatag OWN_CODON_NUMBERING true
+  feature nucleocapsid set metatag INCLUDE_IN_SUMMARY true
+  feature nucleocapsid set metatag CODES_AMINO_ACIDS true
   
   create feature pro "protease"
   feature pro set metatag CODES_AMINO_ACIDS true
   feature pro set metatag OWN_CODON_NUMBERING true
 
-  create feature DU "dUTPase"
-  feature DU set metatag CODES_AMINO_ACIDS true
-  feature DU set metatag OWN_CODON_NUMBERING true
-
-  create feature pro-pol -p whole_genome "pro-pol polyprotein"
-  feature pro-pol set field displayName "pro-pol"
-  feature pro-pol set metatag OWN_CODON_NUMBERING true
-  feature pro-pol set metatag INCLUDE_IN_SUMMARY true
-  feature pro-pol set metatag CODES_AMINO_ACIDS true
-
-  create feature pol "polymerase"
+  create feature pol -p whole_genome  "polymerase"
   feature pol set metatag CODES_AMINO_ACIDS true
   feature pol set metatag OWN_CODON_NUMBERING true
 
@@ -72,7 +62,7 @@
   feature RNaseH set metatag CODES_AMINO_ACIDS true
   feature RNaseH set metatag OWN_CODON_NUMBERING true
  
-  create feature env "envelope"
+  create feature env -p whole_genome  "envelope"
   feature env set metatag CODES_AMINO_ACIDS true
   feature env set metatag OWN_CODON_NUMBERING true
   
@@ -80,31 +70,22 @@
   feature SU set metatag CODES_AMINO_ACIDS true
   feature SU set metatag OWN_CODON_NUMBERING true
 
-  create feature V1 --parentName env "Surface glycoprotein"
-  feature SU set metatag CODES_AMINO_ACIDS true
-  feature SU set metatag OWN_CODON_NUMBERING true
-  
   create feature TM --parentName env "Transmembrane domain"
   feature TM set metatag CODES_AMINO_ACIDS true
   feature TM set metatag OWN_CODON_NUMBERING true
   
-  create feature ISD --parentName env "Immunosuppressive domain"
-  
-  create feature tax "Trans-activator of transcription"
+  create feature tax -p whole_genome  "Trans-activator of transcription"
   feature tax set metatag CODES_AMINO_ACIDS true
   feature tax set metatag OWN_CODON_NUMBERING true
 
-  create feature rex "Regulator of expression protein"
+  create feature rex -p whole_genome  "Regulator of expression protein"
   feature rex set metatag CODES_AMINO_ACIDS true
   feature rex set metatag OWN_CODON_NUMBERING true
-
-  create feature gagpol "gag-pol fusion protein"
-  create feature propol "pro-pol fusion protein"
         
-  create feature PPT "polypurine tract"
-  create feature 3LTR "3' LTR"
+  create feature PPT -p whole_genome  "polypurine tract"
+  create feature 3LTR -p whole_genome  "3' LTR"
   create feature U3_3LTR --parentName 3LTR "U3 region of 3' LTR"
-  create feature R_3LTR  --parentName 3LTR "R region of 3' LTR"
+  create feature R_3LTR --parentName 3LTR "R region of 3' LTR"
   create feature U5_3LTR --parentName 3LTR "U5 region of 3' LTR"
   
   create feature 3flank "3 prime genomic flanking sequence"

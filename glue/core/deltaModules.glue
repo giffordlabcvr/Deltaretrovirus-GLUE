@@ -2,6 +2,8 @@
   
   # Core project
   create module -f modules/core/deltaGenbankXmlPopulator.xml
+  create module -f modules/core/deltaGagPolTranslationModifier.xml
+  create module -f modules/core/deltaTabularUtility.xml
 
   # Importers 
   create module -f modules/core/unconstrainedAlignmentImporter.xml

@@ -1,14 +1,14 @@
 
   # Declare reference sequencess
-  create reference REF_PTLV-1     ncbi-refseqs J02029
-  create reference REF_PTLV-2     ncbi-refseqs NC_001488
-  create reference REF_PTLV-3     ncbi-refseqs DQ093792
-  create reference REF_PTLV-4     ncbi-refseqs EF488483
-  create reference REF_BLV        ncbi-refseqs NC_001414
+  create reference REF_PTLV1     ncbi-refseqs J02029
+  create reference REF_PTLV2     ncbi-refseqs M10060
+  create reference REF_PTLV3     ncbi-refseqs DQ093792
+  create reference REF_PTLV4     ncbi-refseqs EF488483
+  create reference REF_BLV        ncbi-refseqs K02120
 
   # Define features on references
 
-  reference REF_PTLV-1
+  reference REF_PTLV1
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -27,12 +27,32 @@
 
     add feature-location gag
     feature-location gag
-      add segment 824 2113
+      add segment 802 2091
       exit
 
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 2520 5210  
+    add feature-location matrix
+    feature-location matrix
+      add segment 805 1194
+      exit
+
+    add feature-location capsid
+    feature-location capsid
+      add segment 1195 1836
+      exit
+
+    add feature-location nucleocapsid
+    feature-location nucleocapsid
+      add segment 1837 2088
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 2052 2753
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 3015 5210
       exit
 
     add feature-location env
@@ -40,15 +60,40 @@
       add segment 5203 6669
       exit
 
+    add feature-location SU
+    feature-location SU
+      add segment 5203 5793
+      exit
+
+    add feature-location SU
+    feature-location SU
+      add segment 5794 6666
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 5203 6669
+      exit
+
+    add feature-location tax
+    feature-location tax
+      add segment 7645 8382
+      exit
+
+    add feature-location rex
+    feature-location rex
+      add segment 7499 7834
+      exit
+
     add feature-location 3LTR
     feature-location 3LTR
-      add segment 8301 9055
+      add segment 8301 9068
       exit
       
   exit 
 
 
-  reference REF_PTLV-2
+  reference REF_PTLV2
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -94,22 +139,37 @@
 
     add feature-location whole_genome
     feature-location whole_genome
-      add segment 1 8720
+      add segment 1 8714
       exit
 
     add feature-location 5LTR
     feature-location 5LTR
-      add segment 1 531
+      add segment 1 530
       exit
 
     add feature-location internal_region
     feature-location internal_region
-      add segment 629 8655
+      add segment 628 8655
       exit
 
     add feature-location gag
     feature-location gag
-      add segment 629 1804
+      add segment 628 1806
+      exit
+
+    add feature-location matrix
+    feature-location matrix
+      add segment 628 954
+      exit
+
+    add feature-location capsid
+    feature-location capsid
+      add segment 628 954
+      exit
+
+    add feature-location nucleocapsid
+    feature-location nucleocapsid
+      add segment 628 954
       exit
 
     add feature-location pro
@@ -119,26 +179,29 @@
            
     add feature-location pol
     feature-location pol
-      add segment 2343 4880  
-      exit
-
-    add feature-location tax
-    feature-location tat
-      add segment 5857 6071 --spliceIndex 1
-      add segment 8370 8460 --spliceIndex 2
-      exit
-
-    add feature-location rex
-    feature-location rev
-      add segment 5996 6071 --spliceIndex 1
-      add segment 8370 8644 --spliceIndex 2
+      add segment 2467 4875 
       exit
 
     add feature-location env
     feature-location env
-      add segment 6261 8786
+      add segment 4821 6368
       exit
 
-      
+    add feature-location SU
+    feature-location SU
+      add segment 4920 5723
+      exit
+
+    add feature-location TM
+    feature-location TM
+      add segment 5724 6368
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8185 8714
+      exit
+
+
   exit 
 

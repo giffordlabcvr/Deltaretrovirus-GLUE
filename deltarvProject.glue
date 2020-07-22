@@ -1,11 +1,11 @@
   # Delete previously built Deltaretrovirus project if it exists
-  delete project deltavirus
+  delete project deltaretrovirus
 
   # Build Deltaretrovirus project
-  create project deltavirus "A glue project for deltaretroviruses" --minVersion 0.1.66
+  create project deltaretrovirus "A glue project for deltaretroviruses" --minVersion 0.1.66
 
   # Create DB schema
-  schema-project deltavirus
+  schema-project deltaretrovirus
 	run file glue/core/deltaSchemaExtensions.glue
 	exit
 
@@ -13,7 +13,7 @@
   run file glue/core/buildDeltaCore.glue
 
   # Build EVE project
-  run file glue/eve/buildDeltaEveExtension.glue
+  #run file glue/eve/buildDeltaEveExtension.glue
   
   # Build extension project  
   #run file glue/extension/buildDeltaExtension.glue

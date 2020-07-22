@@ -1,0 +1,7 @@
+
+  # Populate fields using GenBank file data
+  module deltaGenbankXmlPopulator populate
+
+  # Load sequence-associated data
+  run script glue/core/deltaLoadRefseqsIsolateData1.js
+  run script glue/core/deltaLoadRefseqsIsolateData2.js

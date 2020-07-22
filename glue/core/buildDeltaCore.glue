@@ -1,4 +1,4 @@
-  project deltavirus
+  project deltaretrovirus
 
   #~#  Deltaretrovirus basic skeleton project 
 
@@ -18,7 +18,7 @@
 	run file glue/core/deltaMasterReferences.glue  
 
 	# Import side data for reference sequences
-	run file glue/core/deltaImportSideData.glue
+	run file glue/core/deltaImportSideDataReferences.glue
 
 	# Import alignments 
 	run file glue/core/deltaAlignments.glue
@@ -30,7 +30,7 @@
 	run file glue/core/deltaRecordFeaturePresence.glue
 
 	# Create phylogenies
-	run file glue/core/deltaCreateRootPhylogenies.glue
+	#run file glue/core/deltaCreateRootPhylogenies.glue
 
 	validate
 	exit
