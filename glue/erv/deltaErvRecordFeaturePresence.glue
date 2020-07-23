@@ -1,11 +1,3 @@
-  delete module lentiFeaturePresenceRecorder
-  create module -f modules/extension/lentiFeaturePresenceRecorder.xml
-
-  module lentiFeaturePresenceRecorder 
-    record feature-presence AL_RELIK        --recursive -f whole_genome --descendentFeatures
-    record feature-presence AL_PSIV         --recursive -f whole_genome --descendentFeatures
-    record feature-presence AL_MELV         --recursive -f whole_genome --descendentFeatures
-    #record feature-presence AL_ELV         --recursive -f whole_genome --descendentFeatures
-    #record feature-presence AL_Springhare  --recursive -f whole_genome --descendentFeatures
-    exit
+  delete module deltaFeaturePresenceRecorder
+  create module -f modules/extension/deltaFeaturePresenceRecorder.xml
 

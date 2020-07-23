@@ -4,7 +4,8 @@ alignment AL_ROOT
 
   # Add all ERV members
   
-  add member -w "source.name = 'fasta-digs-erv'"
+  #add member -w "source.name = 'fasta-digs-erv'"  
+  add member -w "source.name = 'fasta-refseqs-erv'"
 
   extract child AL_MinERVa      --refName REF_MinERVa
   demote member AL_MinERVa      --whereClause "sequence.name = 'MinERVa'"
@@ -17,3 +18,9 @@ alignment AL_ROOT
 
   exit
 
+
+#~# Derive constrained alignment segments from unconstrained alignments
+
+alignment AL_ROOT
+  derive segments AL_UNC_ROOT_ERV -a --existingMembersOnly --mergeStrategy OVERWRITE
+  exit

@@ -1,7 +1,74 @@
-  ## Endogenous lentivirus reference sequence declarations
+  ## Endogenous deltavirus reference sequence declarations
 
-  ## Endogenous lentiviruses
+  ## Endogenous deltaviruses
   create reference REF_MinERVa      fasta-refseqs-erv MinERVa-con
   create reference REF_Murina       fasta-refseqs-erv Murina-con
   create reference REF_Platanista   fasta-refseqs-erv Platanista-con
+
+  # Define features on references
+
+  reference REF_MinERVa
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 2910
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 599
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 802 2091
+      exit
+      
+  exit 
+
+  reference REF_Murina
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 6586
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 654 1946
+      exit
+      
+  exit 
+
+
+  reference REF_Platanista
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8242
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 700
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 717 1901
+      exit
+ 
+    add feature-location pol
+    feature-location pol
+      add segment 2967 6581
+      exit
+
+     add feature-location env
+    feature-location env
+      add segment 7147 8055
+      exit
+
+      
+  exit 
+
 
