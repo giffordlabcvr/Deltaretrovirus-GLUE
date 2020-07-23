@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_PTLV1</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>matrix</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>130</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>matrix</featureName>
+        <startNt>805</startNt>
+        <endNt>1192</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>

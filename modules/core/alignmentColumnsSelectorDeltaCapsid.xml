@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_PTLV1</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>capsid</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>214</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>capsid</featureName>
+        <startNt>1195</startNt>
+        <endNt>1834</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>
