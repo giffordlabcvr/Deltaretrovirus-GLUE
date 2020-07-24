@@ -331,6 +331,17 @@
       add segment 5724 6368
       exit
 
+    add feature-location rex
+    feature-location rex
+      add segment 4821 4872 --spliceIndex 1
+      add segment 7247 7663 --spliceIndex 2
+      exit
+
+    add feature-location tax
+    feature-location tax
+      add segment 7246 8169
+      exit
+
     add feature-location 3LTR
     feature-location 3LTR
       add segment 8185 8714

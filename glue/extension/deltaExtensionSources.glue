@@ -1,0 +1,7 @@
+  # Import NCBI reference sequences 
+  import source sources/ncbi-curated-blv
+  import source sources/ncbi-curated-ptlv1
+  import source sources/ncbi-curated-ptlv2
+  import source sources/ncbi-curated-ptlv3
+  import source sources/ncbi-curated-ptlv4
+

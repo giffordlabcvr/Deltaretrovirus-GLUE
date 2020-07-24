@@ -1,7 +1,13 @@
-delete module deltaCompoundAligner
-create module -f modules/extension/deltaCompoundAligner.xml
+delete module deltaCompoundAlignerBlv
+delete module deltaCompoundAlignerPtlv1
+delete module deltaCompoundAlignerPtlv2
 
-compute alignment AL_BIV deltaCompoundAligner
-compute alignment AL_FIV deltaCompoundAligner
-compute alignment AL_EIAV deltaCompoundAligner
-compute alignment AL_SRLV deltaCompoundAligner
+create module -f modules/extension/deltaCompoundAlignerBlv.xml
+create module -f modules/extension/deltaCompoundAlignerPtlv1.xml
+create module -f modules/extension/deltaCompoundAlignerPtlv2.xml
+
+compute alignment AL_BLV deltaCompoundAligner
+compute alignment AL_PTLV1 deltaCompoundAligner
+compute alignment AL_PTLV2 deltaCompoundAligner
+compute alignment AL_PTLV3 deltaCompoundAligner
+compute alignment AL_PTLV4 deltaCompoundAligner

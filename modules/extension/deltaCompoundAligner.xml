@@ -10,6 +10,9 @@
 			<featureName>env</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
+			<featureName>rex</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
 			<featureName>tax</featureName>
 		</codonAwareBlastAligner>
 		<blastAligner>

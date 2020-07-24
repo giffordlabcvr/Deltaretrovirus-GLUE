@@ -1,0 +1,98 @@
+  # Clean up from any previous run of this file   
+  delete module raxmlPhylogenyGenerator
+  delete module deltaPhyloUtility
+  delete module deltaErvFigTreeAnnotationExporter 
+  delete module alignmentColumnsSelectorDeltaCapsid
+  delete module alignmentColumnsSelectorDeltaMatrix
+  delete module alignmentColumnsSelectorDeltaNucleocapsid
+  delete module alignmentColumnsSelectorDeltaRt
+  delete module alignmentColumnsSelectorDeltaIntegrase
+  
+  # Create all the modules we need
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/deltaPhyloUtility.xml
+  create module -f modules/erv/deltaErvFigTreeAnnotationExporter.xml
+  create module -f modules/core/alignmentColumnsSelectorDeltaCapsid.xml
+  create module -f modules/core/alignmentColumnsSelectorDeltaMatrix.xml
+  create module -f modules/core/alignmentColumnsSelectorDeltaNucleocapsid.xml
+  create module -f modules/core/alignmentColumnsSelectorDeltaRt.xml
+  create module -f modules/core/alignmentColumnsSelectorDeltaIntegrase.xml
+
+  
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorDeltaMatrix \
+      -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-root/delta-erv-ma.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorDeltaCapsid \
+      -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-root/delta-erv-ca.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorDeltaNucleocapsid \
+      -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-root/delta-erv-nc.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorDeltaRt \
+      -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-root/delta-erv-rt.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorDeltaIntegrase \
+      -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-root/delta-erv-in.tre NEWICK_BOOTSTRAPS
+
+    exit
+
+
+  # Re-root phylogeny 
+  module DeltaPhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/erv-root/delta-erv-ma.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/erv-root/delta-erv-ma.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/erv-root/delta-erv-ca.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/erv-root/delta-erv-ca.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/erv-root/delta-erv-nc.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/erv-root/delta-erv-nc.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/erv-root/delta-erv-rt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/erv-root/delta-erv-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/erv-root/delta-erv-in.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/erv-root/delta-erv-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+
+
+  # Export annotations
+  module deltaErvFigTreeAnnotationExporter 
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'matrix'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/delta-erv-ma.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'capsid'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/delta-erv-ca.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/delta-erv-nc.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'RT'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/delta-erv-rt.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'IN'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/delta-erv-in.figtree-annotations.tsv
+
+  exit
+

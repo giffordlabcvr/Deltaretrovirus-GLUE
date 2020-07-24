@@ -1,0 +1,24 @@
+<figTreeAnnotationExporter>
+
+	<figTreeAnnotation>
+		<annotationName>sequenceID</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>name</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.name')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>subgenus</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.subgenus')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>scaffold</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.scaffold')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>orientation</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.orientation')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+</figTreeAnnotationExporter>
