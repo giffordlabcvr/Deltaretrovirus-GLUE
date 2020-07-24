@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HTU73013</GBSeq_locus>
+    <GBSeq_length>626</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>20-NOV-1999</GBSeq_update-date>
+    <GBSeq_create-date>20-NOV-1999</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell lymphotropic virus type 2 strain 11-19, long terminal repeat sequence</GBSeq_definition>
+    <GBSeq_primary-accession>U73013</GBSeq_primary-accession>
+    <GBSeq_accession-version>U73013.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U73013.1|HTU73013</GBSeqid>
+      <GBSeqid>gi|6456037</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-lymphotropic virus 2</GBSeq_source>
+    <GBSeq_organism>Human T-lymphotropic virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..626</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Murphy,E.L.</GBAuthor>
+          <GBAuthor>Mahieux,R.</GBAuthor>
+          <GBAuthor>De The,G.</GBAuthor>
+          <GBAuthor>Gessain,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>molecular epidemiology of HTLV-II among seropositive US blood donors without major risk factors</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..626</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Murphy,E.L.</GBAuthor>
+          <GBAuthor>Mahieux,R.</GBAuthor>
+          <GBAuthor>De The,G.</GBAuthor>
+          <GBAuthor>Gessain,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-OCT-1996) Pasteur Institute, 28 Rue du Dr Roux, Paris 75724, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..626</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>626</GBInterval_to>
+            <GBInterval_accession>U73013.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-lymphotropic virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>11-19</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11909</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>from a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..626</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>626</GBInterval_to>
+            <GBInterval_accession>U73013.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>caagtaaaggctctgacgtctaccccctttttaggaactgaaaccacggccctgacgtccctcccccccaggaaccaggaacagctctccagaaaaatagacctcacccttacccacttcccctagcactgaaaaacaaggctctgacgattaccccctgcccataaaatttgcctagccaaaataaaagatgccgagtctataaaagcgcaaggacagttcaggagggctctcgctccctcactgaccctctggtcacggagactcaccttggggatccatcctctccaagcggcctcggttgagacgccttctgtgggaccgtctcccggcctcggcacctcctgaactgctcctcccagggtaagtctcctctcaggtcgagctcggctgccccttaggtagtcgctccccgagggtctttagagacacccgggtttccgcctgcgctcggctagactctggcttaaacttcacttccgcgttcttgtctcgttctttcctcttcgccgtcactgaaaacgaaacctcaacgccgccctcctggcaggcttggcccggggccaacatactgccgtggaggcgcagcaagggctagggcttcctgaacctctccgggagaggtc</GBSeq_sequence>
+  </GBSeq>

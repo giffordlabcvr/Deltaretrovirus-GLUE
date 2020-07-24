@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>X88883</GBSeq_locus>
+    <GBSeq_length>522</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>27-NOV-1995</GBSeq_create-date>
+    <GBSeq_definition>Human T-lymphotropic virus env protein gene (patient MASU)</GBSeq_definition>
+    <GBSeq_primary-accession>X88883</GBSeq_primary-accession>
+    <GBSeq_accession-version>X88883.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|X88883.1|</GBSeqid>
+      <GBSeqid>gi|1085041</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>env</GBKeyword>
+      <GBKeyword>HTLV-I</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..522</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Liu,H.F.</GBAuthor>
+          <GBAuthor>Goubau,P.</GBAuthor>
+          <GBAuthor>Van Brussel,M.</GBAuthor>
+          <GBAuthor>Van Laethem,K.</GBAuthor>
+          <GBAuthor>Chen,Y.C.</GBAuthor>
+          <GBAuthor>Desmyter,J.</GBAuthor>
+          <GBAuthor>Vandamme,A.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The three human T-lymphotropic virus type I subtypes arose from three geographically distinct simian reservoirs</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 77 (PT 2), 359-368 (1996)</GBReference_journal>
+        <GBReference_pubmed>8627240</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..522</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Liu,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-JUN-1995) H. Liu, Rega Institute for Medical Research, University of Leuven, Minderbroedersstraat 10, B-3000 Leuven, BELGIUM</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..522</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>522</GBInterval_to>
+            <GBInterval_accession>X88883.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>MASU</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>patient MASU</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_type</GBQualifier_name>
+            <GBQualifier_value>leukocyte</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>tissue_type</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;522</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>522</GBInterval_to>
+            <GBInterval_accession>X88883.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;522</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>522</GBInterval_to>
+            <GBInterval_accession>X88883.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gp46 C-terminal and gp21 N-terminal fragment</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAA61345.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:Q76QP0</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR002050</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR018154</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q76QP0</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>HNSLILPPFSLSPVPTLGSRSRRAVPVAVWLVSALAMGAGVAGGITGSMSLASGKSLLHEVDKDISQLTQAIVKNHKNLLKIAQYAAQNRRGLDLLFWEQGGLCKALQEQCCFLNITNSHVSILQERPPLENRVLTGWGLNWDLGLSQWAREALQTGITLVALLLLVILAGPC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcataactccctcatcctgccccccttttccttgtcacctgttcccaccctaggatcccgctcccgccgagcggtaccggtggcggtctggcttgtctccgccctggccatgggagccggagtggctggcgggattaccggctccatgtccctcgcctcaggaaagagcctcctacatgaggtggacaaagatatttcccaattaactcaagcaatagtcaaaaaccacaaaaatctactcaaaattgcgcagtatgctgcccagaacagacgaggccttgatctcctgttctgggagcaaggaggattatgcaaagcattacaagaacagtgctgttttctaaatattactaattcccatgtctcaatactacaagaaagacccccccttgagaatcgagtcctgactggctggggccttaactgggaccttggcctctcacagtgggctcgagaggccttacaaactggaatcacccttgtcgcgctactccttcttgttatccttgcaggaccatgcat</GBSeq_sequence>
+  </GBSeq>

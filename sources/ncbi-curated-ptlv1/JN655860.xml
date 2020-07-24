@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JN655860</GBSeq_locus>
+    <GBSeq_length>831</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>04-JUN-2012</GBSeq_update-date>
+    <GBSeq_create-date>10-DEC-2011</GBSeq_create-date>
+    <GBSeq_definition>Human T-lymphotropic virus 1 isolate Caio4658 3' LTR, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>JN655860</GBSeq_primary-accession>
+    <GBSeq_accession-version>JN655860.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JN655860.1|</GBSeqid>
+      <GBSeqid>gi|359360813</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..831</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>van Tienen,C.</GBAuthor>
+          <GBAuthor>McConkey,S.J.</GBAuthor>
+          <GBAuthor>de Silva,T.</GBAuthor>
+          <GBAuthor>Cotten,M.</GBAuthor>
+          <GBAuthor>Kaye,S.</GBAuthor>
+          <GBAuthor>Sarge-Njie,R.</GBAuthor>
+          <GBAuthor>da Costa,C.</GBAuthor>
+          <GBAuthor>Goncalves,N.</GBAuthor>
+          <GBAuthor>Parker,J.</GBAuthor>
+          <GBAuthor>Vincent,T.</GBAuthor>
+          <GBAuthor>Jaye,A.</GBAuthor>
+          <GBAuthor>Aaby,P.</GBAuthor>
+          <GBAuthor>Whittle,H.</GBAuthor>
+          <GBAuthor>Schim van der Loeff,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Maternal proviral load and vertical transmission of Human T cell Lymphotropic Virus type 1 in Guinea-Bissau</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 28 (6), 584-590 (2012)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1089/AID.2011.0219</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>22066980</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..831</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>van Tienen,C.</GBAuthor>
+          <GBAuthor>de Silva,T.I.</GBAuthor>
+          <GBAuthor>Onyango,C.O.</GBAuthor>
+          <GBAuthor>Cotten,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (06-SEP-2011) Virology, Medical Research Council, Atlantic Road, Fajara, Banjul PO Box 273, The Gambia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..831</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>831</GBInterval_to>
+            <GBInterval_accession>JN655860.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Caio4658</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Guinea-Bissau</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>08-Nov-2004</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>identified_by</GBQualifier_name>
+            <GBQualifier_value>Thushan I. de Silva</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>complement(&lt;1..&gt;831)</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>831</GBInterval_from>
+            <GBInterval_to>1</GBInterval_to>
+            <GBInterval_iscomp value="true"/>
+            <GBInterval_accession>JN655860.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>3'</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggcgctcgaatcccggacgagcccccaactgtgtactaaatttctctcctggagagtgctatagaatgggctgtcgctggctccgagccagcagagtcgccggtacttggccgtgggccaagccggcagtcagtcgtgaatgaaagggaaaggggtggaactttcgatctgtagcggcgcggaacagaaaacgaaacaaagacgtagagttgagcaagcagggtcaggcaaagcgtggagagccggcggagtctaggtaggctccaagggagcgccggacaaaggcccggtctcgacctgagctctaaacttacctagacggcggacgcagttcaggaggcaccacaggcgggaggcggcagaacgcgactcaaccggcgtggatggcggcctcaggtagggcggcgggcgcgtgaaggagagatgctagccccctcctgaactgtctccacgcttttatagactcctgttattttattgagccatatgcgtgccatgaaaagtttttttgaggtgaggggttgtcgtcaacgcctggggacggcttgacaaacatggggaggaaatgggtggttcccggtggcttcccggaggtctgagcttatgatttgtcttcagggggacacgtcagggcctaacctgagccggtgctgagctgtccctccggggggagacgtcagagccttagtctgggccctgaccttctcagacttctgtttcgcggaaatgtttttcactgggaggctctaagcccccgggggatatttggggctcgtggtcattgtcatctgcctctttttcgttaaaaagtagagaaatggggatgttggt</GBSeq_sequence>
+  </GBSeq>

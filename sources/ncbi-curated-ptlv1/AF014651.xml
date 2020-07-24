@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF014651</GBSeq_locus>
+    <GBSeq_length>507</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>30-AUG-1999</GBSeq_update-date>
+    <GBSeq_create-date>17-JUL-1998</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell lymphotropic virus type 1 isolate BRAPA08, 5' long terminal repeat sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AF014651</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF014651.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF014651.1|</GBSeqid>
+      <GBSeqid>gi|3327429</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..507</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yamashita,M.</GBAuthor>
+          <GBAuthor>Veronesi,R.</GBAuthor>
+          <GBAuthor>Menna-Barreto,M.</GBAuthor>
+          <GBAuthor>Harrington,W.J. Jr.</GBAuthor>
+          <GBAuthor>Sampio,C.</GBAuthor>
+          <GBAuthor>Brites,C.</GBAuthor>
+          <GBAuthor>Badaro,R.</GBAuthor>
+          <GBAuthor>Andrade-Filho,A.S.</GBAuthor>
+          <GBAuthor>Okhura,S.</GBAuthor>
+          <GBAuthor>Igarashi,T.</GBAuthor>
+          <GBAuthor>Takehisa,J.</GBAuthor>
+          <GBAuthor>Miura,T.</GBAuthor>
+          <GBAuthor>Chamone,D.</GBAuthor>
+          <GBAuthor>Bianchini,O.</GBAuthor>
+          <GBAuthor>Jardim,C.</GBAuthor>
+          <GBAuthor>Sonoda,S.</GBAuthor>
+          <GBAuthor>Hayami,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular epidemiology of human T-cell leukemia virus type I (HTLV-1) Brazil: the predominant HTLV-1s in South America differ from HTLV-ls of Japan and Africa, as well as those of Japanese immigrants and their relatives in Brazil</GBReference_title>
+        <GBReference_journal>Virology 261 (1), 59-69 (1999)</GBReference_journal>
+        <GBReference_pubmed>10484750</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..507</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yamashita,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-JUL-1997) Institute for Virus Research, Kyoto University, Shogoin-Kawahara-Machi 53, Sakyo-Ku, Kyoto 606, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..507</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>507</GBInterval_to>
+            <GBInterval_accession>AF014651.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>BRAPA08</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..507</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>507</GBInterval_to>
+            <GBInterval_accession>AF014651.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cggagggacagctcagcaccggctcaggctaggccctgacgtgtccccctgaagacaaatcataagctcagacctccgggaagccaccggaaccacccatttcctccccatgtttgtcaagccgccctcaggcgttgacgacaacccctcacctcaaaaaacttttcatggcacgcatatggctgaataaactaacaggagtctataaaagcgtggagacagttcaggagggggctcgcatctctccttcacgcgcccgccgccctacctgaggccgccatccacgccggttgagtcgcgttctgccgcctcccgcctgtggtgcctcctgaactgcgtctgccgtctaggtaagttcagagctcaggtcgagaccgggcctttgtccggcgctcccttggagcctgcctagactcagccggctctccacgctttgcctgaccctgcttgctcaactctgcgtctttgtttcgttttctgttctgcgccgctacagatcgaaagttc</GBSeq_sequence>
+  </GBSeq>

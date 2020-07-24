@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF275905</GBSeq_locus>
+    <GBSeq_length>455</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>02-MAY-2001</GBSeq_update-date>
+    <GBSeq_create-date>02-MAY-2001</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell lymphotropic virus type 2 long terminal repeat, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AF275905</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF275905.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF275905.1|AF275905</GBSeqid>
+      <GBSeqid>gi|13925836</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-lymphotropic virus 2</GBSeq_source>
+    <GBSeq_organism>Human T-lymphotropic virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..455</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Silva,E.</GBAuthor>
+          <GBAuthor>Otsuki,K.</GBAuthor>
+          <GBAuthor>Carrana,A.</GBAuthor>
+          <GBAuthor>Leite,A.</GBAuthor>
+          <GBAuthor>Sa-Carvalho,D.</GBAuthor>
+          <GBAuthor>Vicente,A.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Association of a Chronic Neurodegenerative Disease with the Human Lymphotropic Virus Type II in a Brazilian Patient</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..455</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Otsuki,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (07-JUN-2000) Departamento de Genetica, FIOCRUZ, Av Brazil 4365, Rio de Janeiro, RJ 21045-900, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..455</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>455</GBInterval_to>
+            <GBInterval_accession>AF275905.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-lymphotropic virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>RJBD013</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11909</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>from HAM patient</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;455</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>455</GBInterval_to>
+            <GBInterval_accession>AF275905.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaaagcgcaaggacagttcaggaggtctctcgctccctcaccgaccctctggtcacggagactcaccttggggatccatcctctccaagcggcctcggttgagacgccttctgtgggaccgtctcccggcctcggcacctcctgaactgctcctcccagggtaagtctcctctcaggtcgagctcggctgccccttaggtagtcgctccccgaggctctttagagacacccgggtttccgcctgcgctcggctagactctggcttaaacttcacttccgcgttcttgtctcgttctttcctcttcgccgtcactgaaaacgaaacctcaacgccgccctcctggcaggcttggcccggggccaacatactgccgtggaggcgcagcaaggggtagggcttcctgaacctctccgggagaggtccattgatataggcaggcccgccccaggagctt</GBSeq_sequence>
+  </GBSeq>

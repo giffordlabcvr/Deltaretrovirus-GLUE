@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AJ564761</GBSeq_locus>
+    <GBSeq_length>424</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>30-MAY-2004</GBSeq_create-date>
+    <GBSeq_definition>Simian T-lymphotropic virus 1 partial env gene for envelope glycoprotein gp21, isolate MSP62</GBSeq_definition>
+    <GBSeq_primary-accession>AJ564761</GBSeq_primary-accession>
+    <GBSeq_accession-version>AJ564761.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AJ564761.1|</GBSeqid>
+      <GBSeqid>gi|47825455</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>env gene</GBKeyword>
+      <GBKeyword>envelope glycoprotein gp21</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Simian T-lymphotropic virus 1</GBSeq_source>
+    <GBSeq_organism>Simian T-lymphotropic virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..424</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Makuwa,M.</GBAuthor>
+          <GBAuthor>Souquiere,S.</GBAuthor>
+          <GBAuthor>Clifford,S.L.</GBAuthor>
+          <GBAuthor>Telfer,P.T.</GBAuthor>
+          <GBAuthor>Salle,B.</GBAuthor>
+          <GBAuthor>Bourry,O.</GBAuthor>
+          <GBAuthor>Onanga,R.</GBAuthor>
+          <GBAuthor>Mouinga-Ondeme,A.</GBAuthor>
+          <GBAuthor>Wickings,E.J.</GBAuthor>
+          <GBAuthor>Abernethy,K.A.</GBAuthor>
+          <GBAuthor>Rouquet,P.</GBAuthor>
+          <GBAuthor>Simon,F.</GBAuthor>
+          <GBAuthor>Roques,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Two distinct STLV-1 subtypes infecting Mandrillus sphinx follow the geographic distribution of their hosts</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 20 (10), 1137-1143 (2004)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1089/aid.2004.20.1137</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>15585107</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..424</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Roques,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (28-MAY-2003) Roques P., Virology, CIRMF, BP 769, Franceville, GABON</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..424</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>424</GBInterval_to>
+            <GBInterval_accession>AJ564761.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian T-lymphotropic virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>MSP62</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>uncultured peripheral mononuclear cells</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Mandrillus sphinx</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:33747</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;424</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>424</GBInterval_to>
+            <GBInterval_accession>AJ564761.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;424</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>424</GBInterval_to>
+            <GBInterval_accession>AJ564761.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein gp21</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAD92159.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:Q6KES5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR002050</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR018154</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q6KES5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>RSRRAVPVAVWFVSALAMGAGMAGGITGSMSLASGRSLLHEVDKDISQLTQAIVKNHKNLLKIAQYAAQNRRGLDLLFWEQGGLCKALQEQCCFLNITNSHVSILQERPPLENRVLTGWGLNWDLGLSQWAREALQTGITL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cccgttcccgccgagcggtaccggtggcggtctggtttgtctccgccctggccatgggagccggaatggctggcgggattaccggctccatgtccctcgcctcaggaaggagcctcctacatgaggtggacaaggatatttcccaattaactcaagcaatagtcaaaaatcacaaaaatctactcaaaattgcgcagtatgctgcccagaacagacgaggccttgatctcctgttctgggagcaaggaggattatgcaaagcattgcaagaacagtgctgttttctcaatattactaattcccatgtctcaatactacaagaaagacccccccttgaaaatcgagtcctcactggctggggccttaattgggaccttggcctctcacaatgggctcgagaggccttacaaactggaatcaccct</GBSeq_sequence>
+  </GBSeq>

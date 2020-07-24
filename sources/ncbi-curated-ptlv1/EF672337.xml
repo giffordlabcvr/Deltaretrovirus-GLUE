@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EF672337</GBSeq_locus>
+    <GBSeq_length>857</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>29-MAY-2008</GBSeq_update-date>
+    <GBSeq_create-date>30-OCT-2007</GBSeq_create-date>
+    <GBSeq_definition>Human T-lymphotropic virus 1 isolate VSF842 LTR, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>EF672337</GBSeq_primary-accession>
+    <GBSeq_accession-version>EF672337.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EF672337.1|</GBSeqid>
+      <GBSeqid>gi|157169074</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..857</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rego,F.F.</GBAuthor>
+          <GBAuthor>Alcantara,L.C.</GBAuthor>
+          <GBAuthor>Neto,J.P.</GBAuthor>
+          <GBAuthor>Miranda,A.C.</GBAuthor>
+          <GBAuthor>Pereira,O.D.</GBAuthor>
+          <GBAuthor>Goncalves,M.D.</GBAuthor>
+          <GBAuthor>Galvao-Castro,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>HTLV Type 1 Molecular Study in Brazilian Villages with African Characteristics Giving Support to the Post-Columbian Introduction Hypothesis</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses (2008) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1089/aid.2007.0290</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>18462080</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..857</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rego,F.</GBAuthor>
+          <GBAuthor>Alcantara,L.C.</GBAuthor>
+          <GBAuthor>Moura-Neto,J.P.</GBAuthor>
+          <GBAuthor>Pereira,O.</GBAuthor>
+          <GBAuthor>Gonalves,M.D.S.</GBAuthor>
+          <GBAuthor>Galvao-Castro,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-JUN-2007) Advanced Public Health Laboratory, Goncalo Moniz Research Center, Waldemar Falcao Street 121, Candeal, Salvador, Bahia 40296-710, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..857</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>857</GBInterval_to>
+            <GBInterval_accession>EF672337.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>VSF842</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>infected individual from Sao Francisco Valley</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>type: 1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;857</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>857</GBInterval_to>
+            <GBInterval_accession>EF672337.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>caacatccccatttctctactttttaacgaaaaagaagcagatgacaatgaccatgagccccaaatatcccccgggggcttagagcctcccagtgaaaaacatttccgcgaaacagaagtctgaaaaggtcaaggcccagactaaggctctgacgtctcccccccggagggacagctcagcaccggctcaggctaggccctgacgtgtccccctgaagacaaatcataagctcagacctccgggaagccaccggaaccacccatttcctccccatgtttgtcaagccgccctcaggcgttgacgacaacccctcacctcaaaaaacttttcatggcacgcatatggctgaataaactaacaggagtctataaaagcgtggagacagttcaggagggggctcgcatctttccttcacgcgcccgccgccctacctgaggccgccatccacgccggttgagtcgcgttctgccgcctcccgcctgtggtgcctcctgaactgcgtccgccgtctaggtaagtttagagctcaggtcgagaccgggcctttgtccggcgctcccttggagcctacctagactcagccggctctccacgctttgcctgaccctgcttgcctaactctgcgtctttgtttcgttttctgttctgcgccgctacagatcgaaagttccacccctttccctttcattcacgactgactgccggcttggcccacggccaagtaccggcgactccgttggctcggagccagcgacagcccattctatagcactctccaggagagaaatttagtacacagttgggggctcgtccgggatacgagcgcccctttattccctagtcatagctctttccg</GBSeq_sequence>
+  </GBSeq>

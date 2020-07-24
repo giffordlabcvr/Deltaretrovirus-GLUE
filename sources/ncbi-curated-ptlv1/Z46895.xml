@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>Z46895</GBSeq_locus>
+    <GBSeq_length>522</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-FEB-1996</GBSeq_update-date>
+    <GBSeq_create-date>01-MAR-1995</GBSeq_create-date>
+    <GBSeq_definition>Simian T-cell lymphotropic virus type I DNA for exon (T4C1)</GBSeq_definition>
+    <GBSeq_primary-accession>Z46895</GBSeq_primary-accession>
+    <GBSeq_accession-version>Z46895.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|Z46895.1|</GBSeqid>
+      <GBSeqid>gi|695749</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Simian T-lymphotropic virus 1</GBSeq_source>
+    <GBSeq_organism>Simian T-lymphotropic virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..522</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ibrahim,F.</GBAuthor>
+          <GBAuthor>de The,G.</GBAuthor>
+          <GBAuthor>Gessain,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Isolation and characterization of a new simian T-cell leukemia virus type 1 from naturally infected celebes macaques (Macaca tonkeana): complete nucleotide sequence and phylogenetic relationship with the Australo-Melanesian human T-cell leukemia virus type 1</GBReference_title>
+        <GBReference_journal>J. Virol. 69 (11), 6980-6993 (1995)</GBReference_journal>
+        <GBReference_pubmed>7474117</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..522</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ibrahim,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-DEC-1994) Fera Ibrahim, Seine, Pasteur Institute, 28, Rue du Dr Roux, Paris, 75724, FRANCE</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..522</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>522</GBInterval_to>
+            <GBInterval_accession>Z46895.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian T-lymphotropic virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>STLV-I T4C1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>T4C1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:33747</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>T4C1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_type</GBQualifier_name>
+            <GBQualifier_value>T-lymophocyte</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>tissue_type</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>1..522</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>522</GBInterval_to>
+            <GBInterval_accession>Z46895.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctataactccattatcttgccccccttctctttgtcgcctgtccccgccctaggatcccgctcccgccgagcggtaccggtggcagtctggcttgtctctgccctggccatgggaaccggaattgcaggcggaattactggctccatgtccctcgcttcaggaaaaagccttctacatgaagtagacaaagatatttcccaattaacccaggcagtagttaaaaatcacaaaaatctacttaaaattgcacagtatgctgcccaaaatagacgaggccttgatctcctattttgggagcagggaggattatgcaaggcactacaggaacagtgctgttttctaaacattactaattcccatgtctcaatattacaagaaagacccccccttgaaaatcgagtcctgactggctggggccttaactgggaccttggcctttctcaatgggcccgagaggccttacaaactggaatcacccttgttgccttattcctccttgtcatccttgcagggccgtgcat</GBSeq_sequence>
+  </GBSeq>

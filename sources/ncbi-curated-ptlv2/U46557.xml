@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HTU46557</GBSeq_locus>
+    <GBSeq_length>556</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-JAN-1900</GBSeq_update-date>
+    <GBSeq_create-date>14-FEB-1996</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell lymphotropic virus type 2 isolate CH610 LTR, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>U46557</GBSeq_primary-accession>
+    <GBSeq_accession-version>U46557.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U46557.1|HTU46557</GBSeqid>
+      <GBSeqid>gi|1184946</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-lymphotropic virus 2</GBSeq_source>
+    <GBSeq_organism>Human T-lymphotropic virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..556</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ferrer,J.F.</GBAuthor>
+          <GBAuthor>Esteban,E.</GBAuthor>
+          <GBAuthor>Dube,S.</GBAuthor>
+          <GBAuthor>Basombrio,M.A.</GBAuthor>
+          <GBAuthor>Segovia,A.</GBAuthor>
+          <GBAuthor>Peralta,Ramos.</GBAuthor>
+          <GBAuthor>M.</GBAuthor>
+          <GBAuthor>Dube,D.</GBAuthor>
+          <GBAuthor>Sayre,K.</GBAuthor>
+          <GBAuthor>Aguayo,N.</GBAuthor>
+          <GBAuthor>Poiesz,B.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Endemic Infection with the Human T Lymphotropic Virus Type IIB in Argentinian and Paraguayan Indians; Distribution by Ethnicity and Molecular Characterization</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..556</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Love,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (19-JAN-1996) Jayne Love, Medicine, SUNY HSC Syracuse, 750 E. Adams, Syracuse, NY 13210, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..556</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>556</GBInterval_to>
+            <GBInterval_accession>U46557.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-lymphotropic virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11909</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;556</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>556</GBInterval_to>
+            <GBInterval_accession>U46557.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cgacccaaaaggtcagaccgtctcacacaaacaatcccaagtaaaggctttgacgtctccccctttataggaactgaaaccaaggccctgacgtccccccccaggaaccaggaaaagctctccagaaaaataaacctcgcccttacccacttcccctagcactgaaaaacaaagctctgacgattacccccctgcccataaaatttgcctagccaaaaataaagaatgccgagtctataaaagcgcaaggacagttcaggagggctctcgctccttcaccgaccctccggtgccggagactcaccttggggatccatcctctccaagcggcctcggtcgagacgccttccgtgggactgtctcccggcctcagcacctcctgaactgctccttccagggtaagtctcctctcaggtcgagctcggctgcctcttaggtagtcgctccccgagggtctttagagacacccgggttcccgcctgcgctcggctagactctggcttgaaacctcacttccgcgttcttggtctcgttctttcctcttcgtcgtcactga</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DL000267</GBSeq_locus>
+    <GBSeq_length>930</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>30-JUL-2008</GBSeq_update-date>
+    <GBSeq_create-date>30-JUL-2008</GBSeq_create-date>
+    <GBSeq_definition>GLUT-1 AS A RECEPTOR FOR HTLV ENVELOPES AND ITS USES</GBSeq_definition>
+    <GBSeq_primary-accession>DL000267</GBSeq_primary-accession>
+    <GBSeq_accession-version>DL000267.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|DL000267.1|</GBSeqid>
+      <GBSeqid>pat|JP|2007535293|6</GBSeqid>
+      <GBSeqid>gi|194728483</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2007535293-A/6</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Simian T-lymphotropic virus 3</GBSeq_source>
+    <GBSeq_organism>Simian T-lymphotropic virus 3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..930</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kinet,S.</GBAuthor>
+          <GBAuthor>Battini,J.G.L.</GBAuthor>
+          <GBAuthor>Manel,N.G.A.</GBAuthor>
+          <GBAuthor>Kim,F.J.</GBAuthor>
+          <GBAuthor>Taylor,N.</GBAuthor>
+          <GBAuthor>Sitbon,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>GLUT-1 AS A RECEPTOR FOR HTLV ENVELOPES AND ITS USES</GBReference_title>
+        <GBReference_journal>JP2007535293-A 6 06-DEC-2007 CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE (CNRS)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Simian T-cell lymphotropic virus type 3~PN JP 2007535293-A/6~PD 06-DEC-2007~PF 30-APR-2004 JP 2006505346~PR 02-MAY-2003 EP 03291067.1~PI sandrina kinet,jean-luc georges laurent battini, PI nicolas gabriel albert manel,felix jinhyun kim,naomi taylor, PI marc sitbon~CC~FH Key Location/Qualifiers~FT CDS (1)..(930).</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..930</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>930</GBInterval_to>
+            <GBInterval_accession>DL000267.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian T-lymphotropic virus 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:39101</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggtaagtttggcctttattgtcttgttcacctttacatacttctccctgcctcctctggcaatcccagtcggtgcaccctgttcataggggcctcttcctaccactccagcccttgcgggtccagcctcccacggtgtacctggaatcttgacctattctccctcacgaaagatcaaagcctaagccccccatgtccagacttaattacttactcacaataccacaagccctactccctgtatgtattccctcattggataactaaacctaaccgccggggcttaggttactattccgcttcctactcagacccctgtgccatacagtgcccttacctgggatgccagtcgtggacatgcccctatacgggcccggtgtccagtccgcattggagatacacctatgatcttaactttacccaggaggtatcatccgtctccttacacttgcatttctccaaatgcggatcctcgttctcctttctactagacgcaccaggatatgacccagtgtggttcctctcctcccaggccacacaggctccacccacacctgcccctctcatacgggactcagatctccagtacattctagaaccgcccattccgtggagctctaagattcttaaccttatcctcctcaccctaaaaagcactaactattcttgcatggtctgtgttgaccgctccagcctatcctcatggcatgtcctgtatggacccactcaagtccccagtccacccgacccccaagcccggtctatcctgcgacctgccttagctattcccgccagtaatatcacccccccgtttccttggacccattgctatcgccctcctccgcaagccatctcctcggagaattgtaacaactctgtagtgctgccccccttttctctgtctccaattcctaacgtctccagaccc</GBSeq_sequence>
+  </GBSeq>

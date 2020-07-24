@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY040792</GBSeq_locus>
+    <GBSeq_length>694</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>17-OCT-2012</GBSeq_update-date>
+    <GBSeq_create-date>30-JUN-2002</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell lymphotropic virus type 1 tax protein (tax) gene, partial cds; and 3' long terminal repeat, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AY040792</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY040792.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY040792.1|</GBSeqid>
+      <GBSeqid>gi|21632041</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..694</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Andonov,A.</GBAuthor>
+          <GBAuthor>Coulthart,M.B.</GBAuthor>
+          <GBAuthor>Perez-Losada,M.</GBAuthor>
+          <GBAuthor>Crandall,K.A.</GBAuthor>
+          <GBAuthor>Posada,D.</GBAuthor>
+          <GBAuthor>Padmore,R.</GBAuthor>
+          <GBAuthor>Giulivi,A.</GBAuthor>
+          <GBAuthor>Oger,J.J.</GBAuthor>
+          <GBAuthor>Peters,A.A.</GBAuthor>
+          <GBAuthor>Dekaban,G.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Insights into origins of Human T-cell Lymphotropic Virus Type 1 based on new strains from aboriginal people of Canada</GBReference_title>
+        <GBReference_journal>Infect. Genet. Evol. 12 (8), 1822-1830 (2012)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.meegid.2012.07.015</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>22921499</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..694</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Dekaban,G.A.</GBAuthor>
+          <GBAuthor>Peters,A.A.</GBAuthor>
+          <GBAuthor>Coulthart,M.B.</GBAuthor>
+          <GBAuthor>Crandall,K.A.</GBAuthor>
+          <GBAuthor>Oger,J.J.F.</GBAuthor>
+          <GBAuthor>Posada,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-JUN-2001) The John P. Robarts Research Institute, 100 Perth Drive, London, ON N6A 5K8, Canada</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..694</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>694</GBInterval_to>
+            <GBInterval_accession>AY040792.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>BCI37</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>HTLV-I;
+type: 1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;694</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>694</GBInterval_to>
+            <GBInterval_accession>AY040792.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>3' long terminal repeat</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..51</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>51</GBInterval_to>
+            <GBInterval_accession>AY040792.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>tax</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..51</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>51</GBInterval_to>
+            <GBInterval_accession>AY040792.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>tax</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>p40</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>tax protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAK83442.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>GGLEPPSEKHFRETEV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gggggcttagagcctcccagtgaaaaacatttccgagaaacagaagtctgaaaaggtcagggcccagactaaggctctgacgtctccccccggagggacagctcagcaccggctcgggctaggccctgacgtgtccccctgaagacaaatcataagctcagacctccgggaagccaccgggaaccacccatttcctccccatgtttgtcaagccgtcctcaggcgttgacgacaacccctcacctcaaaaaacttttcatggcacgcatatggctcaataaactaacaggagtctataaaagcgtggagacagttcaggagggggctcgcatctctccttcacgcgcccgccgccctacctgaggccgccatccacgccggttgagtcgcgttctgccgcctcccgcctgtggtgcctcctgaactgcgtccgccgtctaggtaagtttaaagctcaggtcgagaccgggcctttgtccggcgctcccttggagcctacctagactcagccggctctccacgctttgcctgaccctgcttgctcaactctacgtctttgtttcgttttctgttctgcgccgttacagatcgaaagttccacccctttccctttcattcacgactgactgccggcttggcccacggccaagtaccggcgactccgttggctcggagccagcgacagcccatccta</GBSeq_sequence>
+  </GBSeq>

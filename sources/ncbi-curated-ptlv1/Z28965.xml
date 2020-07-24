@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>Z28965</GBSeq_locus>
+    <GBSeq_length>522</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>13-DEC-1993</GBSeq_create-date>
+    <GBSeq_definition>Human lymphotropic virus type I (Mel.J) gene for env polyprotein (surface glycoprotein GP46 and coat protein gp21)</GBSeq_definition>
+    <GBSeq_primary-accession>Z28965</GBSeq_primary-accession>
+    <GBSeq_accession-version>Z28965.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|Z28965.1|</GBSeqid>
+      <GBSeqid>gi|434952</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>coat protein gp21</GBKeyword>
+      <GBKeyword>env polyprotein</GBKeyword>
+      <GBKeyword>surface glycoprotein GP46</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..522</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mahieux,R.</GBAuthor>
+          <GBAuthor>Gessain,A.</GBAuthor>
+          <GBAuthor>Truffert,A.</GBAuthor>
+          <GBAuthor>Vitrac,D.</GBAuthor>
+          <GBAuthor>Hubert,A.</GBAuthor>
+          <GBAuthor>Dandelot,J.</GBAuthor>
+          <GBAuthor>Montchamp-Moreau,C.</GBAuthor>
+          <GBAuthor>Cnudde,F.</GBAuthor>
+          <GBAuthor>Tekaia,F.</GBAuthor>
+          <GBAuthor>De The,G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Seroepidemiology, viral isolation, and molecular characterization of human T cell leukemia/lymphoma virus type I from La Reunion Island, Indian Ocean</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 10 (6), 745-752 (1994)</GBReference_journal>
+        <GBReference_pubmed>7915530</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..522</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mahieux,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-DEC-1993) Renaud Mahieux, Pasteur Institute, 28 Rue du Docteur Roux, Paris, 75724 CEDEX 15, FRANCE</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..522</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>522</GBInterval_to>
+            <GBInterval_accession>Z28965.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>patient Mel.J</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>sex</GBQualifier_name>
+            <GBQualifier_value>male</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_type</GBQualifier_name>
+            <GBQualifier_value>peripheral blood mononuclear cells</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..522</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>522</GBInterval_to>
+            <GBInterval_accession>Z28965.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>env polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAA82278.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:Q80833</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>HSSP:1MG1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR002050</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR018154</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q80833</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>HNSLILPPFSLSPVPTLGSRSRRAVPVAVWLVSALAMGAGVAGGITGSMSLASGKSLLHEVDKDISQLTQAIVKNHKNLLKIAQYAAQNRRGLDLLFWEQGGLCKALQEQCCFLNITNSHVPILQERPPLENRVLTGWGLNWDLGLSQWAREALQTGITLVALLLLVILAGPC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>1..70</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>70</GBInterval_to>
+            <GBInterval_accession>Z28965.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>surface glycoprotein GP46</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>71..522</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>71</GBInterval_from>
+            <GBInterval_to>522</GBInterval_to>
+            <GBInterval_accession>Z28965.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>coat protein gp21</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcataactccctcatcctgccccccttttccttgtcacctgttcccaccctgggatcccgctcccgccgagcggtaccggtggcggtctggcttgtctccgccctggccatgggagccggagtggctggcgggattaccggctccatgtccctcgcctcaggaaagagcctcctacatgaggtggacaaagatatttcccaattaactcaagcaatagtcaaaaaccacaaaaatctactcaaaattgcgcagtatgctgcccagaacagacgaggccttgatctcctgttctgggagcaaggaggattatgcaaagcattacaagaacagtgctgttttctaaatattaccaattcccatgtcccaatactacaagaaagacccccccttgagaatcgagtcctgactggctggggccttaactgggaccttggcctctcacagtgggctcgagaggccttacaaactggaatcacccttgttgcgctactccttcttgttatccttgcaggaccatgcat</GBSeq_sequence>
+  </GBSeq>

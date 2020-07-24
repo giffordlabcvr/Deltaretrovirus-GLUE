@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>Y19058</GBSeq_locus>
+    <GBSeq_length>759</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>19-OCT-2012</GBSeq_update-date>
+    <GBSeq_create-date>06-JAN-2003</GBSeq_create-date>
+    <GBSeq_definition>Simian T-cell lymphotropic virus type 1 proviral long terminal repeat, isolate ML3</GBSeq_definition>
+    <GBSeq_primary-accession>Y19058</GBSeq_primary-accession>
+    <GBSeq_accession-version>Y19058.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|Y19058.1|</GBSeqid>
+      <GBSeqid>gi|27528445</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>long terminal repeat</GBKeyword>
+      <GBKeyword>LTR</GBKeyword>
+      <GBKeyword>repetitive sequence</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Simian T-lymphotropic virus 3</GBSeq_source>
+    <GBSeq_organism>Simian T-lymphotropic virus 3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..759</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Van Dooren,S.</GBAuthor>
+          <GBAuthor>Salemi,M.</GBAuthor>
+          <GBAuthor>Vandamme,A.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Dating the origin of the African human T-cell lymphotropic virus type-i (HTLV-I) subtypes</GBReference_title>
+        <GBReference_journal>Mol. Biol. Evol. 18 (4), 661-671 (2001)</GBReference_journal>
+        <GBReference_pubmed>11264418</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..759</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Vandooren,S.J.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-JUN-1999) S.J.A. Vandooren, Rega Institute for Medical Research, Karholieke Universiteit Leuven, Minderbroedersstraat 10, B-3000 Leuven, BELGIUM</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..759</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>759</GBInterval_to>
+            <GBInterval_accession>Y19058.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian T-lymphotropic virus 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>ML3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:39101</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..759</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>759</GBInterval_to>
+            <GBInterval_accession>Y19058.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..356</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>356</GBInterval_to>
+            <GBInterval_accession>Y19058.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>U3 repeat 5' copy</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>regulatory</GBFeature_key>
+        <GBFeature_location>310..316</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>310</GBInterval_from>
+            <GBInterval_to>316</GBInterval_to>
+            <GBInterval_accession>Y19058.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>regulatory_class</GBQualifier_name>
+            <GBQualifier_value>polyA_signal_sequence</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>LTR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>regulatory</GBFeature_key>
+        <GBFeature_location>328..332</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>328</GBInterval_from>
+            <GBInterval_to>332</GBInterval_to>
+            <GBInterval_accession>Y19058.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>regulatory_class</GBQualifier_name>
+            <GBQualifier_value>TATA_box</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>LTR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>357..584</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>357</GBInterval_from>
+            <GBInterval_to>584</GBInterval_to>
+            <GBInterval_accession>Y19058.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>R repeat 5' copy</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>585..759</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>585</GBInterval_from>
+            <GBInterval_to>759</GBInterval_to>
+            <GBInterval_accession>Y19058.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>U5 repeat 5' copy</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgacactgaccatgagccccaaatatcccccgggggcatagagcctcccagtaaaaaacatttccgcgaaacagaagtctaaaaaggtcagggcccagactaaggctctgacgtctccccccccggagggacaactcagcaccagctcagactaggccctgacgtgtccccctgaaaacgaatcataagctcagacctccgggaagccaccgggaaccacccatttcctccccatgtttgtcaagccgtcctcaggcgttgacgacaacccctcacctcaaggattttttcatggcacgcatacggctcaataaaataacaggagtctataaaagcgtggagacagttcaggagggggctcgcttctttccctcacgcgcccgccgccctacctgaggccgccatccacgccggtcgagtcgcgctctgccgcctcccgcctgtggtgcctcctgaactgcgtccgccgtctaggtaagtttagagctcaggtcgagaccgggcctttgtccggcgctcccttagagcctgcctagactcaatcggctctccacgctttgcctgaccctgtttgctcgcctctacgtctttgtttcgttttctgttctgcgccgttacggatcgaaagttccacccctttccctttcattcactactgactgccggcttggcccacggccaagtaccggcgactttgctggctcggagccagcgacagcctattccatagcactctccaggagagaaatttagtacaca</GBSeq_sequence>
+  </GBSeq>

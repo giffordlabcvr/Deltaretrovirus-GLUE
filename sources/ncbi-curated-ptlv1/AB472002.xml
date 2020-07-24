@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AB472002</GBSeq_locus>
+    <GBSeq_length>647</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-JUL-2009</GBSeq_update-date>
+    <GBSeq_create-date>21-MAY-2009</GBSeq_create-date>
+    <GBSeq_definition>Human T-lymphotropic virus 1 DNA, 5'LTR, partial sequence, isolate: 14viii08-03</GBSeq_definition>
+    <GBSeq_primary-accession>AB472002</GBSeq_primary-accession>
+    <GBSeq_accession-version>AB472002.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|AB472002.1|</GBSeqid>
+      <GBSeqid>gi|237858528</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..647</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Eguchi,K.</GBAuthor>
+          <GBAuthor>Fujii,H.</GBAuthor>
+          <GBAuthor>Oshima,K.</GBAuthor>
+          <GBAuthor>Otani,M.</GBAuthor>
+          <GBAuthor>Matsuo,T.</GBAuthor>
+          <GBAuthor>Yamamoto,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Human T-lymphotropic virus type 1 (HTLV-1) genetic typing in Kakeroma Island, an island at the crossroads of the ryukyuans and Wajin in Japan, providing further insights into the origin of the virus in Japan</GBReference_title>
+        <GBReference_journal>J. Med. Virol. 81 (8), 1450-1456 (2009)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1002/jmv.21540</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>19551824</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..647</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yamamoto,T.</GBAuthor>
+          <GBAuthor>Eguchi,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-DEC-2008) Contact:Taro Yamamoto Nagasaki University, Institute of Tropical Medicine; 1-12-4 Sakamoto, Nagasaki, Nagasaki 852-8523, Japan URL :http://www.tm.nagasaki-u.ac.jp/newrect/english/baseeng.html</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..647</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>647</GBInterval_to>
+            <GBInterval_accession>AB472002.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>14viii08-03</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Japan: Kagoshima, Amami Isls., Kakeroma-jima, Satsukawa vil.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2008</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Virus isolate is stored at the Department of International Health, Institute of Tropical Medicine, Nagasaki University</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;647</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>647</GBInterval_to>
+            <GBInterval_accession>AB472002.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>5'LTR corresponding to nucleotides 119-765 of the accession number: J02029.1.</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agactaaggctctgacgtctccccccggagggacagctcagcaccggctcgggctaggccctgacgtgtccccctgaagacaaatcataagctcagacctccgggaagccaccgggaaccacccatttcctccccatgtttgtcaagccgtcctcaggcgctgacgacaacccctcacctcaaaaaacttttcatggcacgcatatggctcaataaactaacaggagtctataaaagcgtggagacagttcaggagggggctcgcatctctccttcacgcgcccgccgccctacctgaggccgccatccacgccggttgagtcgcgttctgccgcctcccgcctgtggtgcctcctgaactgcgtccgccgtctaggtaagtttaaagctcaggtcgagaccgggcctttgtccggcgctcccttggagcctacctagactcagccggctctccacgctttgcctgaccctgcttgctcaactctacgtctttgtttcgttttctgttctgcgctgttacagatcgaaagttccacccctttccctttcattcacgactgactgccggcttggcccacggccaagtaccggcgactccgttggctcggagccagcgacagcccatcctatagcactctccaggagag</GBSeq_sequence>
+  </GBSeq>

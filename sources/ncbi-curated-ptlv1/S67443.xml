@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>S67443</GBSeq_locus>
+    <GBSeq_length>1080</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>18-FEB-1994</GBSeq_create-date>
+    <GBSeq_definition>tax=transcription activator {provirus} [human T cell leukemia virus type 1 HTLV-1, isolate patient B301, Genomic, 1080 nt]</GBSeq_definition>
+    <GBSeq_primary-accession>S67443</GBSeq_primary-accession>
+    <GBSeq_accession-version>S67443.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>bbm|327530</GBSeqid>
+      <GBSeqid>bbs|141251</GBSeqid>
+      <GBSeqid>gb|S67443.1|</GBSeqid>
+      <GBSeqid>gi|455730</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1080</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Major,M.E.</GBAuthor>
+          <GBAuthor>Nightingale,S.</GBAuthor>
+          <GBAuthor>Desselberger,U.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete sequence conservation of the human T cell leukaemia virus type 1 tax gene within a family cluster showing different pathologies</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 74 (PT 11), 2531-2537 (1993)</GBReference_journal>
+        <GBReference_pubmed>8245871</GBReference_pubmed>
+        <GBReference_remark>GenBank staff at the National Library of Medicine created this entry [NCBI gibbsq 141251] from the original journal article.</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1080</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1080</GBInterval_to>
+            <GBInterval_accession>S67443.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>patient B301</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;17..1074</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>17</GBInterval_from>
+            <GBInterval_to>1074</GBInterval_to>
+            <GBInterval_accession>S67443.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>tax</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;17..1072</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>17</GBInterval_from>
+            <GBInterval_to>1072</GBInterval_to>
+            <GBInterval_accession>S67443.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>tax</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>transcriptional activator</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>tax protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAP14011.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>HFPGFGQSLLFGYPVYVFGDCVQGDWCPISGGLCSARLHRHALLATCPEHQITWDPIDGRVIGSALQFLIPRLPSFPTQRTSKTLKVLTPPITHTTPNIPPSFLQAVRKYSPFRNGYMEPTLGQHLPTLSFPDPGLRPQNLYTLWGGSVVCMYLYQLSPPITWPLLPHVVFCHPGQLGAFLTNVPYKRIEELLYKISLTTGALIILPEDCLPTTLFQPVRAPVTLTAWQHGLLPFHSTLTTPGLIWTFTDGTPMISGPCPKDGQPSLVLQSSSFIFHKFQTKAYHPSFLLSHGLIQYSSFHNLHLLFEEYTNIPISLLFNEKEADDNDHEPQISPGELEPPSEKHFRETEV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgcttattatcagcccacttcccagggtttggacagagtcttcttttcggatacccagtctacgtgtttggagactgtgtacaaggcgactggtgccccatctctgggggactatgttcggcccgcctacatcgtcacgccctactggccacctgtccagagcatcagatcacctgggaccccatcgatggacgcgttatcggctcagctctacagttccttatccctcgactcccctccttccccacccagagaacctctaagaccctcaaggtccttaccccgccaatcactcatacaacccccaacattccaccctccttcctccaggccgtgcgcaaatactcccccttccgaaatggatacatggaacccacccttgggcagcacctcccaaccctgtcttttccagaccccggactccggccccaaaacctgtacaccctctggggaggctccgttgtctgcatgtacctctaccagctttccccccccatcacctggcccctcctgccccacgtggttttttgccaccccggccagctcggggccttcctcaccaatgttccctacaagcgaatagaagaactcctctataaaatttcccttaccacaggggccctaataattctacccgaagactgtttgcccaccacccttttccagcctgttagggcacccgtcacgctaacagcctggcaacacggcctccttccgttccactcaaccctcaccactccaggccttatttggacatttaccgatggcacgcctatgatttccgggccctgccctaaagatggccagccatctttagtactacagtcctcctcctttatatttcacaaatttcaaaccaaggcctaccacccctcatttttactctcacacggcctcatacagtactcttcctttcataatttacatctcctgtttgaagaatacaccaacatccccatttctctactttttaacgaaaaagaggcagatgacaatgaccatgagccccaaatatcccccggggagttagagcctcccagtgaaaaacatttccgcgaaacagaagtctgaaaaggtca</GBSeq_sequence>
+  </GBSeq>

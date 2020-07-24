@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF230485</GBSeq_locus>
+    <GBSeq_length>756</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-JUN-2001</GBSeq_update-date>
+    <GBSeq_create-date>27-APR-2000</GBSeq_create-date>
+    <GBSeq_definition>Simian T-cell lymphotropic virus type 1 clone bab503 long terminal repeat, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AF230485</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF230485.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF230485.1|AF230485</GBSeqid>
+      <GBSeqid>gi|7650381</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Simian T-lymphotropic virus 1</GBSeq_source>
+    <GBSeq_organism>Simian T-lymphotropic virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..756</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mahieux,R.</GBAuthor>
+          <GBAuthor>Chappey,C.</GBAuthor>
+          <GBAuthor>Meertens,L.</GBAuthor>
+          <GBAuthor>Mauclere,P.</GBAuthor>
+          <GBAuthor>Lewis,J.</GBAuthor>
+          <GBAuthor>Gessain,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular characterization and phylogenetic analyses of a new simian T cell lymphotropic virus type 1 in a wild-caught african baboon (Papio anubis) with an indeterminate STLV type 2-like serology</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 16 (18), 2043-2048 (2000)</GBReference_journal>
+        <GBReference_pubmed>11153087</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..756</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mahieux,R.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-FEB-2000) Retrovirus, Pasteur Institute, 28 rue du dr Roux, Paris 75015, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..756</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>756</GBInterval_to>
+            <GBInterval_accession>AF230485.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian T-lymphotropic virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:33747</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>bab503</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..756</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>756</GBInterval_to>
+            <GBInterval_accession>AF230485.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgacaatgaccatgagccccaaatatcccccgggggcttagagcctcccactgaaaaacatttccgcgaaacagaagtctgaaaaggtcagggcccagactaaggctctgacgtctccccccggagggcagctcagcaccggctcagactaggccctgacgtgtccccctgaaaacgaatcataagctcagacctccgggaagccatcgggaaccacccatttcctccccatgtttgtcaagccgtcctcaggcgttgacgacaacccctcacctcaaaaatttttcatggcacgcatacggctcaataaagtaacaggagtctataaaagcgtggagacagttcaggagggggctcgcttctttccctcacgcgcccgccgccctacctgaggccgccatccacgccggttgagtcgcgttctgccgcctcccgcctgtggtgcctcctgaactgcgtccgccgtctaggtaagtttagagctcaggtcgagaccgggcctttgtccggcactcccttagagcctacctagactcagccggctctccacgctttgcctgaccctgcttgttcaactctacgtctttgtttcgttttctgttcgacgctgttacaaatcgaaagttccacccctttccctttcgttcacgactgactgccggccttgcccacggccaagtgccggcgactttacctggctcggagccagtaacagcctattctataacactctccaggagagaaatttagtacaca</GBSeq_sequence>
+  </GBSeq>

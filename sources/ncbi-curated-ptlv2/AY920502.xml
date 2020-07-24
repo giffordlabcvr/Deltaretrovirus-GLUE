@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY920502</GBSeq_locus>
+    <GBSeq_length>508</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-MAR-2006</GBSeq_update-date>
+    <GBSeq_create-date>01-MAR-2006</GBSeq_create-date>
+    <GBSeq_definition>Human T-lymphotropic virus 2 strain Bel11507 5' LTR, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AY920502</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY920502.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY920502.1|</GBSeqid>
+      <GBSeqid>gi|62768489</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-lymphotropic virus 2</GBSeq_source>
+    <GBSeq_organism>Human T-lymphotropic virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..508</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Laurentino,R.V.</GBAuthor>
+          <GBAuthor>Lopes,I.L.</GBAuthor>
+          <GBAuthor>Azevedo,V.N.</GBAuthor>
+          <GBAuthor>Machado,L.F.A.</GBAuthor>
+          <GBAuthor>Moreira,M.R.C.</GBAuthor>
+          <GBAuthor>Lobato,L.</GBAuthor>
+          <GBAuthor>Ishak,M.G.</GBAuthor>
+          <GBAuthor>Ishak,R.</GBAuthor>
+          <GBAuthor>Vallinoto,A.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular characterization of Human T-cell lymphotropic virus (HTLV) coinfecting HIV-1 infected patients in the Amazon region of Brazil</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..508</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Laurentino,R.V.</GBAuthor>
+          <GBAuthor>Lopes,I.L.</GBAuthor>
+          <GBAuthor>Azevedo,V.N.</GBAuthor>
+          <GBAuthor>Machado,L.F.A.</GBAuthor>
+          <GBAuthor>Moreira,M.R.C.</GBAuthor>
+          <GBAuthor>Lobato,L.</GBAuthor>
+          <GBAuthor>Ishak,M.G.</GBAuthor>
+          <GBAuthor>Ishak,R.</GBAuthor>
+          <GBAuthor>Vallinoto,A.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-FEB-2005) Patologia, Universidade Federal do Para, Augusto Correa no. 01, Belem, Para 66075-900, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..508</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>508</GBInterval_to>
+            <GBInterval_accession>AY920502.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-lymphotropic virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Bel11507</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11909</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: 2c</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;508</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>508</GBInterval_to>
+            <GBInterval_accession>AY920502.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>5' LTR</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aagtaaaggctctgacgtctcccccttttttaggaactgaaaccacggccctgacgtccctccccccccaggaaccaggaacagctctccagaaaaatagacctcacccttacccacttcccctagcactgaaaaacaaggctctgacgattaccccctgcccataaaatttgcctagccaaaataaaagatgccgagtctataaaagcgcaaggacagttcaggaggtctctcgctccctcaccgaccctttggtcacggagactcaccttggggatccatcctctccaagcggcctcggttgaaacgccttctgtgggaccgtctcccggcctcggcacctcctgaactgctcctcccagggtaagtctcctctcaggtcgagctcggctgccccttagtagtcgctccccgagggtctttaaagacacccgggtttccgcctgcgctcggctagactgtggcttaaacttccttccggttcttggtctcgttctttcctcttcgc</GBSeq_sequence>
+  </GBSeq>
