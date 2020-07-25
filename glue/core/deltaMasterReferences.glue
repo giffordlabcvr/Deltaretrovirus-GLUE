@@ -334,7 +334,7 @@
     add feature-location rex
     feature-location rex
       add segment 4821 4872 --spliceIndex 1
-      add segment 7247 7663 --spliceIndex 2
+      add segment 7247 7662 --spliceIndex 2
       exit
 
     add feature-location tax

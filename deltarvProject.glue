@@ -13,8 +13,8 @@
   run file glue/core/buildDeltaCore.glue
 
   # Build EVE project
-  run file glue/erv/buildDeltaErvExtension.glue
+  #run file glue/erv/buildDeltaErvExtension.glue
   
   # Build extension project  
-  #run file glue/extension/buildDeltaExtension.glue
+  run file glue/extension/buildDeltaExtension.glue
   
