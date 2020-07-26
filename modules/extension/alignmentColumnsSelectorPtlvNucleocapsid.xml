@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_BLV</relRefName>
+    <relRefName>REF_PTLV1</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>SU</featureName>
+        <featureName>nucleocapsid</featureName>
         <startCodon>1</startCodon>
-        <endCodon>412</endCodon>
+        <endCodon>69</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>SU</featureName>
-        <startNt>6087</startNt>
-        <endNt>7320</endNt>
+        <featureName>nucleocapsid</featureName>
+        <startNt>1597</startNt>
+        <endNt>1801</endNt>
     </nucleotideRegionSelector>
-
+    
 </alignmentColumnsSelector>

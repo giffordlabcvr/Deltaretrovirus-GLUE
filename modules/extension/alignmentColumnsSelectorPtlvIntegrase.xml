@@ -4,15 +4,15 @@
     <relRefName>REF_BLV</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>SU</featureName>
+        <featureName>IN</featureName>
         <startCodon>1</startCodon>
-        <endCodon>412</endCodon>
+        <endCodon>279</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>SU</featureName>
-        <startNt>6087</startNt>
-        <endNt>7320</endNt>
+        <featureName>IN</featureName>
+        <startNt>3903</startNt>
+        <endNt>4740</endNt>
     </nucleotideRegionSelector>
 
 </alignmentColumnsSelector>

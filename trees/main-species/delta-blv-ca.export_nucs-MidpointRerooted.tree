@@ -1,0 +1,240 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=138;
+	taxlabels
+	'alignment/AL_BLV/member/ncbi-curated-blv/AB934282'[&country="Japan: Miyazaki",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AB934282",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AB934283'[&country="Japan: Miyazaki",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AB934283",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AB987702'[&country="Japan",isolate="JOTK",name="-",orientation="-",sample_date="-",sequenceID="AB987702",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AF033818'[&country="-",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AF033818",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AF257515'[&country="Argentina",isolate="B19",name="-",orientation="-",sample_date="-",sequenceID="AF257515",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018006'[&country="Japan",isolate="cow AF060",name="-",orientation="-",sample_date="-",sequenceID="AP018006",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018007'[&country="Japan",isolate="cow AF076",name="-",orientation="-",sample_date="-",sequenceID="AP018007",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018008'[&country="Japan",isolate="cow AF193",name="-",orientation="-",sample_date="-",sequenceID="AP018008",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018009'[&country="Japan",isolate="cow AF245",name="-",orientation="-",sample_date="-",sequenceID="AP018009",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018010'[&country="Japan",isolate="cow AF266",name="-",orientation="-",sample_date="-",sequenceID="AP018010",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018011'[&country="Japan",isolate="cow AF293",name="-",orientation="-",sample_date="-",sequenceID="AP018011",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018012'[&country="Japan",isolate="cow AF438",name="-",orientation="-",sample_date="-",sequenceID="AP018012",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018013'[&country="Japan",isolate="cow AF481",name="-",orientation="-",sample_date="-",sequenceID="AP018013",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018014'[&country="Japan",isolate="cow AF513",name="-",orientation="-",sample_date="-",sequenceID="AP018014",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018015'[&country="Japan",isolate="cow AF746",name="-",orientation="-",sample_date="-",sequenceID="AP018015",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018016'[&country="Japan",isolate="cow AF784",name="-",orientation="-",sample_date="-",sequenceID="AP018016",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018017'[&country="Japan",isolate="cow AF805",name="-",orientation="-",sample_date="-",sequenceID="AP018017",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018018'[&country="Japan",isolate="cow AF902",name="-",orientation="-",sample_date="-",sequenceID="AP018018",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018019'[&country="Japan",isolate="cow AF982",name="-",orientation="-",sample_date="-",sequenceID="AP018019",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018020'[&country="Japan",isolate="cow AK001",name="-",orientation="-",sample_date="-",sequenceID="AP018020",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018021'[&country="Japan",isolate="cow AK006",name="-",orientation="-",sample_date="-",sequenceID="AP018021",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018022'[&country="Japan",isolate="cow AK007",name="-",orientation="-",sample_date="-",sequenceID="AP018022",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018023'[&country="Japan",isolate="cow AK011",name="-",orientation="-",sample_date="-",sequenceID="AP018023",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018024'[&country="Japan",isolate="cow AN003",name="-",orientation="-",sample_date="-",sequenceID="AP018024",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018025'[&country="Japan",isolate="cow AN004",name="-",orientation="-",sample_date="-",sequenceID="AP018025",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018026'[&country="Japan",isolate="cow AN006",name="-",orientation="-",sample_date="-",sequenceID="AP018026",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018027'[&country="Japan",isolate="cow AN008",name="-",orientation="-",sample_date="-",sequenceID="AP018027",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018028'[&country="Japan",isolate="cow AN009",name="-",orientation="-",sample_date="-",sequenceID="AP018028",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018029'[&country="Japan",isolate="cow AN011",name="-",orientation="-",sample_date="-",sequenceID="AP018029",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018030'[&country="Japan",isolate="cow AN013",name="-",orientation="-",sample_date="-",sequenceID="AP018030",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018031'[&country="Japan",isolate="cow AN014",name="-",orientation="-",sample_date="-",sequenceID="AP018031",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP018032'[&country="Japan",isolate="cow AN015",name="-",orientation="-",sample_date="-",sequenceID="AP018032",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019565'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019565",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019566'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019566",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019567'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019567",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019568'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019568",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019569'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019569",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019570'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019570",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019571'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019571",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019572'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019572",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019573'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019573",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019574'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019574",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019575'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019575",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019576'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019576",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019577'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019577",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019578'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019578",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019579'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019579",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019580'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019580",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019581'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019581",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019582'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019582",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019583'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019583",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019584'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019584",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019585'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019585",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019586'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019586",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019587'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019587",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019588'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019588",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019589'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019589",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019590'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019590",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019591'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019591",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019592'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019592",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019593'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019593",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019594'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019594",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019595'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019595",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019596'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019596",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019597'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019597",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AP019598'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="AP019598",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AY277948'[&country="Brazil: Pedro Leopoldo, Minas Gerais State",isolate="384",name="-",orientation="-",sample_date="-",sequenceID="AY277948",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/AY589727'[&country="-",isolate="30",name="-",orientation="-",sample_date="-",sequenceID="AY589727",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/D00647'[&country="-",isolate="Australian isolate",name="-",orientation="-",sample_date="-",sequenceID="D00647",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/EF600696'[&country="-",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="EF600696",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/FJ914764'[&country="Argentina",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="FJ914764",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/HE967301'[&country="Uruguay",isolate="LS1",name="-",orientation="-",sample_date="-",sequenceID="HE967301",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/HE967302'[&country="Uruguay",isolate="LS2",name="-",orientation="-",sample_date="-",sequenceID="HE967302",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/HE967303'[&country="Uruguay",isolate="LS3",name="-",orientation="-",sample_date="-",sequenceID="HE967303",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/KF154971'[&country="Argentina",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="KF154971",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/KT122858'[&country="Belgium",isolate="YR2",name="-",orientation="-",sample_date="-",sequenceID="KT122858",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC005615'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC005615",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC005616'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC005616",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC057268'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC057268",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080651'[&country="Paraguay",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080651",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080652'[&country="Paraguay",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080652",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080653'[&country="Paraguay",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080653",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080654'[&country="Peru",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080654",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080655'[&country="Paraguay",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080655",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080656'[&country="Paraguay",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080656",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080657'[&country="Paraguay",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080657",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080658'[&country="Paraguay",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080658",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080659'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080659",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080660'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080660",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080661'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080661",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080662'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080662",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080663'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080663",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080664'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080664",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080665'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080665",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080666'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080666",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080667'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080667",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080668'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080668",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080669'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080669",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080670'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080670",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080671'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080671",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080672'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080672",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080673'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080673",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080674'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080674",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC080675'[&country="Bolivia",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC080675",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC154848'[&country="Myanmar",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC154848",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC154849'[&country="Myanmar",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC154849",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC164083'[&country="-",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC164083",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC164084'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC164084",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC164085'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC164085",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC164086'[&country="Japan",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC164086",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC193727'[&country="Iran",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC193727",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC433846'[&country="-",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC433846",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/LC436098'[&country="-",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="LC436098",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/M10987'[&country="-",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="M10987",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MF580990'[&country="China",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="MF580990",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MF580991'[&country="China",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="MF580991",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MF580992'[&country="China",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="MF580992",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MF580993'[&country="China",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="MF580993",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MF580994'[&country="China",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="MF580994",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MF580995'[&country="China",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="MF580995",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MG800834'[&country="China",isolate="CHI-DQ",name="-",orientation="-",sample_date="-",sequenceID="MG800834",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MG800835'[&country="China",isolate="G221",name="-",orientation="-",sample_date="-",sequenceID="MG800835",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MG800836'[&country="China",isolate="G225",name="-",orientation="-",sample_date="-",sequenceID="MG800836",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MG800837'[&country="China",isolate="G235",name="-",orientation="-",sample_date="-",sequenceID="MG800837",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MH170027'[&country="Viet Nam",isolate="V50F13",name="-",orientation="-",sample_date="-",sequenceID="MH170027",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MH170028'[&country="Viet Nam",isolate="S6F15",name="-",orientation="-",sample_date="-",sequenceID="MH170028",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MH170029'[&country="Viet Nam",isolate="S9F16",name="-",orientation="-",sample_date="-",sequenceID="MH170029",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MH170030'[&country="Viet Nam",isolate="S38F21",name="-",orientation="-",sample_date="-",sequenceID="MH170030",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MN966696'[&country="South Africa: Port Elizabeth",isolate="Afrivet:K1170",name="-",orientation="-",sample_date="-",sequenceID="MN966696",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MN966697'[&country="South Africa: Port Elizabeth",isolate="Afrivet:K1194",name="-",orientation="-",sample_date="-",sequenceID="MN966697",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MN966698'[&country="South Africa: Port Elizabeth",isolate="Afrivet:L3401",name="-",orientation="-",sample_date="-",sequenceID="MN966698",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MN966699'[&country="South Africa: Port Elizabeth",isolate="Afrivet:M1878",name="-",orientation="-",sample_date="-",sequenceID="MN966699",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MN966700'[&country="South Africa: Port Elizabeth",isolate="Afrivet:M2746",name="-",orientation="-",sample_date="-",sequenceID="MN966700",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MN966701'[&country="South Africa: Port Elizabeth",isolate="Afrivet:P2152",name="-",orientation="-",sample_date="-",sequenceID="MN966701",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MN966702'[&country="South Africa: Port Elizabeth",isolate="Afrivet:P2677",name="-",orientation="-",sample_date="-",sequenceID="MN966702",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/MN966703'[&country="South Africa: Port Elizabeth",isolate="Afrivet:P591",name="-",orientation="-",sample_date="-",sequenceID="MN966703",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-curated-blv/NC_001414'[&country="-",isolate="-",name="-",orientation="-",sample_date="-",sequenceID="NC_001414",subgenus="-"]
+	'alignment/AL_BLV/member/ncbi-refseqs/K02120'[&country="-",isolate="-",name="BLV",orientation="Bos taurus",sample_date="-",sequenceID="K02120",subgenus="Ungulate"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('alignment/AL_BLV/member/ncbi-refseqs/K02120':0.191755,('alignment/AL_BLV/member/ncbi-curated-blv/D00647':0.012549,((('alignment/AL_BLV/member/ncbi-curated-blv/MH170029':0.003733,('alignment/AL_BLV/member/ncbi-curated-blv/MF580990':0.00753,'alignment/AL_BLV/member/ncbi-curated-blv/LC080656':1.0E-6)[&label=92]:0.003735)[&label=77]:0.002095,('alignment/AL_BLV/member/ncbi-curated-blv/MG800835':0.027404,'alignment/AL_BLV/member/ncbi-curated-blv/MH170030':0.00392)[&label=76]:0.005534)[&label=54]:1.0E-6,(('alignment/AL_BLV/member/ncbi-curated-blv/LC080658':1.0E-6,(('alignment/AL_BLV/member/ncbi-curated-blv/MF580991':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/MF580992':0.00374)[&label=69]:0.001865,'alignment/AL_BLV/member/ncbi-curated-blv/LC080657':1.0E-6)[&label=65]:0.00186)[&label=99]:0.01264,((('alignment/AL_BLV/member/ncbi-curated-blv/MF580994':0.007615,('alignment/AL_BLV/member/ncbi-curated-blv/LC154849':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/MF580995':1.0E-6)[&label=97]:1.0E-6)[&label=98]:0.007707,('alignment/AL_BLV/member/ncbi-curated-blv/MF580993':0.028053,'alignment/AL_BLV/member/ncbi-curated-blv/LC154848':1.0E-6)[&label=61]:0.001758)[&label=98]:0.013684,((((('alignment/AL_BLV/member/ncbi-curated-blv/MN966698':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/MN966701':0.001852)[&label=25]:1.0E-6,((('alignment/AL_BLV/member/ncbi-curated-blv/LC193727':0.018451,'alignment/AL_BLV/member/ncbi-curated-blv/MN966696':0.001854)[&label=19]:1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/MN966703':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/MN966702':1.0E-6)[&label=76]:0.001851)[&label=41]:0.001852,'alignment/AL_BLV/member/ncbi-curated-blv/MN966697':0.001849)[&label=19]:1.0E-6)[&label=8]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/MN966699':0.001852)[&label=83]:0.007472,((('alignment/AL_BLV/member/ncbi-curated-blv/AF033818':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/M10987':1.0E-6)[&label=27]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/NC_001414':1.0E-6)[&label=100]:0.015152,'alignment/AL_BLV/member/ncbi-curated-blv/KT122858':0.005613)[&label=14]:1.0E-6)[&label=97]:0.010935,('alignment/AL_BLV/member/ncbi-curated-blv/AY589727':0.043344,((('alignment/AL_BLV/member/ncbi-curated-blv/LC080660':0.003717,((('alignment/AL_BLV/member/ncbi-curated-blv/LC080669':0.003714,('alignment/AL_BLV/member/ncbi-curated-blv/LC080665':0.001855,(('alignment/AL_BLV/member/ncbi-curated-blv/LC080667':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/LC080664':1.0E-6)[&label=0]:1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/LC080670':1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/LC080674':1.0E-6,(('alignment/AL_BLV/member/ncbi-curated-blv/LC080671':1.0E-6,((('alignment/AL_BLV/member/ncbi-curated-blv/LC080672':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/LC080666':1.0E-6)[&label=0]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/LC080675':1.0E-6)[&label=0]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/LC080668':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/LC080673':1.0E-6)[&label=0]:1.0E-6)[&label=1]:1.0E-6)[&label=0]:1.0E-6)[&label=64]:1.0E-6)[&label=45]:1.0E-6)[&label=93]:0.003714,(('alignment/AL_BLV/member/ncbi-curated-blv/LC080661':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/LC080659':1.0E-6)[&label=17]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/LC080662':1.0E-6)[&label=63]:1.0E-6)[&label=1]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/LC080663':0.001854)[&label=81]:1.0E-6)[&label=100]:0.016969,('alignment/AL_BLV/member/ncbi-curated-blv/LC080654':0.005529,(('alignment/AL_BLV/member/ncbi-curated-blv/KF154971':0.001786,'alignment/AL_BLV/member/ncbi-curated-blv/AY277948':0.003914)[&label=100]:0.015634,('alignment/AL_BLV/member/ncbi-curated-blv/LC080655':1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/AF257515':0.011642,'alignment/AL_BLV/member/ncbi-curated-blv/FJ914764':0.001862)[&label=63]:0.00187)[&label=52]:1.0E-6)[&label=83]:0.001977)[&label=98]:0.014067)[&label=75]:0.002078,('alignment/AL_BLV/member/ncbi-curated-blv/LC164084':0.005532,('alignment/AL_BLV/member/ncbi-curated-blv/AP018007':0.001909,(('alignment/AL_BLV/member/ncbi-curated-blv/AP018029':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP018030':1.0E-6)[&label=97]:0.003718,((('alignment/AL_BLV/member/ncbi-curated-blv/AP019582':0.001855,((('alignment/AL_BLV/member/ncbi-curated-blv/AP019572':1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/AP019578':1.0E-6,(((('alignment/AL_BLV/member/ncbi-curated-blv/AP018018':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP018012':1.0E-6)[&label=7]:1.0E-6,(((('alignment/AL_BLV/member/ncbi-curated-blv/AP019576':1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/AP019586':1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/LC433846':0.003713,'alignment/AL_BLV/member/ncbi-curated-blv/AP018020':0.001853)[&label=2]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019597':1.0E-6)[&label=0]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP018016':1.0E-6)[&label=0]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP018013':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP018031':1.0E-6)[&label=0]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP018023':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019566':1.0E-6)[&label=0]:1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/AP018022':0.003713,'alignment/AL_BLV/member/ncbi-curated-blv/LC057268':0.001853)[&label=9]:1.0E-6)[&label=1]:1.0E-6)[&label=13]:0.001853,('alignment/AL_BLV/member/ncbi-curated-blv/AP018027':0.009358,('alignment/AL_BLV/member/ncbi-curated-blv/LC164085':0.003717,(((((((('alignment/AL_BLV/member/ncbi-curated-blv/AP019589':0.001852,((('alignment/AL_BLV/member/ncbi-curated-blv/LC005616':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/LC005615':1.0E-6)[&label=93]:0.003752,'alignment/AL_BLV/member/ncbi-curated-blv/LC164086':0.001868)[&label=38]:0.001852,(('alignment/AL_BLV/member/ncbi-curated-blv/AP019573':0.001856,('alignment/AL_BLV/member/ncbi-curated-blv/AP019579':1.0E-6,(('alignment/AL_BLV/member/ncbi-curated-blv/AP019575':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP018019':1.0E-6)[&label=21]:1.0E-6,(('alignment/AL_BLV/member/ncbi-curated-blv/AP019596':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019574':1.0E-6)[&label=20]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019598':1.0E-6)[&label=17]:1.0E-6)[&label=4]:1.0E-6)[&label=74]:1.0E-6)[&label=92]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019595':0.003713)[&label=100]:0.017359)[&label=20]:1.0E-6)[&label=4]:1.0E-6,(('alignment/AL_BLV/member/ncbi-curated-blv/AP018026':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP018028':1.0E-6)[&label=13]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019591':1.0E-6)[&label=4]:1.0E-6)[&label=0]:1.0E-6,(('alignment/AL_BLV/member/ncbi-curated-blv/AP018024':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AB987702':1.0E-6)[&label=4]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019568':1.0E-6)[&label=1]:1.0E-6)[&label=0]:1.0E-6,(('alignment/AL_BLV/member/ncbi-curated-blv/AP019587':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019580':1.0E-6)[&label=1]:1.0E-6,((('alignment/AL_BLV/member/ncbi-curated-blv/AP019588':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP018014':1.0E-6)[&label=82]:0.001852,'alignment/AL_BLV/member/ncbi-curated-blv/AP018025':0.001854)[&label=9]:1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/MH170027':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019592':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/MH170028':1.0E-6)[&label=10]:1.0E-6,(((('alignment/AL_BLV/member/ncbi-curated-blv/AP019593':1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/AP019577':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019570':1.0E-6)[&label=13]:1.0E-6)[&label=28]:1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/AP019590':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019567':1.0E-6)[&label=22]:1.0E-6)[&label=60]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019584':0.001845)[&label=74]:0.001847,('alignment/AL_BLV/member/ncbi-curated-blv/AP019585':1.0E-6,((('alignment/AL_BLV/member/ncbi-curated-blv/AP018006':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019565':1.0E-6)[&label=3]:1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/AP019583':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019569':1.0E-6)[&label=22]:1.0E-6)[&label=5]:1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/AP018017':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP018010':1.0E-6)[&label=5]:1.0E-6)[&label=17]:1.0E-6)[&label=65]:1.0E-6)[&label=83]:0.003711)[&label=45]:0.001852,(('alignment/AL_BLV/member/ncbi-curated-blv/MG800836':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/MG800837':0.005582)[&label=6]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/MG800834':0.001849)[&label=55]:0.001849)[&label=7]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/MN966700':0.001855)[&label=36]:1.0E-6)[&label=43]:0.001857)[&label=2]:1.0E-6)[&label=40]:0.001853,(('alignment/AL_BLV/member/ncbi-curated-blv/AP018032':1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/EF600696':1.0E-6,(((('alignment/AL_BLV/member/ncbi-curated-blv/AP018011':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP018021':1.0E-6)[&label=1]:1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/AP018008':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP018015':1.0E-6)[&label=22]:1.0E-6)[&label=3]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/LC164083':1.0E-6)[&label=10]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/LC436098':1.0E-6)[&label=0]:1.0E-6)[&label=4]:1.0E-6)[&label=41]:1.0E-6,((((('alignment/AL_BLV/member/ncbi-curated-blv/LC080652':0.00185,'alignment/AL_BLV/member/ncbi-curated-blv/HE967301':0.00185)[&label=33]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/LC080653':1.0E-6)[&label=0]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/LC080651':1.0E-6)[&label=1]:1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/HE967302':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/HE967303':1.0E-6)[&label=10]:1.0E-6)[&label=78]:0.001853,('alignment/AL_BLV/member/ncbi-curated-blv/AB934283':0.00372,('alignment/AL_BLV/member/ncbi-curated-blv/AP018009':1.0E-6,(('alignment/AL_BLV/member/ncbi-curated-blv/AP019571':1.0E-6,('alignment/AL_BLV/member/ncbi-curated-blv/AB934282':1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019581':1.0E-6)[&label=23]:1.0E-6)[&label=15]:1.0E-6,'alignment/AL_BLV/member/ncbi-curated-blv/AP019594':0.001853)[&label=1]:1.0E-6)[&label=63]:1.0E-6)[&label=87]:0.003716)[&label=8]:1.0E-6)[&label=1]:1.0E-6)[&label=10]:1.0E-6)[&label=55]:0.001817)[&label=99]:0.009645)[&label=91]:0.004279)[&label=67]:0.003678)[&label=40]:0.004432)[&label=57]:0.004474)[&label=78]:0.010893)[&label=58]:0.004404)[&label=100]:0.097973):0.023517);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=505;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="country";
+	set tipLabels.displayAttribute="country";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
