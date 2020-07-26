@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AX935544</GBSeq_locus>
+    <GBSeq_length>924</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>05-JAN-2004</GBSeq_update-date>
+    <GBSeq_create-date>05-JAN-2004</GBSeq_create-date>
+    <GBSeq_definition>Sequence 42 from Patent WO03088979</GBSeq_definition>
+    <GBSeq_primary-accession>AX935544</GBSeq_primary-accession>
+    <GBSeq_accession-version>AX935544.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AX935544.1|</GBSeqid>
+      <GBSeqid>pat|WO|03088979|42</GBSeqid>
+      <GBSeqid>gi|40642256</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..924</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kim,F.J.</GBAuthor>
+          <GBAuthor>Manel,N.G.</GBAuthor>
+          <GBAuthor>Sitbon,M.K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Oligonucleotides from sequences coding for the surface component of ptlv envelope proteins and uses thereof</GBReference_title>
+        <GBReference_journal>WO03088979-A2 42 30-OCT-2003 CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE (CNRS) (FR); Universite de Montpellier II (FR)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..924</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>924</GBInterval_to>
+            <GBInterval_accession>AX935544.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..&gt;924</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>924</GBInterval_to>
+            <GBInterval_accession>AX935544.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>unnamed protein product</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAF04193.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGKFLATLILFFQFCPLILGDYSPSCCTLTIGVSSYHSKPCNPAQPVCSWTLDLLALSADQALQPPCPNLVSYSSYHATYSLYLFPHWIKKPNRNGGGYYSASYSDPCSLKCPYLGCQSWTCPYTGAVSSPYWKFQQDVNFTQEVSRLNINLHFSKCGFPFSLLVDAPGYDPIWFLNTEPSQLPPTAPPLLPHSNLDHILEPSIPWKSKLLTLVQLTLQSTNYTCIVCIDRASLSTWHVLYSPNVSVPSSSSTPLLYPSLALPAPHLTLPFNWTHCFDPQIQAIVSSPCHNSLILPPFSLSPVPTLGS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggtaagtttctcgccactttgattttattcttccagttctgccccctcatcctcggtgattacagccccagctgctgtactctcacaattggagtctcctcataccactctaaaccctgcaatcctgcccagccagtttgttcgtggaccctcgacctgctggccctttcagcggatcaggccctacagcccccctgccctaatctagtaagttactccagctaccatgccacctattccctatatctattccctcattggattaaaaagccaaaccgaaatggcggaggctattattcagcctcttattcagacccttgttccttaaagtgcccatacctggggtgccaatcatggacctgcccctatacaggagccgtctccagcccctactggaagtttcagcaagatgtcaattttactcaagaagtttcacgcctcaatattaatctccatttttcaaaatgcggttttcccttctcccttctagtcgacgctccaggatatgaccccatctggttccttaataccgaacccagccaactgcctcccaccgcccctcctctactcccccactctaacctagaccacatcctcgagccctctataccatggaaatcaaaactcctgacccttgtccagttaaccctacaaagcactaattatacttgcattgtctgtatcgatcgtgccagcctatccacttggcacgtcctatactctcccaacgtctctgttccatcctcttcttctacccccctcctttacccatcgttagcgcttccagccccccacctgacgttaccatttaactggacccactgctttgacccccagattcaagctatagtctcctccccctgtcataactccctcatcctgccccccttttccttgtcacctgttcccaccctaggatcc</GBSeq_sequence>
+  </GBSeq>

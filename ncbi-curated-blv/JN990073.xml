@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JN990073</GBSeq_locus>
+    <GBSeq_length>519</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>09-MAY-2012</GBSeq_update-date>
+    <GBSeq_create-date>09-MAY-2012</GBSeq_create-date>
+    <GBSeq_definition>Bovine leukemia virus isolate ELG_Cro/MIT/09 envelope glycoprotein (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>JN990073</GBSeq_primary-accession>
+    <GBSeq_accession-version>JN990073.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JN990073.1|</GBSeqid>
+      <GBSeqid>gi|386370497</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bovine leukemia virus</GBSeq_source>
+    <GBSeq_organism>Bovine leukemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..519</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Balic,D.</GBAuthor>
+          <GBAuthor>Lojkic,I.</GBAuthor>
+          <GBAuthor>Periskic,M.</GBAuthor>
+          <GBAuthor>Bedekovic,T.</GBAuthor>
+          <GBAuthor>Jungic,A.</GBAuthor>
+          <GBAuthor>Lemo,N.</GBAuthor>
+          <GBAuthor>Roic,B.</GBAuthor>
+          <GBAuthor>Cac,Z.</GBAuthor>
+          <GBAuthor>Barbic,L.</GBAuthor>
+          <GBAuthor>Madic,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification of a new genotype of bovine leukemia virus</GBReference_title>
+        <GBReference_journal>Arch. Virol. (2012) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-012-1300-4</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>22488472</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..519</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lojkic,I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-NOV-2011) Virology, Croatian Veterinary Institute, Savska 143, Zagreb, HR 10000, Croatia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..519</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>519</GBInterval_to>
+            <GBInterval_accession>JN990073.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bovine leukemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>ELG_Cro/MIT/09</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>bovine</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11901</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Croatia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2009</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;519</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>519</GBInterval_to>
+            <GBInterval_accession>JN990073.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;519</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>519</GBInterval_to>
+            <GBInterval_accession>JN990073.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AFJ11197.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PPQGRRRFGARAMVTYDCEPRCPYVGADRFDCPHWDNASQADQGSFYVNHQILFLHLKQCHGIFTLTWEIWGYDPLITFSLHKIPDPPQPDFPQLNSDWVPSVRSWALLLNQTARAFPDCAICWEPSPPWAPEILVYNKTISSSGPGLALPDAQIFWVNTSLFNTTQGWHHPS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cccccacaagggcggcgccggtttggagccagggccatggtcacatatgattgcgagccccgatgcccttatgtgggggcagatcgcttcgactgtccccactgggacaatgcctcccaggccgatcaaggatccttttatgtcaatcatcagattttattcctgcatctcaaacaatgtcatggaattttcactctaacctgggaaatatggggatatgatcccctgatcaccttttctttacataagatccctgatccccctcaacccgacttccctcagttgaacagtgactgggttccctctgtcagatcatgggctctgcttttaaatcaaacggcacgggccttcccagactgtgctatatgttgggaaccttcccctccctgggctcctgaaatattagtatataacaaaaccatctccagctccggacccggcctcgccctcccggacgcccaaatcttctgggtcaacacgtccttgtttaacaccacccaaggatggcaccacccttcc</GBSeq_sequence>
+  </GBSeq>

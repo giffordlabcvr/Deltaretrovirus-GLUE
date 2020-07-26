@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AH004834</GBSeq_locus>
+    <GBSeq_length>585</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-JUN-2016</GBSeq_update-date>
+    <GBSeq_create-date>02-APR-1996</GBSeq_create-date>
+    <GBSeq_definition>Human T-lymphotropic virus 1 gp21 (env) and gp46 (env) genes, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AH004834</GBSeq_primary-accession>
+    <GBSeq_accession-version>AH004834.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AH004834.2|</GBSeqid>
+      <GBSeqid>bbm|381032</GBSeqid>
+      <GBSeqid>gi|1036029643</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_secondary-accessions>
+      <GBSecondary-accn>S80620</GBSecondary-accn>
+      <GBSecondary-accn>S80622</GBSecondary-accn>
+    </GBSeq_secondary-accessions>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..585</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Chan,W.P.</GBAuthor>
+          <GBAuthor>Liang,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Sequence analysis of HTLV-1 provirus associated with adult T-cell leukemia/lymphoma in Hong Kong</GBReference_title>
+        <GBReference_journal>Am. J. Hematol. 51 (1), 94-95 (1996)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1002/(SICI)1096-8652(199601)51:1&lt;94::AID-AJH17&gt;3.0.CO;2-B</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>8571947</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On or before Jun 10, 2016 this sequence version replaced S80620.1, S80622.1, AH004834.1.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..585</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>585</GBInterval_to>
+            <GBInterval_accession>AH004834.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;585</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>585</GBInterval_to>
+            <GBInterval_accession>AH004834.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;135</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>135</GBInterval_to>
+            <GBInterval_accession>AH004834.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gp21</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAP32226.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>LFWEQGGLCKALQEQCCFPNITNSHVSILQERPPLENRVLTGWGL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gap</GBFeature_key>
+        <GBFeature_location>136..235</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>136</GBInterval_from>
+            <GBInterval_to>235</GBInterval_to>
+            <GBInterval_accession>AH004834.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>estimated_length</GBQualifier_name>
+            <GBQualifier_value>unknown</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;236..&gt;585</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>236</GBInterval_from>
+            <GBInterval_to>585</GBInterval_to>
+            <GBInterval_accession>AH004834.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gp46</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAP32227.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PLIFGDYSPSCCTLTIGVSSYHSKPCNPAQPVCSWTLDLLALSADQALQPPCPNLVSYSSYHATYSLYLFPHWIKKPNRNGGGYYSASYSDPCSLKSPYLGCQSWTCPYTGAVSSP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cctgttctgggagcaaggaggattatgcaaagcattacaagaacagtgctgttttccgaatattactaattcccatgtctcaatattacaagaacgacccccccttgagaatcgagtcctgactggctggggcctnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnncccctcatcttcggtgattacagccccagctgctgtactctcacaattggagtctcctcataccactctaaaccctgcaatcctgcccagccagtttgttcgtggaccctcgacctgctggccctttcagcagatcaggccctacagcccccctgccctaacctagtaagttactccagctaccatgccacctattccctatatctattccctcattggattaaaaagccaaaccgaaatggcggaggctattattcagcctcttattcagacccttgttccttaaagagcccatacctggggtgccaatcatggacctgcccctatacaggagccgtctccagccccta</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY818406</GBSeq_locus>
+    <GBSeq_length>532</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>03-MAY-2005</GBSeq_create-date>
+    <GBSeq_definition>Human T-lymphotropic virus 4 strain 1863LE tax protein (tax) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY818406</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY818406.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY818406.1|</GBSeqid>
+      <GBSeqid>gi|62240397</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-lymphotropic virus 4</GBSeq_source>
+    <GBSeq_organism>Human T-lymphotropic virus 4</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus; unclassified Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..532</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wolfe,N.D.</GBAuthor>
+          <GBAuthor>Heneine,W.</GBAuthor>
+          <GBAuthor>Carr,J.K.</GBAuthor>
+          <GBAuthor>Garcia,A.D.</GBAuthor>
+          <GBAuthor>Shanmugam,V.</GBAuthor>
+          <GBAuthor>Tamoufe,U.</GBAuthor>
+          <GBAuthor>Torimiro,J.N.</GBAuthor>
+          <GBAuthor>Prosser,A.T.</GBAuthor>
+          <GBAuthor>Lebreton,M.</GBAuthor>
+          <GBAuthor>Mpoudi-Ngole,E.</GBAuthor>
+          <GBAuthor>McCutchan,F.E.</GBAuthor>
+          <GBAuthor>Birx,D.L.</GBAuthor>
+          <GBAuthor>Folks,T.M.</GBAuthor>
+          <GBAuthor>Burke,D.S.</GBAuthor>
+          <GBAuthor>Switzer,W.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Emergence of unique primate T-lymphotropic viruses among central African bushmeat hunters</GBReference_title>
+        <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 102 (22), 7994-7999 (2005)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1073/pnas.0501734102</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>15911757</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..532</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Switzer,W.M.</GBAuthor>
+          <GBAuthor>Wolfe,N.D.</GBAuthor>
+          <GBAuthor>Carr,J.K.</GBAuthor>
+          <GBAuthor>Garcia,A.D.</GBAuthor>
+          <GBAuthor>Shanmugam,V.</GBAuthor>
+          <GBAuthor>Tamoufe,U.</GBAuthor>
+          <GBAuthor>Torimiro,J.N.</GBAuthor>
+          <GBAuthor>Prosser,A.T.</GBAuthor>
+          <GBAuthor>LeBreton,M.</GBAuthor>
+          <GBAuthor>Mpoudi-Ngole,E.</GBAuthor>
+          <GBAuthor>McCutchan,F.E.</GBAuthor>
+          <GBAuthor>Birx,D.L.</GBAuthor>
+          <GBAuthor>Folks,T.M.</GBAuthor>
+          <GBAuthor>Burke,D.S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-NOV-2004) Division of AIDS Prevention, Centers for Disease Control and Prevention, 1600 Clifton Rd, MS G19, Atlanta, GA 30333, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..532</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>532</GBInterval_to>
+            <GBInterval_accession>AY818406.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-lymphotropic virus 4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>1863LE</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:318279</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;532</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>532</GBInterval_to>
+            <GBInterval_accession>AY818406.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>tax</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;532</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>532</GBInterval_to>
+            <GBInterval_accession>AY818406.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>tax</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>tax protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAX77387.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PTQRTSKTLKVLTPPTTPVTPKVPPSFFQSVRRHSPYRNGCLETTLGEQLPSLAFPEPGLRPQNVYTIWGKTIVCLYIYQLSPPMTWPLIPHVIFCNPRQLGAFLSNVPPKRLEELLYKLYLHTGAIIILPEDALPTTLFQPVRAPCVQTTWNTGLLPYQPNLTTPGLIWTFNDGSP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ccccacccaacgaacctccaagaccctcaaagtccttaccccaccaaccactcctgtcacccccaaggttccaccctccttctttcagtccgtgcggaggcacagcccctaccgcaacggatgtcttgaaacaacccttggagagcagctcccctcccttgcatttcctgagccaggcctcaggccccaaaacgtctacaccatctggggaaagaccatagtgtgtctatacatctaccagctgtcccctcccatgacctggcccctcattccccatgtcatattttgcaaccccaggcagcttggcgcttttctaagcaatgtgccccccaagcgattagaagaactcctctacaaactttatctacacaccggcgccataatcatcctgccggaagacgccctgcctaccaccctatttcagcctgttcgagcaccctgtgtccaaactacctggaacacaggacttctcccataccagccaaacctgactacccctggcctgatatggacctttaatgatgggtctcct</GBSeq_sequence>
+  </GBSeq>

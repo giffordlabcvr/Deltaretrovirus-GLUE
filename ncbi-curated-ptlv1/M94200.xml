@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HL1MELANE5</GBSeq_locus>
+    <GBSeq_length>522</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>11-MAY-1992</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell lymphotropic virus type I (Melanesia 5) DNA, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>M94200</GBSeq_primary-accession>
+    <GBSeq_accession-version>M94200.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M94200.1|HL1MELANE5</GBSeqid>
+      <GBSeqid>gi|329507</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..522</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gessian,A.</GBAuthor>
+          <GBAuthor>Yanagihara,R.</GBAuthor>
+          <GBAuthor>Franchini,G.</GBAuthor>
+          <GBAuthor>Garruto,R.M.</GBAuthor>
+          <GBAuthor>Jenkins,C.L.</GBAuthor>
+          <GBAuthor>Ajdukiewicz,A.B.</GBAuthor>
+          <GBAuthor>Gallo,R.C.</GBAuthor>
+          <GBAuthor>Gajdusek,D.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Highly divergent molecular variants of human T-lymphotropic virus type I from isolated populations in Papua New Guinea and the Solomon Islands</GBReference_title>
+        <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 88 (17), 7694-7698 (1991)</GBReference_journal>
+        <GBReference_pubmed>1881912</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Human T-cell lymphotropic virus type I (strain Melanesia 5) adult DNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..522</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>522</GBInterval_to>
+            <GBInterval_accession>M94200.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Melanesia 5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_type</GBQualifier_name>
+            <GBQualifier_value>lymphocyte</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>dev_stage</GBQualifier_name>
+            <GBQualifier_value>adult</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..522</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>522</GBInterval_to>
+            <GBInterval_accession>M94200.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA73354.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>HNSLILPPFSLSPVPAPRSRSRRAVPVAVWLVSALAMGTGIAGRITGSMSLASGKSLLHEVDKDISQLTQAIVKNHKNLLKIAQYAAQNRRRLDLLFWEQGGLCKALQEQCCFLNITNSHVSILQERPPLENRVLTGWGLNWDLGLSQWAREALQTGITLVALLLLVILAGPC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcataactccctcatcctgccccccttttccctgtcacccgttccggccccacgatcccgttcccgccgagcggtgccggtggcggtctggctagtctccgccctggccatgggaaccgggattgctggcaggattaccggctccatgtccctcgcctcaggaaagagtctcctacatgaggtagacaaagatatttcccaattaacccaagcaatagtcaaaaatcacaaaaatctactcaaaattgcacaatatgctgcccagaacagacgacgccttgatctcctgttctgggaacaaggaggattatgcaaggcgctacaagaacagtgctgttttctaaacattactaattcccacgtttccatactacaagaaagaccaccccttgagaatcgagtcctgactggctggggtcttaactgggaccttggcctctcacaatgggcccgagaggccctacaaactggcatcacccttgttgcgctactccttcttgttatccttgcaggaccatgcat</GBSeq_sequence>
+  </GBSeq>

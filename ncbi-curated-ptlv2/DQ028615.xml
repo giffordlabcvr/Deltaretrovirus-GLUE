@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DQ028615</GBSeq_locus>
+    <GBSeq_length>456</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>08-MAY-2006</GBSeq_update-date>
+    <GBSeq_create-date>29-MAY-2005</GBSeq_create-date>
+    <GBSeq_definition>Human T-lymphotropic virus 2 isolate BRPOA2 LTR, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>DQ028615</GBSeq_primary-accession>
+    <GBSeq_accession-version>DQ028615.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|DQ028615.1|</GBSeqid>
+      <GBSeqid>gi|66473546</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-lymphotropic virus 2</GBSeq_source>
+    <GBSeq_organism>Human T-lymphotropic virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..456</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Renner,J.D.</GBAuthor>
+          <GBAuthor>Laurino,J.P.</GBAuthor>
+          <GBAuthor>Menna-Barreto,M.</GBAuthor>
+          <GBAuthor>Schmitt,V.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular evidence of HTLV-II subtype B among an urban population living in South Brazil</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 22 (4), 301-306 (2006)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1089/aid.2006.22.301</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>16623631</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..456</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Renner,J.D.P.</GBAuthor>
+          <GBAuthor>Schmitt,V.M.</GBAuthor>
+          <GBAuthor>Menna-Barreto,M.</GBAuthor>
+          <GBAuthor>Laurino,J.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-MAY-2005) Institute For Biomedical Research - Molecular Biology Laboratory, Pontificia Universidade Catolica Do Rio Grande Do Sul, Av. Ipiranga 6690, Porto Alegre, Rio Grande Do Sul 90610-000, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..456</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>456</GBInterval_to>
+            <GBInterval_accession>DQ028615.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-lymphotropic virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>BRPOA2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11909</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;456</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>456</GBInterval_to>
+            <GBInterval_accession>DQ028615.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gctctccagaaaaataaacctcacccttacccacttcccctagcactgaaaaacaaggctctgacgattacccccctgcccataaaatttgcctagccaaaaataaaggatgccgagtctataaaagcgcaaggacagttcaggaggtctctcgctccttcaccgaccctccggtcgcggagactcaccttggggatccatcctctccaagcggcctcggtcgagacgccttccgtgggactgtctcccggcctcagcacctcctgaactgctccttccagggtaagtctcctctcaggtcgagctcggctgcctcttaggtagtcgctccccgagggtcttttagagacacccgggttcccgcctgcgctcggctagactctggcttgaaacctcacttccgcgttcttggtctcgttctttcctcttcgtcgtcactgaaaacgaaactacaac</GBSeq_sequence>
+  </GBSeq>

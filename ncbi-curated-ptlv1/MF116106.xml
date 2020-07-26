@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MF116106</GBSeq_locus>
+    <GBSeq_length>1311</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>27-MAY-2017</GBSeq_update-date>
+    <GBSeq_create-date>27-MAY-2017</GBSeq_create-date>
+    <GBSeq_definition>Human T-lymphotropic virus 1 isolate gagX gag protein (gag) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MF116106</GBSeq_primary-accession>
+    <GBSeq_accession-version>MF116106.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MF116106.1|</GBSeqid>
+      <GBSeqid>gi|1196091440</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1311</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Meissner,M.E.</GBAuthor>
+          <GBAuthor>Mendonca,L.</GBAuthor>
+          <GBAuthor>Zhang,W.</GBAuthor>
+          <GBAuthor>Mansky,L.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Polymorphic Nature of HTLV-1 Particle Cores as Revealed Through Characterization of a Chronically Infected Cell Line</GBReference_title>
+        <GBReference_journal>J. Virol. (2017) In press</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1311</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Meissner,M.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (09-MAY-2017) Department of Diagnostic and Biological Sciences, University of Minnesota, 18-242 Moos Tower 515 Delaware St SE, Minneapolis, MN 55455, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1311</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1311</GBInterval_to>
+            <GBInterval_accession>MF116106.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>gagX</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens cell-line SP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>integrated in chromosome X</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1311</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1311</GBInterval_to>
+            <GBInterval_accession>MF116106.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1311</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1311</GBInterval_to>
+            <GBInterval_accession>MF116106.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Pr55</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gag protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ARS65855.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGQIFSRSASPIPRPPRGLAAHHWLNFLQAAYRLEPGPSSYDFHQLKKFLKIALETPVWICPINYSLLASLLPKGYPGRVNEILHILIQTQAQIPSRPAPPPPSSPTHDPPDSDPQIPPPYVEPTAPQVLPVMHPHGAPPNHRPWQMKDLQAIKQEVSQAAPGSPQFMQTIRLAVQQFDPTAKDLQDLLQYLCSSLVASLHHQQLDSLISEAETRGITGYNPLAGPLRVQANNPQQQGLRREYQQLWLAAFAALPGSAKDPSWASILQGLEEPYHAFVERLNIALDNGLPEGTPKDPILRSLAYSNANKECQKLLQARGHTNSPLGDMLRACQTWTPKDKTKVLVVQPKKPPPNQPCFRCGKAGHWSRDCTQPRPPPGPCPLCQDPTHWKRDCPRLKPTIPKPEPEEDALLLDLPTDIPHPKNSIGGEVQLGHHRS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggccaaatcttttcccgtagcgctagccctattccgcggccgccccgggggctggccgctcatcactggcttaacttcctccaagcggcatatcgcctagaacccggtccctccagttacgatttccaccagttaaaaaaatttcttaaaatagctttagaaacaccggtctggatctgtcccattaactactccctcctagccagcctactcccaaaaggataccccggccgggtgaatgaaattttacacatactcatccaaacccaagcccagatcccgtcccgtcccgcgccaccgccgccgtcatcccccacccacgaccccccggattctgatccacaaatcccccctccctatgttgagcctacggccccccaagtccttccagtcatgcacccacatggtgcccctcccaaccatcgcccatggcaaatgaaagacctacaggccattaagcaagaagtctcccaagcagcccctgggagcccccagtttatgcagaccatccggcttgcggtacagcagtttgaccccactgccaaagacctccaagacctcctgcagtacctttgctcctccctcgtggcttccctccatcaccagcagctagatagccttatatcagaggccgaaacccgaggtattacaggttataaccccttagccggtcccctccgtgtccaagccaacaatccacaacaacaaggattaaggcgagaataccagcaactctggctcgccgccttcgccgccctgccagggagtgccaaagacccttcctgggcctctatcctccaaggcctggaggagccttaccacgccttcgtagaacgcctcaacatagctcttgacaatgggctgccagaaggcacgcccaaagaccccatcttacgttccttagcctactccaatgcaaacaaagaatgccaaaaattactacaggcccgaggacacactaatagccctctaggagatatgttgcgggcttgtcagacctggacccccaaagacaaaaccaaagtgttagttgtccagcctaaaaaaccccccccaaatcagccgtgcttccggtgtgggaaagcaggccactggagtcgagactgcactcagcctcgccccccccccgggccatgccccctatgtcaagacccaactcactggaagcgagactgcccccgcctaaagcccactatcccaaaaccagagccagaggaagatgccctcctattagacctccccactgacatcccacacccaaaaaactccatagggggggaggtacaactgggccatcataggtcgtga</GBSeq_sequence>
+  </GBSeq>

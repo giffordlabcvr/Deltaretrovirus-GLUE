@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>BLV3TERM</GBSeq_locus>
+    <GBSeq_length>1474</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>13-SEP-1990</GBSeq_update-date>
+    <GBSeq_create-date>28-APR-1993</GBSeq_create-date>
+    <GBSeq_definition>Bovine leukemia virus 3' terminal DNA fragment</GBSeq_definition>
+    <GBSeq_primary-accession>M38278</GBSeq_primary-accession>
+    <GBSeq_accession-version>M38278.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M38278.1|BLV3TERM</GBSeqid>
+      <GBSeqid>gi|210766</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>long terminal repeat (LTR)</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Bovine leukemia virus</GBSeq_source>
+    <GBSeq_organism>Bovine leukemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1474</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ivanova,M.N.</GBAuthor>
+          <GBAuthor>Bychko,V.V.</GBAuthor>
+          <GBAuthor>Meldrais,Ia.A.</GBAuthor>
+          <GBAuthor>Tsimanis,A.Iu.</GBAuthor>
+          <GBAuthor>Dresher,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Primary structure of the 3'-terminal region of the cloned DNA of the bovine leukemia virus</GBReference_title>
+        <GBReference_journal>Bioorg. Khim. 12 (3), 420-423 (1986)</GBReference_journal>
+        <GBReference_pubmed>3008763</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1474</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1474</GBInterval_to>
+            <GBInterval_accession>M38278.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bovine leukemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11901</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1030..&gt;1474</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1030</GBInterval_from>
+            <GBInterval_to>1474</GBInterval_to>
+            <GBInterval_accession>M38278.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>3' long terminal repeat</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttccacctcggcaccgactcccccgccgagcccttcgagctcttcgggatccattacctgataacgacaaaattatttcttgtcttttaagcaagtgttgttggttgggggccccactctctacatgcctacccggccctggttttgtccaatgatgtcaccatcgatgcctggtgccccctctgcgggccccatgagcgactccaattcgaaaggatcgacaccacgctcacctgcgagacccaccgtatcacctggaccgccgatggacgaccttgcggcctcaatggaacgttgttccctcgactgcatgtctccgagacccgcccccaagggccccgacgactctggatcaactgcccccttccggccgttcgcgctcagcccggcccggtttcactttcccccttcgagcggtcccccttccagccctaccaatgccaattgccctcggcctctagcgacggttgccccatcatcgggcacggccttcttccctggaacaacttagtaacgcatcctgtcctcagaaaagtccttatattaaatcaaatggccaatttttccttactcccccccttcgataccctccttgtagaccccctccggctgtccgtctttgccccagacaccaggggagccatacgttatctctccacccttttgacgctatgcccggctacttgtattctacccctaggcgagcccttctctcctaatgtccccatatgccgctttccccgggactccaatgaaccccccctttcagaattcgagctgccccttatccaaacgcccggcctgtcttggtctgtccccgcgatcgacctattcctaaccggtcccccttccccatgcgaccggttacacgtatggtccagtcctcaggccttacagcgcttccttcatgaccctacgctaacctggtccgaattagttgctagcagaaaaataagacttgattcccccttaaaattacaactgctagaaaatgaatggctctcccgccttttttgagggggaatcatttgtatgaaagatcatgccgacctaggcgccgccaccgccccgtaaaccagacagagacgtcagctgccagaaaagctggtgacggcagctggtggctagaatccccgtacctccccaacttcccctttcccgaaaaatccagaccctgagctgctgacctcacctgctgataaattaataaaatgcggccctgtcgagttagcggcaccagaagctgttcttctcctgagaccctcgtgctcagctctcggtcctgagctctcttgctcccgagaccttctggtcggctatccggcagcggtcaggtaaggcaaaccacggtttggagggtggttctcggctgagaccacgcgagctctatctccggtcctctgaccgtctccacgtggactctctcctttgcctcctgaccccgcgctccaagggcgtctggcttgcacccgca</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HTU33909</GBSeq_locus>
+    <GBSeq_length>780</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>13-JUN-1996</GBSeq_update-date>
+    <GBSeq_create-date>28-DEC-1995</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell lymphotropic virus type 2 strain BPi envelope polyprotein (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>U33909</GBSeq_primary-accession>
+    <GBSeq_accession-version>U33909.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U33909.1|HTU33909</GBSeqid>
+      <GBSeqid>gi|1136488</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-lymphotropic virus 2</GBSeq_source>
+    <GBSeq_organism>Human T-lymphotropic virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..780</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Biggar,R.J.</GBAuthor>
+          <GBAuthor>Taylor,M.E.</GBAuthor>
+          <GBAuthor>Neel,J.V.</GBAuthor>
+          <GBAuthor>Hjelle,B.</GBAuthor>
+          <GBAuthor>Levine,P.H.</GBAuthor>
+          <GBAuthor>Black,F.L.</GBAuthor>
+          <GBAuthor>Shaw,G.M.</GBAuthor>
+          <GBAuthor>Sharp,P.M.</GBAuthor>
+          <GBAuthor>Hahn,B.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic variants of human T-lymphotrophic virus type II in American Indian groups</GBReference_title>
+        <GBReference_journal>Virology 216 (1), 165-173 (1996)</GBReference_journal>
+        <GBReference_pubmed>8614983</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..780</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Biggar,R.J.</GBAuthor>
+          <GBAuthor>Taylor,M.E.</GBAuthor>
+          <GBAuthor>Neel,J.V.</GBAuthor>
+          <GBAuthor>Hjelle,B.</GBAuthor>
+          <GBAuthor>Levine,P.H.</GBAuthor>
+          <GBAuthor>Black,F.L.</GBAuthor>
+          <GBAuthor>Sharp,P.M.</GBAuthor>
+          <GBAuthor>Shaw,G.M.</GBAuthor>
+          <GBAuthor>Hahn,B.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-AUG-1995) Beatrice H. Hahn, Medicine, University of Alabama at Birmingham, 701 19th St. South, Birmingham, AL 35924, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..780</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>780</GBInterval_to>
+            <GBInterval_accession>U33909.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-lymphotropic virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>BPi</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11909</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>PCR-isolated from uncultured PBMCs; 3'end of env to 5'end of tax and rex</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..172</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>172</GBInterval_to>
+            <GBInterval_accession>U33909.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..172</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>172</GBInterval_to>
+            <GBInterval_accession>U33909.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAB02317.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>LSQWAREALQTGITILALLLLVILFGPCILRQIQALPQRLQNRHSQYALINPETML</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tctgtcccagtgggcacgagaagccctccagacaggcataaccattctcgccctactcctccttgtcatattgtttggcccctgcatcctccgccaaatccaagcccttccgcagcggttacaaaaccgacatagccagtatgcccttatcaacccagagaccatgctataatagacccgctagcttctgcagcaaatccccatggttcatccccctaccattgacccatccacagtcttctatgccagatgagtcacccccgatgtccagccccgactcaaactcaataattgcctcaaatagctcctccaacccccgctcacattcctcccatagggtctttttttcctcttccaaaaaatccacataaccctgaagcaaatcacaaaacccatcaaaacccaggagtcctatacactccaactgctgatgcctctcttccctctcccggcgcttttgatccttttcccgcaggcgctcctttctgcgccgctcccgctcctcacgctcctgcagaagctttaagatctcccgctgctcctccgccaacagcttccgacgagagtctcgcacctgctcgctgaccgatcccgaccccagagggcggccttttgctgtccttcttggttcctctccagggggaggcacatcagatgtcagactctcctccccctggtctcctaacggcaatctcctaaaatagtctaaaaaattacacataattacaaccctgtctcctctgagcccatttcccaggattcggacagagcctcctatat</GBSeq_sequence>
+  </GBSeq>

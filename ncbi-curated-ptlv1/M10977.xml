@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HTVGAGPOL</GBSeq_locus>
+    <GBSeq_length>525</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>20-APR-1992</GBSeq_update-date>
+    <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell leukemia virus I gag gene, 3'end</GBSeq_definition>
+    <GBSeq_primary-accession>M10977</GBSeq_primary-accession>
+    <GBSeq_accession-version>M10977.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M10977.1|HTVGAGPOL</GBSeqid>
+      <GBSeqid>gi|331126</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..525</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ratner,L.</GBAuthor>
+          <GBAuthor>Josephs,S.F.</GBAuthor>
+          <GBAuthor>Starcich,B.</GBAuthor>
+          <GBAuthor>Hahn,B.</GBAuthor>
+          <GBAuthor>Shaw,G.M.</GBAuthor>
+          <GBAuthor>Gallo,R.C.</GBAuthor>
+          <GBAuthor>Wong-Staal,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Nucleotide sequence analysis of a variant human T-cell leukemia virus (HTLV-Ib) provirus with a deletion in pX-I</GBReference_title>
+        <GBReference_journal>J. Virol. 54 (3), 781-790 (1985)</GBReference_journal>
+        <GBReference_pubmed>2987530</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..525</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>525</GBInterval_to>
+            <GBInterval_accession>M10977.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..66</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>66</GBInterval_to>
+            <GBInterval_accession>M10977.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..66</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>66</GBInterval_to>
+            <GBInterval_accession>M10977.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA46203.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>ALLLDLPADIPHPKNSIGGEV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>472..525</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>472</GBInterval_from>
+            <GBInterval_to>525</GBInterval_to>
+            <GBInterval_accession>M10977.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>pol open reading frame</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gccctcctattagacctccccgctgacatcccacacccaaaaaactccatagggggggaggtttaacctccccccccacattacagcaagtccttcctaaccaagacccagcatctattctgccagttataccgttagatcccgcccgtcggcccgtaattaaagcccaggttgacacccagaccagccacccaaagactatcgaagctttactagatacaggagcagacatgacagtccttccgatagccttgttctcaagtaatactccctcaaaaatacatccgtattaggggcagggggccaaacccaagatcactttaagctcacctcccttcctgtgctaatacgcctccctttccggacaacgcctattgttttaacatcttgcctagttgataccaaaaacaactaggccatcataggtcgtgatgccttacaacaatgccaaggcgtcctgtacctccctgaggcaaaaaggccgcctgtaatcttgccaatacaggcgccagccgtccttgggct</GBSeq_sequence>
+  </GBSeq>

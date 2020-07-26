@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF032993</GBSeq_locus>
+    <GBSeq_length>765</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>06-JUL-2000</GBSeq_update-date>
+    <GBSeq_create-date>02-MAR-1998</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell lymphotropic virus type 2 5' long terminal repeat sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AF032993</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF032993.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF032993.1|</GBSeqid>
+      <GBSeqid>gi|2921300</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-lymphotropic virus 2</GBSeq_source>
+    <GBSeq_organism>Human T-lymphotropic virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..765</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Egan,J.F.</GBAuthor>
+          <GBAuthor>O'Leary,B.</GBAuthor>
+          <GBAuthor>Lewis,M.J.</GBAuthor>
+          <GBAuthor>Mulcahy,F.</GBAuthor>
+          <GBAuthor>Sheehy,N.</GBAuthor>
+          <GBAuthor>Hasegawa,H.</GBAuthor>
+          <GBAuthor>Fitzpatrick,F.</GBAuthor>
+          <GBAuthor>O'Connor,J.J.</GBAuthor>
+          <GBAuthor>O'Riordan,J.</GBAuthor>
+          <GBAuthor>Hall,W.W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>High rate of human T lymphotropic virus type IIa infection in HIV type 1-infected intravenous drug abusers in Ireland</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 15 (8), 699-705 (1999)</GBReference_journal>
+        <GBReference_pubmed>10357465</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..765</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Egan,J.F.</GBAuthor>
+          <GBAuthor>Lewis,M.</GBAuthor>
+          <GBAuthor>Hall,W.W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-NOV-1997) Medical Microbiology, University College Dublin, Belfield Campus, Dublin, Rep. of Ireland</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..765</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>765</GBInterval_to>
+            <GBInterval_accession>AF032993.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-lymphotropic virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Dub991</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11909</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..765</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>765</GBInterval_to>
+            <GBInterval_accession>AF032993.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>5' LTR</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agggcgagtcatcgacccaaaaggtcacgaccgtctcacacaaacaatcccaagtaaaggctctgacgtctccccctttttttaggaactgaaaccacggccctgacgtccctcccccccaggaaccaggaacggctctccagaaaaatagacctcacccttacccacttcccctagcgctgaaaaacaaggctctgacgattaccccctgcccataaaatttgcctagtcaaaataaaagatgccgagtctataaaagcgcaaggacagttcaggaggtgtctcgctccctcaccgaccctctggtcacggagactcaccttggggatccatcctctccaagcggcctcggttgagacgccttccgtgggaccgtctcccggcctcggcacctcctgaactgctcctcccagggtaagtctcctctcaggtcgagctcggctgccccttaggtagtcgctccccgagggtctttagagacacccgggtttccgcctgcgctcggctagactctgccttaaacttcacttccgcgttcttgtctcgttctttcctcttcgccgtcactgaaaacgaaacctcaacgccgccctcctggcaggcttggcccggggccaacatactgccgtggaggcgcagcaagggctagggcttcctgaacctctccgggagaggtctattgctataggcaggcccgctccaggagcatttgtcttcccggggaagacaaacaattgggggctcgtctgggatctgaattcctcc</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KF242508</GBSeq_locus>
+    <GBSeq_length>1467</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>11-NOV-2013</GBSeq_update-date>
+    <GBSeq_create-date>11-NOV-2013</GBSeq_create-date>
+    <GBSeq_definition>Human T-lymphotropic virus 1 strain Aus-ATL isolate Aus-NR envelope glycoprotein (env) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KF242508</GBSeq_primary-accession>
+    <GBSeq_accession-version>KF242508.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KF242508.1|</GBSeqid>
+      <GBSeqid>gi|557169658</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1467</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Einsiedel,L.</GBAuthor>
+          <GBAuthor>Cassar,O.</GBAuthor>
+          <GBAuthor>Bardy,P.</GBAuthor>
+          <GBAuthor>Kearney,D.</GBAuthor>
+          <GBAuthor>Gessain,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Variant human T-cell lymphotropic virus type 1c and adult T-cell leukemia, australia</GBReference_title>
+        <GBReference_journal>Emerging Infect. Dis. 19 (10), 1639-1641 (2013)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3201/eid1910.130105</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24047544</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1467</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Einsiedel,L.</GBAuthor>
+          <GBAuthor>Cassar,O.</GBAuthor>
+          <GBAuthor>Bardy,P.</GBAuthor>
+          <GBAuthor>Kearney,D.</GBAuthor>
+          <GBAuthor>Gessain,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (13-JUN-2013) Virology, Institut Pasteur, 28 Rue Docteur Roux, Paris Cedex 15, Ile de France 75015, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1467</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1467</GBInterval_to>
+            <GBInterval_accession>KF242508.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Aus-ATL</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Aus-NR</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Australia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2009</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>L. Einsiedel</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>identified_by</GBQualifier_name>
+            <GBQualifier_value>O. Cassar</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: HTLV-</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1467</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1467</GBInterval_to>
+            <GBInterval_accession>KF242508.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1467</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1467</GBInterval_to>
+            <GBInterval_accession>KF242508.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGZ91328.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGKFLTTLILFLQFCPPILCYYSPSCCTLTIGVSSYHSKPCNPAQPVCSWTLDLLALSADQALQPPCPNLVSYSNYHATYSLYLFPHWIKKPNRNGGGYYSASYSDPCSLKCPYLGCQSWTCPYTGAVSSPYWKFQQDVNFTQEVSRLNINLHFSKCGFPFSLLVDAPGYDPIWLLNTEPSQLPPTAPPLLPHSNLDHILEPSIPWKSKLLTLVQLTLQSTNYTCIVCIDRASLSTWHVLYSPNISIPSSSSTPLLYPSLALPAPHLTLPFNWTHCFDPQIQAIVSSPCHNSLILPPFSLSPVPTLRSRSRRAVPVAVWLVSALAMGTGIAGGITGSMSLASGKNLLHEVDKDISQLTQAIVKNHKNLLKIAQYAAQNRRGLDLLFWEQGGLCKALQEQCCFLNITNSHVSILQERPPLENRVLTGWGLNWDLGLSQWAREALQTGITLVALLLLVILAGPCILRQLRQLPSRTRYPHYSLINPESSL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggtaagtttctcaccactttgattttattcctccagttctgcccccctattctctgttattacagccccagctgctgtactctcactatcggagtctcctcataccactctaaaccctgcaatcctgcccagccagtttgctcatggaccctcgacttgttggccctttcagcagatcaggccctacagcctccctgccctaatctagtaagctactccaactaccatgccacctattccctatatctattccctcactggattaaaaagccaaaccgaaatggcggaggctactattcagcctcttattcagacccttgttccctgaaatgcccatacctcgggtgccaatcatggacctgcccctatacaggggccgtctccagcccctactggaagtttcagcaagatgtcaattttactcaggaagtctcacgcctgaatattaatctccatttttcaaaatgcggtttccccttctcccttctagtcgatgcacccggatatgaccccatctggctccttaataccgaacccagccaactgccccctactgcccctcctctacttccccactccaacttagaccacatccttgagccctctataccatggaaatcaaaactcctgactctagtccagctaaccctacaaagcactaattatacttgtattgtctgtatagatcgtgctagcctgtccacctggcacgtcctatactctcctaacatctctattccatcctcttcttctactcccctcctttacccatcgttagcgcttccagctccccacctgacgttaccgtttaactggactcactgctttgacccccagattcaagctatagtctcctccccctgtcataactccctcatcctgccccccttttccctgtcacctgttccgaccctacgatcccgttcccgccgagcggtaccggtggcagtctggctagtctccgccctggccatgggaaccggaattgctggcgggattaccggctccatgtccctcgcctcaggaaagaatcttctacatgaggtagacaaagatatttcccaattaacccaagcaatagtcaaaaatcacaaaaatctactcaaaattgcacaatatgctgcccaaaacagacgaggccttgatctcctgttctgggaacaaggaggattatgcaaggcactacaagaacagtgctgttttctaaacattactaattcccacgtttcaatactacaagaaagaccaccccttgagaatcgagtcctaactggctggggtcttaactgggaccttggcctctcacaatgggcccgagaggccctacaaactggcatcacccttgttgcgctactccttcttgttatccttgcaggaccatgcatcctccgtcagctacgacaactcccctcgcgcaccagatacccccattactctcttataaaccctgagtcatccctataa</GBSeq_sequence>
+  </GBSeq>

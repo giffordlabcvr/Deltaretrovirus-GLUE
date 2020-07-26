@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HIVWY100M</GBSeq_locus>
+    <GBSeq_length>456</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-FEB-2006</GBSeq_update-date>
+    <GBSeq_create-date>25-JAN-1996</GBSeq_create-date>
+    <GBSeq_definition>Human T-lymphotropic virus 2 genomic RNA, LTR region, clone:WY100</GBSeq_definition>
+    <GBSeq_primary-accession>D82958</GBSeq_primary-accession>
+    <GBSeq_accession-version>D82958.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|D82958.1|HIVWY100M</GBSeqid>
+      <GBSeqid>gi|1772489</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-lymphotropic virus 2</GBSeq_source>
+    <GBSeq_organism>Human T-lymphotropic virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..456</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Miura,T.</GBAuthor>
+          <GBAuthor>Yamashita,M.</GBAuthor>
+          <GBAuthor>Zaninovic,V.</GBAuthor>
+          <GBAuthor>Cartier,L.</GBAuthor>
+          <GBAuthor>Takehisa,J.</GBAuthor>
+          <GBAuthor>Igarashi,T.</GBAuthor>
+          <GBAuthor>Ido,E.</GBAuthor>
+          <GBAuthor>Fujiyoshi,T.</GBAuthor>
+          <GBAuthor>Sonoda,S.</GBAuthor>
+          <GBAuthor>Tajima,K.</GBAuthor>
+          <GBAuthor>Hayami,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular phylogeny of human T-cell leukemia virus type I and II of Amerindians in Colombia and Chile</GBReference_title>
+        <GBReference_journal>J. Mol. Evol. 44 (SUPPL 1), S76-S82 (1997)</GBReference_journal>
+        <GBReference_pubmed>9071015</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..456</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Miura,T.</GBAuthor>
+          <GBAuthor>Yamashita,M.</GBAuthor>
+          <GBAuthor>Takehisa,J.</GBAuthor>
+          <GBAuthor>Igarashi,T.</GBAuthor>
+          <GBAuthor>Ido,E.</GBAuthor>
+          <GBAuthor>Zaninovic,V.</GBAuthor>
+          <GBAuthor>Cartier,L.</GBAuthor>
+          <GBAuthor>Fujiyoshi,T.</GBAuthor>
+          <GBAuthor>Sonoda,S.</GBAuthor>
+          <GBAuthor>Tajima,K.</GBAuthor>
+          <GBAuthor>Hayami,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-JAN-1996) Tomoyuki Miura, Institute for Virus Research, Kyoto University, Center for Immunodeficiency Virus; Shogoin-Kawara-Mach, Sakyo-Ku, Kyoto, Kyoto 606, Japan (E-mail:tmiura@virus.kyoto-u.ac.jp, Tel:81-75-751-3981, Fax:81-75-761-9335)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Jan 10, 1997 this sequence version replaced gi:1166391.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..456</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>456</GBInterval_to>
+            <GBInterval_accession>D82958.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-lymphotropic virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>HTLV-II isolated from Wayu in Riohacha, Colombia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11909</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>WY100</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;456</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>456</GBInterval_to>
+            <GBInterval_accession>D82958.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tctctcgctccttcaccgaccctccggtcgcggagactcaccttggggatccatcctctccaagcggcctcggtcgagacgccttccgtgggactgtctcccggcctcagcacctcctgaactgctccttccagggtaagtctcctctcaggtcgagctcggctgcctcttaggtagtcgctccccgagggtctttagagacacccgggttcccgcctgcgctcggctagactctggcttgaaacctcacttccgcgttcttggtctcgttctttcctcttcgtcgtcactgaaaacgaaacttcaacgccgcccttctggcaggcttggcccggggccaacatactgccgcggaggcgcagtaagggctagggcttcctgaacctctccgggagaggtccatcgctataggcaggcccgccccaggagcatctgtcttcccggggaagacaaaca</GBSeq_sequence>
+  </GBSeq>

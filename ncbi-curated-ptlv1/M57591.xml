@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>STLLTR5X</GBSeq_locus>
+    <GBSeq_length>745</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-OCT-1990</GBSeq_update-date>
+    <GBSeq_create-date>03-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Simian T-cell lymphotropic virus type I 5' LTR</GBSeq_definition>
+    <GBSeq_primary-accession>M57591</GBSeq_primary-accession>
+    <GBSeq_accession-version>M57591.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M57591.1|STLLTR5X</GBSeqid>
+      <GBSeqid>gi|335044</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>long terminal repeat (LTR)</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Simian T-lymphotropic virus 1</GBSeq_source>
+    <GBSeq_organism>Simian T-lymphotropic virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..745</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Seiki,M.</GBAuthor>
+          <GBAuthor>Watanabe,T.</GBAuthor>
+          <GBAuthor>Komuro,A.</GBAuthor>
+          <GBAuthor>Miyoshi,I.</GBAuthor>
+          <GBAuthor>Hayami,M.</GBAuthor>
+          <GBAuthor>Yoshida,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Characterization of simian retrovirus genome related to human T-cell leukemia virus type I</GBReference_title>
+        <GBReference_journal>Int. Symp. Princess Takamatsu Cancer Res. Fund 15, 241-249 (1984)</GBReference_journal>
+        <GBReference_pubmed>6100642</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Simian T-cell lymphotropic virus type I RNA, from a pig-tailed macaque.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..745</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>745</GBInterval_to>
+            <GBInterval_accession>M57591.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian T-lymphotropic virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:33747</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..745</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>745</GBInterval_to>
+            <GBInterval_accession>M57591.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>5'</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>352..570</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>352</GBInterval_from>
+            <GBInterval_to>570</GBInterval_to>
+            <GBInterval_accession>M57591.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>5' R region</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgatactgaccatgagccccaaatgctccccgggggcctaaaacctcccaatggaaaacatttccgcgaaacagatgtctgaaaaaggtcagggcccagactagggctctgacgtctccccccggagggcagctcaacacaaggccctgacgtgtccccctggggacaaatcatgagcccagacctccgggaagccaccgagaaccacccatttcctccccatgtttgtcaagccgtccccaggcgttgacgacaacccctcgcctcaaaaacttttcatggcacgcatacagctcaataaaacaacaggagtctataaaagcgtggagacagttcaggagggggctagcttctgctctacacgcgcccgccgccctacctgaggccgccatccacaccggttgagttgcgttctgccgcctcccgcctgtggtgcctcctgaactgcgaccgccgtctgggtaagttcggagctcgggtcgagaccgggcctttgtccggcgctcccttggagcctacctagattcggccggctctccacgctttgcctgaccctgcttgcttaactccacatctttgtttcgttttctgttccgcgccgctgcagatcgaaagttccacccctttccctttcattcacgtctgactgccggcttggcccacggccaagcaccggcatcctcactggctcggagccagtagcagcccattttacaactctctccagagagaagtttagtacaca</GBSeq_sequence>
+  </GBSeq>

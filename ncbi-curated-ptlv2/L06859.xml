@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HTVIIBC</GBSeq_locus>
+    <GBSeq_length>1024</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-JAN-1900</GBSeq_update-date>
+    <GBSeq_create-date>12-JUN-1993</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell leukemia virus type II strain b gene</GBSeq_definition>
+    <GBSeq_primary-accession>L06859</GBSeq_primary-accession>
+    <GBSeq_accession-version>L06859.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|L06859.1|HTVIIBC</GBSeqid>
+      <GBSeqid>gi|291576</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-lymphotropic virus 2</GBSeq_source>
+    <GBSeq_organism>Human T-lymphotropic virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1024</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Takahashi,H.</GBAuthor>
+          <GBAuthor>Zhu,S.W.</GBAuthor>
+          <GBAuthor>Ijichi,S.</GBAuthor>
+          <GBAuthor>Vahlne,A.</GBAuthor>
+          <GBAuthor>Suzuki,H.</GBAuthor>
+          <GBAuthor>Hall,W.W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Nucleotide sequence analysis of human T cell leukemia virus, type II (HTLV-II) isolates</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 9 (8), 721-732 (1993)</GBReference_journal>
+        <GBReference_pubmed>8217342</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1024</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1024</GBInterval_to>
+            <GBInterval_accession>L06859.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-lymphotropic virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>b</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11909</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_line</GBQualifier_name>
+            <GBQualifier_value>BJAB</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cgaacccgccgagcacgccgcaacagaccaccaacaccatgggtaacgttttcttcctacttttattcagtctcacacacttcccaccagtccagcagagccgatgcacactcacggttggtatttcctcctaccactccagcccctgtagcccaacccaacccgtctgcacgtggaacctcgaccttaattccctaacgacggaccagcgactacatcccccctgccctaacctaattacttactctggcttccacaaaacttattccttgtacttattcccacattggataaagaagccaaacagacagggcctaggatactactcgccctcctataatgacccttgctcgctacaatgcccctacttaggctgccaatcatggacatgcccatacacgggccccgtctccagtccatcctggaagtttcactcagatgtaaatttcacccaagaagtcagccaagtgtcccttcgactacacttctctaagtgcggctcctccatgacccttctagtagatgcccctggatatgatcctttatggttcatcacctcagaacccactcagcctcccccaactcctcccccactggtccatgactccgaccttgaacacgtcctaaccccctccacgtcttggacaaccaaaatgctcaagtttatccagctgaccttgcagagcaccaattactcctgcatggtttgcgtggatagatccagcctctcatcctggcatgtgctctacacccccaacatctccattccccaacaaacctcctcccgaaccatcctctttccttctcttgccctgcccgctcctccattccaacccttcccttggacccattgctaccaacctcgcctacaggcaataacgacagataactgcaacaactccattatcctcccccctttttccctcgcccccgtacctcctccggcgacaagacgccgccgtgccgttccaatagcagtgtggtttgtctccgctctagcggccgggacaggtatcgctggcgg</GBSeq_sequence>
+  </GBSeq>

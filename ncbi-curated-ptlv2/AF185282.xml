@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF185282</GBSeq_locus>
+    <GBSeq_length>668</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>27-JUN-2000</GBSeq_update-date>
+    <GBSeq_create-date>09-DEC-1999</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell lymphotropic virus type 2 clone BCIH2-1 long terminal repeat, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AF185282</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF185282.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF185282.1|AF185282</GBSeqid>
+      <GBSeqid>gi|6539752</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-lymphotropic virus 2</GBSeq_source>
+    <GBSeq_organism>Human T-lymphotropic virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..668</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Peters,A.A.</GBAuthor>
+          <GBAuthor>Coulthart,M.B.</GBAuthor>
+          <GBAuthor>Oger,J.J.</GBAuthor>
+          <GBAuthor>Waters,D.J.</GBAuthor>
+          <GBAuthor>Crandall,K.A.</GBAuthor>
+          <GBAuthor>Baumgartner,A.A.</GBAuthor>
+          <GBAuthor>Ward,R.H.</GBAuthor>
+          <GBAuthor>Dekaban,G.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>HTLV type I/II in British Columbia Amerindians: a seroprevalence study and sequence characterization of an HTLV type IIa isolate</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 16 (9), 883-892 (2000)</GBReference_journal>
+        <GBReference_pubmed>10875614</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..668</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Peters,A.A.</GBAuthor>
+          <GBAuthor>Dekaban,G.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-SEP-1999) GTMV, Robarts Research Institute, Room 2-12 100 Perth Drive, London, ON N6A 5K8, Canada</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..668</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>668</GBInterval_to>
+            <GBInterval_accession>AF185282.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-lymphotropic virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11909</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>BCIH2-1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>from a native descendant of British Columbia, Canada</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..668</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>668</GBInterval_to>
+            <GBInterval_accession>AF185282.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtcagaccgtctcacacaaacaatcccaagtaaaggctctgacgtctccccctttttttaggaactgaaaccacggccctgacgtccctcccccccaggaaccaggaacagctctccagaaaaatagacctcacccttacccacttcccctagcgctaaaaaacaaggctctgacgattaccccctgcccataaaatttgcctagtcaaaataaaagatgccgagtctataaaagcgcaaggacagttcaggaggtggctcgctccctcaccgaccctctggtcacggagactcaccttggggatccatcctctccaagcggcctcggttgagacgccttccgtgggaccgtctcccggcctcggcacctcctgaactgctcctcccagggtaagtctcctctcaggtcgagctcggctgccccttaggtagtcgctccccgagggtctttagagacacccgggtttccgcctgcgctcggctagactctgccttaaacttcacttccgcgttcttgtctcgttctttcctcttcgccgtcactgaaaacgaaacctcaacgccgccctcctggcaggcttggcccggggccaacatactgccgtggaggcgcagcaagggctagggcttcctgaacctctccgggagaggtccatcgctataggcag</GBSeq_sequence>
+  </GBSeq>

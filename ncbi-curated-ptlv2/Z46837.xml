@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>Z46837</GBSeq_locus>
+    <GBSeq_length>589</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>18-JUL-2001</GBSeq_update-date>
+    <GBSeq_create-date>01-FEB-1995</GBSeq_create-date>
+    <GBSeq_definition>Human lymphotropic virus type II DNA for exon</GBSeq_definition>
+    <GBSeq_primary-accession>Z46837</GBSeq_primary-accession>
+    <GBSeq_accession-version>Z46837.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|Z46837.1|</GBSeqid>
+      <GBSeqid>gi|663013</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-lymphotropic virus 2</GBSeq_source>
+    <GBSeq_organism>Human T-lymphotropic virus 2</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..589</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mauclere,P.</GBAuthor>
+          <GBAuthor>Mahieux,R.</GBAuthor>
+          <GBAuthor>Garcia-Calleja,J.M.</GBAuthor>
+          <GBAuthor>Salla,R.</GBAuthor>
+          <GBAuthor>Tekaia,F.</GBAuthor>
+          <GBAuthor>Millan,J.</GBAuthor>
+          <GBAuthor>De The,G.</GBAuthor>
+          <GBAuthor>Gessain,A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>A new HTLV type II subtype A isolate in an HIV type 1-infected prostitute from Cameroon, Central Africa</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 11 (8), 989-993 (1995)</GBReference_journal>
+        <GBReference_pubmed>7492447</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..589</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mahieux,R.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (29-NOV-1994) Renaud J Mahieux, Seine, Pasteur Institute, 28 rue du Docteur, Roux, Paris, Ile de France, 75724, FRANCE</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..589</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>589</GBInterval_to>
+            <GBInterval_accession>Z46837.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-lymphotropic virus 2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>PH230PCAM</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11909</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>PH 230</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_line</GBQualifier_name>
+            <GBQualifier_value>PH 230</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_type</GBQualifier_name>
+            <GBQualifier_value>T-cell</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>1..589</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>589</GBInterval_to>
+            <GBInterval_accession>Z46837.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cccccctttttccctcgctcccgtacctcctccggcgacaagacgccgccgtgccgttccaatagcagtgtggcttgtctccgccctagcggccggaacaggtatcgctggtggagtaacaggctccctatctctggcttccagtaaaagccttctcctcgaggttgacaaagacatctcccaccttacccaggccatagtcaaaaatcatcaaaacatcctccgggttgcacaatatgcagcccaaaatagacgaggattagacctcctattctgggaacaagggggcttgtgcaaggccatacaggagcaatgttgcttcctcaatatcagtaacactcatgtatccgtcctccaggaacggccccctcttgaaaaacgtgtcatcaccggctgggggctaaactgggatcttggactgtcccaatgggcacgagaagccctccagacaggcataaccattctcgctctactcctcctcgtcatattgtttggcccctgtatcctccgccaaatccaggcccttccgcagcggttacaaaaccgacataaccagtattcccttatcaacccagaaaccatgctataa</GBSeq_sequence>
+  </GBSeq>

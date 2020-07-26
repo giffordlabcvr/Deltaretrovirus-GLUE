@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF111171</GBSeq_locus>
+    <GBSeq_length>960</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>23-MAR-1999</GBSeq_create-date>
+    <GBSeq_definition>Bovine leukemia virus polyprotein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF111171</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF111171.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF111171.1|</GBSeqid>
+      <GBSeqid>gi|4559236</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bovine leukemia virus</GBSeq_source>
+    <GBSeq_organism>Bovine leukemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..960</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Reichert,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>BLVPL-1 sequence</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..960</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Reichert,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-DEC-1998) Biochemistry, National Veterinary Research Institute, Partyzantow 57, Pulawy 24-100, Poland</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..960</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>960</GBInterval_to>
+            <GBInterval_accession>AF111171.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bovine leukemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11901</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>BLVgp-11</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isolated from bovine lymphocytes</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>26..&gt;960</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>26</GBInterval_from>
+            <GBInterval_to>960</GBInterval_to>
+            <GBInterval_accession>AF111171.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>gp51</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAD22946.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPKERRSRRRPQPIIRWVSLTLTLLALCQPIQTWRCSLSLGNQQWMTTYNQEAKFSIAIDQILEAHNQSPFCPRSPRYTLDFVNGYPKIYWPPPQGRRRFGARAMVTYDCEPRCPYVGADHFDCPHWDNASQADQGSFYVNHQILFLHLKQCHGIFTLTWEIWGYDPLITFSLHKIPDPPQPDFPQLNSDWVPSVRSWALLLNQTARAFPDCAICWEPSPPWAPEILVYNKTISNSGPGLALPDAQIFWVNTSLFNTTQGWHHPSQRLLFNVSQGNALLLPPISLVNLSTASSAPPTRVRRSPAAALTLGLA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>26..928</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>26</GBInterval_from>
+            <GBInterval_to>928</GBInterval_to>
+            <GBInterval_accession>AF111171.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein gp51</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>MPKERRSRRRPQPIIRWVSLTLTLLALCQPIQTWRCSLSLGNQQWMTTYNQEAKFSIAIDQILEAHNQSPFCPRSPRYTLDFVNGYPKIYWPPPQGRRRFGARAMVTYDCEPRCPYVGADHFDCPHWDNASQADQGSFYVNHQILFLHLKQCHGIFTLTWEIWGYDPLITFSLHKIPDPPQPDFPQLNSDWVPSVRSWALLLNQTARAFPDCAICWEPSPPWAPEILVYNKTISNSGPGLALPDAQIFWVNTSLFNTTQGWHHPSQRLLFNVSQGNALLLPPISLVNLSTASSAPPTRVRR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>929..&gt;960</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>929</GBInterval_from>
+            <GBInterval_to>960</GBInterval_to>
+            <GBInterval_accession>AF111171.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gp30</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>SPAAALTLGLA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cctggcgtttgctaaaagccttcaaatgcccaaagaacgacggtcccgaagacgcccacaaccgatcatcagatgggtaagtctcactcttactctcctcgctctctgtcagcccatccagacttggagatgctccctgtccctaggaaatcaacaatggatgacaacatataaccaagaggcaaaattttccatcgccattgaccaaatactagaggctcataatcaatcgcctttctgtcccaggtctcccagatacaccttggactttgtaaatggttatcctaagatctattggccccccccacaagggcgacgccggtttggagccagggccatggtcacatatgattgcgagccccgatgcccttatgtgggggcagatcacttcgactgcccccactgggacaatgcttcccaggccgatcaagggtccttttatgtcaatcatcagattttattcctgcatctcaaacaatgtcatggaattttcactctaacctgggaaatatggggatatgatcccctgatcaccttttctttacataaaatccctgatccccctcaacccgacttccctcagctgaacagtgactgggttccctctgtcaggtcatgggccctgcttttaaatcaaacggcacgggccttcccagactgtgctatatgttgggaaccttcccctccctgggctcccgaaatattagtatataacaaaaccatctccaactctggacccggtctcgccctcccggacgcccaaatcttctgggtcaacacgtccttgtttaacaccacccaaggatggcaccacccttcccagaggttgttgttcaacgtttctcaaggcaacgccttattattaccccctatctccctggttaatctctctacggcttcctccgcccctcctacccgggtcagacgcagtcctgccgcagccctgaccttaggcctagc</GBSeq_sequence>
+  </GBSeq>

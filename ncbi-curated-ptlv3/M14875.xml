@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>SIVPROTA</GBSeq_locus>
+    <GBSeq_length>705</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>03-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Simian T-cell leukemia virus protease gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>M14875</GBSeq_primary-accession>
+    <GBSeq_accession-version>M14875.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M14875.1|SIVPROTA</GBSeqid>
+      <GBSeqid>gi|334734</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>protease</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Simian T-lymphotropic virus 3</GBSeq_source>
+    <GBSeq_organism>Simian T-lymphotropic virus 3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..705</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Inoue,J.</GBAuthor>
+          <GBAuthor>Watanabe,T.</GBAuthor>
+          <GBAuthor>Sato,M.</GBAuthor>
+          <GBAuthor>Oda,A.</GBAuthor>
+          <GBAuthor>Toyoshima,K.</GBAuthor>
+          <GBAuthor>Yoshida,M.</GBAuthor>
+          <GBAuthor>Seiki,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Nucleotide sequence of the protease-coding region in an infectious DNA of simian retrovirus (STLV) of the HTLV-I family</GBReference_title>
+        <GBReference_journal>Virology 150 (1), 187-195 (1986)</GBReference_journal>
+        <GBReference_pubmed>3513435</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..705</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>705</GBInterval_to>
+            <GBInterval_accession>M14875.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian T-lymphotropic virus 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>pigtailed monkey</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:39101</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..648</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>648</GBInterval_to>
+            <GBInterval_accession>M14875.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>putative</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>protease</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA47723.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>HFAPKKLHRGGGLTSPPTSRQVPPDRDPASILPIIPLDPARRPLIKAEVNTQTSHPMIIEALLDTGADMTVLPMALFSDDIPLKNTSVLGAGGQTQDHFKLTSLPVLIRLPFRTTPIVLTSCLVDTKNNWAIIGRDALQQCQGVLYLPEAKGPPTILPIQAPAVLGLEHLPKPPEINQFPLNRNASRPCNTWSGRPWRQAISNPTPGQEITQYSQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>catttcgcacccaaaaaactccatagggggggaggtctaacctccccccccacatcacgacaggtccctcctgaccgagacccagcatccattctgccaattataccgttagatcctgcccggcggcccctaattaaagccgaagtaaacacccagaccagccacccaatgattatcgaagctctactggacacaggggcggatatgacggtccttccaatggccctgttctcagatgacatccccctcaaaaacacatccgtgttaggggcagggggccaaacccaggaccactttaagctcacctcccttcctgtgctaatacgcctccctttccggacaacgcctattgttttaacatcttgcctagttgataccaaaaacaactgggccatcataggccgtgatgccttacagcaatgtcaaggtgtcttgtatcttcctgaggccaaagggccgcctacgatcctgcccatacaggcgcctgccgtccttgggctagagcacctcccaaagccccctgaaatcaaccagttccctttaaaccggaacgcctccaggccttgcaacacttggtccggaaggccctggaggcaggccatatcgaaccctacaccgggccaggaaataacccagtattcccagtaaagaaggccaatggaacctggcgattcatccatgacctgcgggccactaactctctaa</GBSeq_sequence>
+  </GBSeq>

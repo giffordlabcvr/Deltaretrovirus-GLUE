@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HTU88721</GBSeq_locus>
+    <GBSeq_length>508</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-JAN-1900</GBSeq_update-date>
+    <GBSeq_create-date>15-AUG-1997</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell lymphotropic virus type I strain CMR961 5' LTR sequence</GBSeq_definition>
+    <GBSeq_primary-accession>U88721</GBSeq_primary-accession>
+    <GBSeq_accession-version>U88721.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U88721.1|HTU88721</GBSeqid>
+      <GBSeqid>gi|2329997</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..508</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mboudjeka,I.</GBAuthor>
+          <GBAuthor>Zekeng,L.</GBAuthor>
+          <GBAuthor>Yamashita,M.</GBAuthor>
+          <GBAuthor>Takehisa,J.</GBAuthor>
+          <GBAuthor>Ido,E.</GBAuthor>
+          <GBAuthor>Miura,T.</GBAuthor>
+          <GBAuthor>Ohkura,S.</GBAuthor>
+          <GBAuthor>Ikeda,M.</GBAuthor>
+          <GBAuthor>Kaptue,L.</GBAuthor>
+          <GBAuthor>Hayami,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Prevalence and phylogenetic analysis of HTLV-I isolates in Cameroon, including those of the Baka Pygmy</GBReference_title>
+        <GBReference_journal>Jpn. J. Cancer Res. 88 (7), 619-624 (1997)</GBReference_journal>
+        <GBReference_pubmed>9310132</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..508</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mboudjeka,I.</GBAuthor>
+          <GBAuthor>Zekeng,L.</GBAuthor>
+          <GBAuthor>Yamashita,M.</GBAuthor>
+          <GBAuthor>Takehisa,J.</GBAuthor>
+          <GBAuthor>Ido,E.</GBAuthor>
+          <GBAuthor>Miura,T.</GBAuthor>
+          <GBAuthor>Ohkura,S.</GBAuthor>
+          <GBAuthor>Ikeda,M.</GBAuthor>
+          <GBAuthor>Kaptue,L.</GBAuthor>
+          <GBAuthor>Hayami,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (06-FEB-1997) Institute for Virus Research, Kyoto University, Shogoin-Kawahara-Cho, Kyoto, Kyoto 606, Japan</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..508</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>508</GBInterval_to>
+            <GBInterval_accession>U88721.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>CMR961</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..508</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>508</GBInterval_to>
+            <GBInterval_accession>U88721.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>5' LTR</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>regulatory</GBFeature_key>
+        <GBFeature_location>187..192</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>187</GBInterval_from>
+            <GBInterval_to>192</GBInterval_to>
+            <GBInterval_accession>U88721.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>regulatory_class</GBQualifier_name>
+            <GBQualifier_value>polyA_signal_sequence</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>regulatory</GBFeature_key>
+        <GBFeature_location>205..210</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>205</GBInterval_from>
+            <GBInterval_to>210</GBInterval_to>
+            <GBInterval_accession>U88721.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>regulatory_class</GBQualifier_name>
+            <GBQualifier_value>TATA_box</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgtagagacagctcagcaccggctcagactgggccctgacgtgtccccctgaaaacgaatcataagctcagacctccgggaagccaccgggaaccacccatttcctccccatatttgtcaagtcgtcttcaggcgttgacgacaacccctcacctcaaaaactttttcatggcacgcatacggctcaataaaataacaggagtctataaaagcgtggagacagttcaggagggggctcgcttctttccttcacgcacccgccgccctacctgaggccgccatccacgccggttgagtcgcgttctgccgcctcccgcctgtggtggctcctgaactgcgtccgccgtctaggtaagtttagagctcaggtcgagaccgggcctttgtccggcgctcccttagagcctacctagactcagccggctctccacgctttgcctgaccctgcttgctcacctctacgtctctgtttcgttttctgttctgcgccgttacggatcgaaagttc</GBSeq_sequence>
+  </GBSeq>

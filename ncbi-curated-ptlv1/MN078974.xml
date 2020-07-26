@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MN078974</GBSeq_locus>
+    <GBSeq_length>408</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>27-OCT-2019</GBSeq_update-date>
+    <GBSeq_create-date>27-OCT-2019</GBSeq_create-date>
+    <GBSeq_definition>Human T-cell leukemia virus type I isolate NIDUPa46 100 LTR repeat region</GBSeq_definition>
+    <GBSeq_primary-accession>MN078974</GBSeq_primary-accession>
+    <GBSeq_accession-version>MN078974.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MN078974.1|</GBSeqid>
+      <GBSeqid>gi|1768397351</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Human T-cell leukemia virus type I</GBSeq_source>
+    <GBSeq_organism>Human T-cell leukemia virus type I</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..408</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Oliveira-Filho,A.B.</GBAuthor>
+          <GBAuthor>Araujo,A.P.S.</GBAuthor>
+          <GBAuthor>Souza,A.P.C.</GBAuthor>
+          <GBAuthor>Gomes,C.M.</GBAuthor>
+          <GBAuthor>Silva-Oliveira,G.C.</GBAuthor>
+          <GBAuthor>Martins,L.C.</GBAuthor>
+          <GBAuthor>Fischer,B.</GBAuthor>
+          <GBAuthor>Machado,L.F.A.</GBAuthor>
+          <GBAuthor>Vallinoto,A.C.R.</GBAuthor>
+          <GBAuthor>Ishak,R.</GBAuthor>
+          <GBAuthor>Lemos,J.A.R.</GBAuthor>
+          <GBAuthor>Kupek,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Human T-lymphotropic virus 1 and 2 among people who used illicit drugs in the state of Para, northern Brazil</GBReference_title>
+        <GBReference_journal>Sci Rep 9 (1), 14750 (2019)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1038/s41598-019-51383-7</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>31611600</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..408</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Oliveira-Filho,A.B.</GBAuthor>
+          <GBAuthor>Araujo,A.P.S.</GBAuthor>
+          <GBAuthor>Souza,A.P.C.</GBAuthor>
+          <GBAuthor>Gomes,C.M.</GBAuthor>
+          <GBAuthor>Silva-Oliveira,G.C.</GBAuthor>
+          <GBAuthor>Martins,L.C.</GBAuthor>
+          <GBAuthor>Machado,L.F.A.</GBAuthor>
+          <GBAuthor>Vallinoto,A.C.R.</GBAuthor>
+          <GBAuthor>Ishak,R.</GBAuthor>
+          <GBAuthor>Lemos,J.A.R.</GBAuthor>
+          <GBAuthor>Kupek,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (16-JUN-2019) Instituto de Estudos Costeiros, Universidade Federal do Para, Alam. Leandro Ribeiro, s/n., Braganca, PA 68.600.000, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..408</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>408</GBInterval_to>
+            <GBInterval_accession>MN078974.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell leukemia virus type I</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>NIDUPa46</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11908</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Jul-2013</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>subtype: 1a</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;408</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>408</GBInterval_to>
+            <GBInterval_accession>MN078974.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>100</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcataagctcagacctccgggaagccaccagaaccacccatttcctccccatgtttgtcaagccgccctcaggcgttgacgacaacccctcacctcaaaaaacttttcatggcacgcatatggctgaataaactaacaggagtctataaaagcgtggagacagttcgggagggggctcgcatctctccttcacgcgcccgccgccctacctgaggccgccatccacgccggttgagtcgcgttctgccgcctcccgcctgtggtgcctcctgaactgcgtccgccgtctaggtaagttcagagctcaggtcgagaccgggcctttgtccggcgctcccttggagcctgcctagactcagccggctctccacgctttgcctgaccctgcttgctcaactttgcgtcttt</GBSeq_sequence>
+  </GBSeq>

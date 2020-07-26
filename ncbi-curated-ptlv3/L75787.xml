@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>STLFRH</GBSeq_locus>
+    <GBSeq_length>705</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>09-DEC-1997</GBSeq_update-date>
+    <GBSeq_create-date>16-MAY-1996</GBSeq_create-date>
+    <GBSeq_definition>Simian T-cell lymphotropic virus type I RNA fragment</GBSeq_definition>
+    <GBSeq_primary-accession>L75787</GBSeq_primary-accession>
+    <GBSeq_accession-version>L75787.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|L75787.1|STLFRH</GBSeqid>
+      <GBSeqid>gi|1321609</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Simian T-lymphotropic virus 3</GBSeq_source>
+    <GBSeq_organism>Simian T-lymphotropic virus 3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..705</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Voevodin,A.F.</GBAuthor>
+          <GBAuthor>Johnson,B.K.</GBAuthor>
+          <GBAuthor>Samilchuk,E.I.</GBAuthor>
+          <GBAuthor>Stone,G.A.</GBAuthor>
+          <GBAuthor>Druilhet,R.</GBAuthor>
+          <GBAuthor>Greer,W.J.</GBAuthor>
+          <GBAuthor>Gibbs,C.J. Jr.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Phylogenetic analysis of simian T-lymphotropic virus Type I (STLV-I) in common chimpanzees (Pan troglodytes): evidence for interspecies transmission of the virus between chimpanzees and humans in Central Africa</GBReference_title>
+        <GBReference_journal>Virology 238 (2), 212-220 (1997)</GBReference_journal>
+        <GBReference_pubmed>9400594</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..705</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Voevodin,A.F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-MAY-1996) Microbiology, Faculty of Medicine, Kuwait University, Safat 13110, Kuwait</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..705</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>705</GBInterval_to>
+            <GBInterval_accession>L75787.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian T-lymphotropic virus 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>A256</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:39101</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_type</GBQualifier_name>
+            <GBQualifier_value>leukocyte</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cggggggcttagagcctcccagtgaaaaacacttccgcgaaacagaagtctgaaaaggtcagggcccagactgaggctctgacgtctccccccggagggacagctcagcaccggctcagactgggccctgacgtgtccccctgaaaacgaatcataagctcagacctccgggaagccaccgggaaccacccatttcctccccatatttgtcaagccgtcttcaggcgttgacgacaacccctcacctcaaaaatttttcatggcacgcatacagctcaataaaataacaggagtctataaaagcgtggagacagttcaggaggggggtcgcttctttcctccacgcgcccgccgccctacctgaggccgccatccacgccggttgagtcgcgttctgccgcctctcgcctgtggtgcctcctgaactgcgtccgccgtctaggtaagtttagagctcaggtcgagaccgggcctttgtccggcgctcccttagagcctacctagactcagccggctctccacgctttgcccgaccctgcttgctcacctctacgtctttgtttcgttttctgttctgcgccgttacagatcgtaagttccacccctttccctttcattcacgactgactgccggcttggcccacggccaagtaccggcgacttcactggctcggagccagcgacagcctattctatagcactctc</GBSeq_sequence>
+  </GBSeq>
