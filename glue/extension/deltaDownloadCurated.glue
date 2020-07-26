@@ -14,7 +14,7 @@
   create module -f modules/extension/deltaNcbiImporterPtlv4.xml
 
   # Download NCBI sequences 
-  module deltaNcbiImporterBLV import
+  module deltaNcbiImporterBlv import
   module deltaNcbiImporterPtlv1 import
   module deltaNcbiImporterPtlv2 import
   module deltaNcbiImporterPtlv3 import

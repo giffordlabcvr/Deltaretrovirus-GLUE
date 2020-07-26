@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_BLV</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>IN</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>279</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>IN</featureName>
+        <startNt>3903</startNt>
+        <endNt>4740</endNt>
+    </nucleotideRegionSelector>
+
+</alignmentColumnsSelector>

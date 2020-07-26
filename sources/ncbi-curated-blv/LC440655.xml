@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LC440655</GBSeq_locus>
+    <GBSeq_length>444</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>17-JUL-2019</GBSeq_update-date>
+    <GBSeq_create-date>15-JUN-2019</GBSeq_create-date>
+    <GBSeq_definition>Bovine leukemia virus BLV-ZAMB33-2018 env gene for surface glycoprotein gp51, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>LC440655</GBSeq_primary-accession>
+    <GBSeq_accession-version>LC440655.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LC440655.1|</GBSeqid>
+      <GBSeqid>gi|1683398017</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bovine leukemia virus</GBSeq_source>
+    <GBSeq_organism>Bovine leukemia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Deltaretrovirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..444</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Phiri,M.M.</GBAuthor>
+          <GBAuthor>Kaimoyo,E.</GBAuthor>
+          <GBAuthor>Changula,K.</GBAuthor>
+          <GBAuthor>Silwamba,I.</GBAuthor>
+          <GBAuthor>Chambaro,H.M.</GBAuthor>
+          <GBAuthor>Kapila,P.</GBAuthor>
+          <GBAuthor>Kajihara,M.</GBAuthor>
+          <GBAuthor>Simuunza,M.</GBAuthor>
+          <GBAuthor>Muma,J.B.</GBAuthor>
+          <GBAuthor>Pandey,G.S.</GBAuthor>
+          <GBAuthor>Takada,A.</GBAuthor>
+          <GBAuthor>Mweene,A.S.</GBAuthor>
+          <GBAuthor>Chitanga,S.</GBAuthor>
+          <GBAuthor>Simulundu,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular detection and characterization of genotype 1 bovine leukemia virus from beef cattle in the traditional sector in Zambia</GBReference_title>
+        <GBReference_journal>Arch. Virol. (2019) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-019-04350-6</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>31300890</GBReference_pubmed>
+        <GBReference_remark>DOI:10.1007/s00705-019-04350-6; Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..444</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Simulundu,E.</GBAuthor>
+          <GBAuthor>Phiri,M.M.</GBAuthor>
+          <GBAuthor>Kaimoyo,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (24-DEC-2018) Contact:Edgar Simulundu The University of Zambia, Disease Control; Great East Road, Lusaka, Lusaka 10101, Zambia URL :https://www.unza.zm/</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..444</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>444</GBInterval_to>
+            <GBInterval_accession>LC440655.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bovine leukemia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>BLV-ZAMB33-2018</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>beef cattle in traditional sector</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Bos taurus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11901</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Zambia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2018</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;444</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>444</GBInterval_to>
+            <GBInterval_accession>LC440655.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;444</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>444</GBInterval_to>
+            <GBInterval_accession>LC440655.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>surface glycoprotein gp51</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>BBH96382.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>PQGRRRFGARAMVTYDCEPRCPYVGADRFDCPHWDNASQADQGSFYVNHQILFLHLKQCHGIFTLTWEIWGYDPLITFSLHKIPDPPQPDFPQLNSDWVPSVRSWALLLNQTARAFPDCAICWEPSPPWAPEILVYNKTFSSSGPGLA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cccacaagggcggcgccggtttggagccagggccatggtcacatatgattgcgagccccgatgcccttatgtgggggcagatcgcttcgactgcccccactgggacaatgcctcccaggccgatcaaggatccttttatgtcaatcatcagattttatttctgcatctcaaacaatgtcatggaattttcactctaacctgggagatatggggatatgatcccctgatcaccttttctttacataagatccctgatccccctcaacccgactttccccagttaaacagtgactgggttccctctgtcagatcatgggccctgcttttaaatcaaacagcacgggccttcccagactgtgctatatgttgggaaccttcccctccctgggctcccgaaatattagtatataacaaaaccttctccagctctggacccggcctcgc</GBSeq_sequence>
+  </GBSeq>

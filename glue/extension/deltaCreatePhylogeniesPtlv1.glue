@@ -1,7 +1,7 @@
   # Clean up from any previous run of this file   
   delete module raxmlPhylogenyGenerator
-  delete module lentiPhyloUtility
-  delete module lentiFigTreeAnnotationExporter 
+  delete module deltaPhyloUtility
+  delete module deltaFigTreeAnnotationExporter 
   delete module alignmentColumnsSelectorFivCapsid
   delete module alignmentColumnsSelectorFivMatrix
   delete module alignmentColumnsSelectorFivNucleocapsid
@@ -10,8 +10,8 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/lentiPhyloUtility.xml
-  create module -f modules/core/lentiFigTreeAnnotationExporter.xml
+  create module -f modules/core/deltaPhyloUtility.xml
+  create module -f modules/core/deltaFigTreeAnnotationExporter.xml
   create module -f modules/extension/alignmentColumnsSelectorFivCapsid.xml
   create module -f modules/extension/alignmentColumnsSelectorFivMatrix.xml
   create module -f modules/extension/alignmentColumnsSelectorFivNucleocapsid.xml
@@ -24,75 +24,75 @@
 
     generate nucleotide phylogeny AL_FIV -s alignmentColumnsSelectorFivMatrix \
       -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-fiv-ma.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/delta-fiv-ma.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_FIV -s alignmentColumnsSelectorFivCapsid \
       -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-fiv-ca.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/delta-fiv-ca.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_FIV -s alignmentColumnsSelectorFivNucleocapsid \
       -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-fiv-nc.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/delta-fiv-nc.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_FIV -s alignmentColumnsSelectorFivRt \
       -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-fiv-rt.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/delta-fiv-rt.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_FIV -s alignmentColumnsSelectorFivIntegrase \
       -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-fiv-in.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/delta-fiv-in.tre NEWICK_BOOTSTRAPS
 
     exit
 
 
   # Re-root phylogeny 
-  module lentiPhyloUtility 
+  module deltaPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-fiv-ma.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/delta-fiv-ma.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-fiv-ma.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/delta-fiv-ma.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-fiv-ca.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/delta-fiv-ca.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-fiv-ca.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/delta-fiv-ca.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-fiv-nc.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/delta-fiv-nc.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-fiv-nc.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/delta-fiv-nc.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-fiv-rt.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/delta-fiv-rt.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-fiv-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/delta-fiv-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-fiv-in.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/delta-fiv-in.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-fiv-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/delta-fiv-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
 
   # Export annotations
-  module lentiFigTreeAnnotationExporter 
+  module deltaFigTreeAnnotationExporter 
 
     export figtree-annotation AL_FIV -w "fLocNotes.featureLoc.feature.name = 'matrix'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-fiv-ma.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-fiv-ma.figtree-annotations.tsv
 
     export figtree-annotation AL_FIV -w "fLocNotes.featureLoc.feature.name = 'capsid'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-fiv-ca.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-fiv-ca.figtree-annotations.tsv
 
     export figtree-annotation AL_FIV -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-fiv-nc.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-fiv-nc.figtree-annotations.tsv
 
     export figtree-annotation AL_FIV -w "fLocNotes.featureLoc.feature.name = 'RT'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-fiv-rt.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-fiv-rt.figtree-annotations.tsv
 
     export figtree-annotation AL_FIV -w "fLocNotes.featureLoc.feature.name = 'IN'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-fiv-in.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-fiv-in.figtree-annotations.tsv
 
   exit
 

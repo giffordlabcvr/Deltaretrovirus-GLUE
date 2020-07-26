@@ -1,7 +1,7 @@
   # Clean up from any previous run of this file   
   delete module raxmlPhylogenyGenerator
-  delete module lentiPhyloUtility
-  delete module lentiFigTreeAnnotationExporter 
+  delete module deltaPhyloUtility
+  delete module deltaFigTreeAnnotationExporter 
   delete module alignmentColumnsSelectorEiavCapsid
   delete module alignmentColumnsSelectorEiavMatrix
   delete module alignmentColumnsSelectorEiavNucleocapsid
@@ -10,8 +10,8 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/lentiPhyloUtility.xml
-  create module -f modules/core/lentiFigTreeAnnotationExporter.xml
+  create module -f modules/core/deltaPhyloUtility.xml
+  create module -f modules/core/deltaFigTreeAnnotationExporter.xml
   create module -f modules/extension/alignmentColumnsSelectorEiavCapsid.xml
   create module -f modules/extension/alignmentColumnsSelectorEiavMatrix.xml
   create module -f modules/extension/alignmentColumnsSelectorEiavNucleocapsid.xml
@@ -24,75 +24,75 @@
 
     generate nucleotide phylogeny AL_EIAV -s alignmentColumnsSelectorEiavMatrix \
       -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-eiav-ma.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/delta-eiav-ma.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_EIAV -s alignmentColumnsSelectorEiavCapsid \
       -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-eiav-ca.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/delta-eiav-ca.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_EIAV -s alignmentColumnsSelectorEiavNucleocapsid \
       -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-eiav-nc.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/delta-eiav-nc.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_EIAV -s alignmentColumnsSelectorEiavRt \
       -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-eiav-rt.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/delta-eiav-rt.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_EIAV -s alignmentColumnsSelectorEiavIntegrase \
       -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-eiav-in.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/delta-eiav-in.tre NEWICK_BOOTSTRAPS
 
     exit
 
 
   # Re-root phylogeny 
-  module lentiPhyloUtility 
+  module deltaPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-eiav-ma.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/delta-eiav-ma.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-eiav-ma.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/delta-eiav-ma.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-eiav-ca.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/delta-eiav-ca.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-eiav-ca.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/delta-eiav-ca.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-eiav-nc.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/delta-eiav-nc.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-eiav-nc.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/delta-eiav-nc.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-eiav-rt.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/delta-eiav-rt.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-eiav-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/delta-eiav-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-eiav-in.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/delta-eiav-in.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-eiav-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/delta-eiav-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
 
   # Export annotations
-  module lentiFigTreeAnnotationExporter 
+  module deltaFigTreeAnnotationExporter 
 
     export figtree-annotation AL_EIAV -w "fLocNotes.featureLoc.feature.name = 'matrix'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-eiav-ma.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-eiav-ma.figtree-annotations.tsv
 
     export figtree-annotation AL_EIAV -w "fLocNotes.featureLoc.feature.name = 'capsid'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-eiav-ca.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-eiav-ca.figtree-annotations.tsv
 
     export figtree-annotation AL_EIAV -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-eiav-nc.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-eiav-nc.figtree-annotations.tsv
 
     export figtree-annotation AL_EIAV -w "fLocNotes.featureLoc.feature.name = 'RT'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-eiav-rt.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-eiav-rt.figtree-annotations.tsv
 
     export figtree-annotation AL_EIAV -w "fLocNotes.featureLoc.feature.name = 'IN'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-eiav-in.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-eiav-in.figtree-annotations.tsv
 
   exit
 

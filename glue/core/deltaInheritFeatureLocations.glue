@@ -25,6 +25,9 @@ reference REF_PTLV4
 
 reference REF_BLV
 
+  inherit feature-location AL_ROOT matrix
+  inherit feature-location AL_ROOT capsid
+  inherit feature-location AL_ROOT nucleocapsid
   inherit feature-location AL_ROOT RT
   exit
 

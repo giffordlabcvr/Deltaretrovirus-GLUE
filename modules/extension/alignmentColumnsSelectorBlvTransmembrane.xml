@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_BIV</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>TM</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>197</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>TM</featureName>
+        <startNt>7323</startNt>
+        <endNt>7911</endNt>
+    </nucleotideRegionSelector>
+
+</alignmentColumnsSelector>

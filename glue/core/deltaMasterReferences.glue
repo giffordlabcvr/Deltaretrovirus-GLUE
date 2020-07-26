@@ -293,12 +293,12 @@
 
     add feature-location capsid
     feature-location capsid
-      add segment 628 954
+      add segment 955 1545
       exit
 
     add feature-location nucleocapsid
     feature-location nucleocapsid
-      add segment 628 954
+      add segment 1597 1803
       exit
 
     add feature-location pro
@@ -309,6 +309,11 @@
     add feature-location pol
     feature-location pol
       add segment 2467 4875 
+      exit
+
+    add feature-location IN
+    feature-location IN
+      add segment 2950 4872
       exit
            
     add feature-location hbz

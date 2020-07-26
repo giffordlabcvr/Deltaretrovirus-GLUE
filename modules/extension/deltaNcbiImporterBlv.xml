@@ -1,7 +1,7 @@
 <ncbiImporter>
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
-  <sourceName>ncbi-curated-bl</sourceName>
+  <sourceName>ncbi-curated-blv</sourceName>
 
   <!-- The eSearchTerm is a standard NCBI entrez text query. 
        An alternative to eSearchTerm is to specify specific GI numbers or Primary Accessions 

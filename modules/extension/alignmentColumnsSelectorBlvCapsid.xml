@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_BLV</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>capsid</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>197</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>capsid</featureName>
+        <startNt>955</startNt>
+        <endNt>1543</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>

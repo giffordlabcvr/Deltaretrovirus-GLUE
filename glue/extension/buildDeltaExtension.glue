@@ -16,7 +16,7 @@
 	run file glue/extension/deltaExtensionAlignmentTree.glue
 
 	# Create alignments
-	run file glue/extension/deltavirusCreateAlignments.glue
+	run file glue/extension/deltaCreateAlignments.glue
 
 	# Create alignments
 	run file glue/extension/deltaRecordFeaturePresence.glue
