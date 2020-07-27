@@ -1,0 +1,12 @@
+
+
+  # Load reference/consensus data for ERVs
+
+  run script glue/erv/deltaErvLoadRefConData1.js
+  run script glue/erv/deltaErvLoadRefConData2.js
+
+
+  # Load ERV sequences from DIGS
+
+  run script glue/erv/deltaErvLoadLocusData1.js
+  run script glue/erv/deltaErvLoadLocusData2.js

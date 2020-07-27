@@ -8,9 +8,8 @@ project deltaretrovirus
   import source sources/fasta-digs-erv/
   import source sources/fasta-refseqs-erv/
 
-  # Link references to isolate data
-  run script glue/erv/deltaErvLoadLocusData1.js
-  run script glue/erv/deltaErvLoadLocusData2.js
+  # Import side data
+  run file glue/erv/deltaErvLoadData.glue
 
   # Create deltaretrovirus ERV reference sequences
   run file glue/erv/deltaErvReferences.glue
