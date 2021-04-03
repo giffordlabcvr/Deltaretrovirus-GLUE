@@ -1,3 +1,4 @@
-sequenceID	name	full_name	subfamily	clade	genus	subgenus	host_sci_name	host_common_name
-K02120	BLV	Bovine leukemia virus	Orthoretrovirinae	Clade II	Deltaretrovirus	Ungulate	Bos taurus	Domestic cow
-J02029	HTLV-1	Human T-lymphotropic virus 1	Orthoretrovirinae	Clade II	Deltaretrovirus	Primate	Homo sapiens	Human
+sequenceID	name	reftype	full_name	subfamily	clade	genus	subgenus	host_group_name	host_group_taxlevel
+MinERVa-con	MinERVa-con	consensus	MinERVa-con	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Miniopterus	Genus
+Murina-con	Murina-con	consensus	Murina-con	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Murina_aurata_feae	Species
+Platanista-con	Platanista-con	consensus	Platanista-con	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Platanista_minor	Species

@@ -2,45 +2,45 @@
   delete module raxmlPhylogenyGenerator
   delete module deltaPhyloUtility
   delete module deltaFigTreeAnnotationExporter 
-  delete module alignmentColumnsSelectorFivCapsid
-  delete module alignmentColumnsSelectorFivMatrix
-  delete module alignmentColumnsSelectorFivNucleocapsid
-  delete module alignmentColumnsSelectorFivRt
-  delete module alignmentColumnsSelectorFivIntegrase
+  delete module alignmentColumnsSelectorPtlvCapsid
+  delete module alignmentColumnsSelectorPtlvMatrix
+  delete module alignmentColumnsSelectorPtlvNucleocapsid
+  delete module alignmentColumnsSelectorPtlvRt
+  delete module alignmentColumnsSelectorPtlvIntegrase
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/core/deltaPhyloUtility.xml
   create module -f modules/core/deltaFigTreeAnnotationExporter.xml
-  create module -f modules/extension/alignmentColumnsSelectorFivCapsid.xml
-  create module -f modules/extension/alignmentColumnsSelectorFivMatrix.xml
-  create module -f modules/extension/alignmentColumnsSelectorFivNucleocapsid.xml
-  create module -f modules/extension/alignmentColumnsSelectorFivRt.xml
-  create module -f modules/extension/alignmentColumnsSelectorFivIntegrase.xml
+  create module -f modules/extension/alignmentColumnsSelectorPtlvCapsid.xml
+  create module -f modules/extension/alignmentColumnsSelectorPtlvMatrix.xml
+  create module -f modules/extension/alignmentColumnsSelectorPtlvNucleocapsid.xml
+  create module -f modules/extension/alignmentColumnsSelectorPtlvRt.xml
+  create module -f modules/extension/alignmentColumnsSelectorPtlvIntegrase.xml
 
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_FIV -s alignmentColumnsSelectorFivMatrix \
+    generate nucleotide phylogeny AL_PTLV1 -s alignmentColumnsSelectorPtlvMatrix \
       -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/delta-fiv-ma.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/deltafiv-ptlv-ma.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_FIV -s alignmentColumnsSelectorFivCapsid \
+    generate nucleotide phylogeny AL_PTLV1 -s alignmentColumnsSelectorPtlvCapsid \
       -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/delta-fiv-ca.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/deltafiv-ptlv-ca.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_FIV -s alignmentColumnsSelectorFivNucleocapsid \
+    generate nucleotide phylogeny AL_PTLV1 -s alignmentColumnsSelectorPtlvNucleocapsid \
       -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/delta-fiv-nc.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/deltafiv-ptlv-nc.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_FIV -s alignmentColumnsSelectorFivRt \
+    generate nucleotide phylogeny AL_PTLV1 -s alignmentColumnsSelectorPtlvRt \
       -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/delta-fiv-rt.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/deltafiv-ptlv-rt.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_FIV -s alignmentColumnsSelectorFivIntegrase \
+    generate nucleotide phylogeny AL_PTLV1 -s alignmentColumnsSelectorPtlvIntegrase \
       -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/delta-fiv-in.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/deltafiv-ptlv-in.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -49,29 +49,29 @@
   module deltaPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/delta-fiv-ma.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/deltafiv-ptlv-ma.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/delta-fiv-ma.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/deltafiv-ptlv-ma.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/delta-fiv-ca.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/deltafiv-ptlv-ca.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/delta-fiv-ca.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/deltafiv-ptlv-ca.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/delta-fiv-nc.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/deltafiv-ptlv-nc.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/delta-fiv-nc.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/deltafiv-ptlv-nc.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/delta-fiv-rt.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/deltafiv-ptlv-rt.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/delta-fiv-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/deltafiv-ptlv-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/delta-fiv-in.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/deltafiv-ptlv-in.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/delta-fiv-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/deltafiv-ptlv-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
@@ -79,20 +79,20 @@
   # Export annotations
   module deltaFigTreeAnnotationExporter 
 
-    export figtree-annotation AL_FIV -w "fLocNotes.featureLoc.feature.name = 'matrix'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-fiv-ma.figtree-annotations.tsv
+    export figtree-annotation AL_PTLV1 -w "fLocNotes.featureLoc.feature.name = 'matrix'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/deltafiv-ptlv-ma.figtree-annotations.tsv
 
-    export figtree-annotation AL_FIV -w "fLocNotes.featureLoc.feature.name = 'capsid'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-fiv-ca.figtree-annotations.tsv
+    export figtree-annotation AL_PTLV1 -w "fLocNotes.featureLoc.feature.name = 'capsid'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/deltafiv-ptlv-ca.figtree-annotations.tsv
 
-    export figtree-annotation AL_FIV -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-fiv-nc.figtree-annotations.tsv
+    export figtree-annotation AL_PTLV1 -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/deltafiv-ptlv-nc.figtree-annotations.tsv
 
-    export figtree-annotation AL_FIV -w "fLocNotes.featureLoc.feature.name = 'RT'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-fiv-rt.figtree-annotations.tsv
+    export figtree-annotation AL_PTLV1 -w "fLocNotes.featureLoc.feature.name = 'RT'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/deltafiv-ptlv-rt.figtree-annotations.tsv
 
-    export figtree-annotation AL_FIV -w "fLocNotes.featureLoc.feature.name = 'IN'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-fiv-in.figtree-annotations.tsv
+    export figtree-annotation AL_PTLV1 -w "fLocNotes.featureLoc.feature.name = 'IN'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/deltafiv-ptlv-in.figtree-annotations.tsv
 
   exit
 
