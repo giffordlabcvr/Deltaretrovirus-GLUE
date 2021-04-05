@@ -1,5 +1,5 @@
-sequenceID	sequence_length	locus_numeric_id	record_ID	organism	target_datatype	target_version	target_name	probe_type	scaffold	extract_start	extract_end	assigned_name	assigned_gene	orientation
-ERV-Delta.1-Miniopterus_natalensis	1783	1	2310068	Miniopterus_natalensis	low_coverage	Mnat.v1	291302_ref_Mnat.v1_chrUn.fa	ORF	gi|1016328890|ref|NW_015504317.1|	686392	688174	MinERVa	Gag	-
-ERV-Delta.1-Miniopterus_schreibersii	1587	1	2310072	Miniopterus_schreibersii	low_coverage	MinSch_v1	GCA_004026525.1_MinSch_v1_BIUU_genomic.fna	ORF	PVJG01030891.1	503	2089	MinERVa	Gag	-
-ERV-Delta.3-Murina_aurata	2571	3	2670881	Murina_aurata_feae	low_coverage	MurFea_v1	GCA_004026665.1_MurFea_v1_BIUU_genomic.fna	ORF	PVJC01054996.1	4686	7256	PTLV-3	pol	-
-ERV-Delta.1-Platanista_minor	4522	1	2713584	Platanista_minor	low_coverage	PlaMin_v1_BIUU	GCA_004363435.1_PlaMin_v1_BIUU_genomic.fna	ORF	RJWK010047772.1	4226	8747	BLV	pol	-
+sequenceID	sequence_length	locus_numeric_id	record_ID	organism	target_datatype	target_version	target_name	probe_type	scaffold	extract_start	extract_end	orientation
+ERV-Delta.1-Miniopterus_natalensis	1783	1	2310068	Miniopterus_natalensis	low_coverage	Mnat.v1	291302_ref_Mnat.v1_chrUn.fa	ORF	gi|1016328890|ref|NW_015504317.1|	686392	688174	-
+ERV-Delta.1-Miniopterus_schreibersii	1587	1	2310072	Miniopterus_schreibersii	low_coverage	MinSch_v1	GCA_004026525.1_MinSch_v1_BIUU_genomic.fna	ORF	PVJG01030891.1	503	2089	-
+ERV-Delta.3-Murina_aurata	2571	3	2670881	Murina_aurata_feae	low_coverage	MurFea_v1	GCA_004026665.1_MurFea_v1_BIUU_genomic.fna	ORF	PVJC01054996.1	4686	7256	-
+ERV-Delta.1-Platanista_minor	4522	1	2713584	Platanista_minor	low_coverage	PlaMin_v1_BIUU	GCA_004363435.1_PlaMin_v1_BIUU_genomic.fna	ORF	RJWK010047772.1	4226	8747	-
