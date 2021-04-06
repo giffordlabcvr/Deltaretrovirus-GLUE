@@ -1,3 +1,10 @@
   delete module deltaFeaturePresenceRecorder
   create module -f modules/extension/deltaFeaturePresenceRecorder.xml
 
+  module deltaFeaturePresenceRecorder 
+
+    #~# Root alignment
+     record feature-presence AL_ROOT --recursive --featureName whole_genome --descendentFeatures
+    
+    exit
+

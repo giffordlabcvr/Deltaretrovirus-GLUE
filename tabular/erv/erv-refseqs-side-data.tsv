@@ -1,9 +1,9 @@
-sequenceID	name	reftype	full_name	subfamily	clade	genus	subgenus	host group name	host_group_taxlevel
-ERV-Delta.1-Miniopterus	MinERVa-con	consensus	MinERVa-con	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Miniopterus	Genus
-ERV-Delta.2-RhiSin	ERV-Delta.2-Rhinolophus_sinicus	reference	ERV-Delta.2-Rhinolophus_sinicus	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Rhinolophus sinicus	Species
-ERV-Delta.4-HipGal	ERV-Delta.4-Hipposideros_galeritus	reference	ERV-Delta.4-Hipposideros_galeritus	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Rhinolophus sinicus	Species
-ERV-Delta.5-AnoCau	ERV-Delta.5-Anoura_caudifer	reference	ERV-Delta.5-Anoura_caudifer	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Anoura caudifer	Species
-ERV-Delta.4-HipGal	Murina-con	consensus	Murina-con	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Murina aurata feae	Species
-ERV-Delta.6-PlaMin	Platanista-con	consensus	Platanista-con	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Platanista minor	Species
-ERV-Delta.7-Herpestoidea	ERV-Delta.7-Herpestoidea	consensus	ERV-Delta.7-Herpestoidea	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Herpestoidea	Superfamily
-ERV-Delta.8-SolPar	ERV-Delta.8-Solenodon_paradoxus	reference	ERV-Delta.8-Solenodon_paradoxus	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Murina aurata feae	Species
+sequenceID	name	reftype	structure	full_name	subfamily	clade	genus	subgenus	host group name	host_group_taxlevel
+ERV-Delta.1-Miniopterus	ERV-Delta.1-Miniopterus (MinERVa)	consensus	provirus	ERV-Delta.1-Miniopterus	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Miniopterus	Genus
+ERV-Delta.2-RhiSin	ERV-Delta.2-RhiSin	reference	solo LTR	ERV-Delta.2-Rhinolophus_sinicus	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Rhinolophus sinicus	Species
+ERV-Delta.3-MurAur	ERV-Delta.3-MurAur	reference	provirus	ERV-Delta.3-Murina_aurata	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Murina aurata feae	Species
+ERV-Delta.4-HipGal	ERV-Delta.4-HipGal	consensus	provirus	ERV-Delta.4-Hipposideros_galeritus	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Hipposideros galeritus	Species
+ERV-Delta.5-AnoCau	ERV-Delta.5-AnoCau	reference	solo LTR	ERV-Delta.5-Anoura_caudifer	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Anoura caudifer	Species
+ERV-Delta.6-PlaMin	ERV-Delta.6-PlaMin	consensus	provirus	ERV-Delta.6-Platanista_minor	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Platanista minor	Species
+ERV-Delta.7-Herpestoidea	ERV-Delta.7-Herpestoidea	consensus	solo LTR	ERV-Delta.7-Herpestoidea	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Herpestoidea	Superfamily
+ERV-Delta.8-SolPar	ERV-Delta.8-SolPar	reference	solo LTR	ERV-Delta.8-Solenodon_paradoxus	Orthoretrovirinae	Clade II	Deltaretrovirus	Unclassified	Murina aurata feae	Species
