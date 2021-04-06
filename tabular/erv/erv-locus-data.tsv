@@ -1,5 +1,13 @@
-sequenceID	sequence_length	locus_numeric_id	record_ID	organism	target_datatype	target_version	target_name	probe_type	scaffold	extract_start	extract_end	orientation
-ERV-Delta.1-Miniopterus_natalensis	1783	1	2310068	Miniopterus_natalensis	low_coverage	Mnat.v1	291302_ref_Mnat.v1_chrUn.fa	ORF	gi|1016328890|ref|NW_015504317.1|	686392	688174	-
-ERV-Delta.1-Miniopterus_schreibersii	1587	1	2310072	Miniopterus_schreibersii	low_coverage	MinSch_v1	GCA_004026525.1_MinSch_v1_BIUU_genomic.fna	ORF	PVJG01030891.1	503	2089	-
-ERV-Delta.3-Murina_aurata	2571	3	2670881	Murina_aurata_feae	low_coverage	MurFea_v1	GCA_004026665.1_MurFea_v1_BIUU_genomic.fna	ORF	PVJC01054996.1	4686	7256	-
-ERV-Delta.1-Platanista_minor	4522	1	2713584	Platanista_minor	low_coverage	PlaMin_v1_BIUU	GCA_004363435.1_PlaMin_v1_BIUU_genomic.fna	ORF	RJWK010047772.1	4226	8747	-
+sequenceID	sequence_length	locus_numeric_id	scaffold	extract_start	extract_end	orientation	organism
+ERV-Delta.1-Miniopterus_natalensis	1783	1	LDJU01000221	685870	688987	-	Miniopterus natalensis
+ERV-Delta.1-Miniopterus_schreibersii	1587	1	PVJG01030891.1	503	2089	-	Miniopterus schreibersii
+ERV-Delta.2-Rhinolophus_sinicus	661	2	LVEH01002092	224	884	-	Rhinolophus sinicus
+ERV-Delta.3-Murina_aurata	2571	3	PVJC01054996	2991	9624	-	Murina aurata feae
+ERV-Delta.4-Hipposideros_galeritus	606	4	PVLB01015338	37283	37888	-	Hipposideros galeritus
+ERV-Delta.5-Anoura_caudifer	261	5	PVKU01000816	300731	300991	-	Anoura caudifer
+ERV-Delta.6-Platanista_minor	4522	6	RJWK010047772	2710	10772	-	Platanista minor
+ERV-Delta.7-Cryptoprocta_ferox	636	7	PJEU01009902	63280	63915	+	Cryptoprocta ferox
+ERV-Delta.7-Helogale_parvula	551	7	PJEM01004257	95137	95687	+	Helogale parvula
+ERV-Delta.7-Mungos_mungo	535	7	PISW01001682	85328	85862	+	Mungos mungo
+ERV-Delta.7-Suricata_suricatta	552	7	PITD01006283	94127	94678	+	Suricata suricatta
+ERV-Delta.8-Solenodon_paradoxus	591	8	NKTL01022466	630	1220	+	Solenodon paradoxus
