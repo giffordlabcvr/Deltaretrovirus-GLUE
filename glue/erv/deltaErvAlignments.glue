@@ -1,6 +1,6 @@
 #~# Import pre-built alignments of ERVs
 
 module unconstrainedAlignmentImporter
-  import AL_UNC_ROOT_ERV -f alignments/erv/root/deltaretrovirus-erv-root.aln.fna
+  import AL_UNC_ROOT_ERV -f alignments/root/deltaretrovirus-erv-root.aln.fna
   exit
 

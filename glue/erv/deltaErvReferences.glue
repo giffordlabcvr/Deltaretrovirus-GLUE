@@ -1,10 +1,10 @@
   ## Endogenous deltavirus reference sequence declarations
 
   ## Endogenous deltaviruses
-  create reference REF_MinERVa      fasta-refseqs-erv MinERVa-con
-  create reference REF_Murina       fasta-refseqs-erv Murina-con
-  create reference REF_Platanista   fasta-refseqs-erv Platanista-con
-
+  create reference REF_MinERVa      fasta-refseqs-erv ERV-Delta.1-Miniopterus
+  create reference REF_Murina       fasta-refseqs-erv ERV-Delta.3-MurAur
+  create reference REF_Platanista   fasta-refseqs-erv ERV-Delta.6-PlaMin
+  
   # Define features on references
 
   reference REF_MinERVa
