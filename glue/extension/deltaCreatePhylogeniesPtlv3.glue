@@ -1,0 +1,72 @@
+  # Clean up from any previous run of this file   
+  delete module raxmlPhylogenyGenerator
+  delete module deltaPhyloUtility
+  delete module deltaFigTreeAnnotationExporter 
+  delete module alignmentColumnsSelectorPtlv3Gag
+  delete module alignmentColumnsSelectorPtlv3Pol
+  delete module alignmentColumnsSelectorPtlv3Env
+  
+  # Create all the modules we need
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/deltaPhyloUtility.xml
+  create module -f modules/core/deltaFigTreeAnnotationExporter.xml
+  create module -f modules/extension/alignmentColumnsSelectorPtlv3Gag.xml
+  create module -f modules/extension/alignmentColumnsSelectorPtlv3Pol.xml
+  create module -f modules/extension/alignmentColumnsSelectorPtlv3Env.xml
+
+  
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_Ptlv3 -s alignmentColumnsSelectorPtlv3gag \
+      -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/delta-Ptlv3-gag.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_Ptlv3 -s alignmentColumnsSelectorPtlv3Pol \
+      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/delta-Ptlv3-pol.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_Ptlv3 -s alignmentColumnsSelectorPtlv3Env \
+      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/delta-Ptlv3-Env.tre NEWICK_BOOTSTRAPS
+
+    exit
+
+
+  # Re-root phylogeny 
+  module deltaPhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/main-species/delta-Ptlv3-gag.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/delta-Ptlv3-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-species/delta-Ptlv3-pol.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/delta-Ptlv3-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-species/delta-Ptlv3-env.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/delta-Ptlv3-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+
+    exit
+
+
+  # Export annotations
+  module deltaFigTreeAnnotationExporter 
+
+    export figtree-annotation AL_Ptlv3 -w "fLocNotes.featureLoc.feature.name = 'gag'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-Ptlv3-gag.figtree-annotations.tsv
+
+    export figtree-annotation AL_Ptlv3 -w "fLocNotes.featureLoc.feature.name = 'pol'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-Ptlv3-pol.figtree-annotations.tsv
+
+    export figtree-annotation AL_Ptlv3 -w "fLocNotes.featureLoc.feature.name = 'env'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/delta-Ptlv3-Env.figtree-annotations.tsv
+
+
+  exit
+
