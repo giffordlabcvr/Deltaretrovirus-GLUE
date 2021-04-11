@@ -24,7 +24,7 @@ project deltaretrovirus
   run file glue/erv/deltaErvRecordFeaturePresence.glue
 
   # Create root phylogeny with ERVs
-  run file glue/erv/deltaErvCreatePhylogeniesRoot.glue
+  #run file glue/erv/deltaErvCreatePhylogeniesRoot.glue
 
   # Validate
   validate
