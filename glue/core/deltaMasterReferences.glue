@@ -17,7 +17,7 @@
 
     add feature-location 5LTR
     feature-location 5LTR
-      add segment 1 777
+      add segment 23 777
       exit
 
     add feature-location internal_region
@@ -27,41 +27,16 @@
 
     add feature-location gag
     feature-location gag
-      add segment 802 2091
-      exit
-
-    add feature-location matrix
-    feature-location matrix
-      add segment 805 1194
-      exit
-
-    add feature-location capsid
-    feature-location capsid
-      add segment 1195 1836
-      exit
-
-    add feature-location nucleocapsid
-    feature-location nucleocapsid
-      add segment 1837 2088
-      exit
-
-    add feature-location pro
-    feature-location pro
-      add segment 2052 2753
+      add segment 824 2113
       exit
 
     add feature-location pol
     feature-location pol
-      add segment 2520 5210
+      add segment 2520 5207
       exit
 
     add feature-location RT
     feature-location RT
-      add segment 2718 3230 
-      exit
-
-    add feature-location IN
-    feature-location IN
       add segment 2718 3230 
       exit
 
@@ -190,7 +165,7 @@
 
     add feature-location gag
     feature-location gag
-      add segment 756 2023
+      add segment 756 2024
       exit
 
     add feature-location pro
@@ -231,7 +206,7 @@
 
     add feature-location gag
     feature-location gag
-      add segment 750 2023
+      add segment 750 2024
       exit
 
     add feature-location pro

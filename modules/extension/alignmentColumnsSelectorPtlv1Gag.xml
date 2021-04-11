@@ -4,15 +4,15 @@
     <relRefName>REF_PTLV1</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>IN</featureName>
+        <featureName>gag</featureName>
         <startCodon>1</startCodon>
-        <endCodon>279</endCodon>
+        <endCodon>430</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>IN</featureName>
-        <startNt>3903</startNt>
-        <endNt>4740</endNt>
+        <featureName>gag</featureName>
+        <startNt>824</startNt>
+        <endNt>2111</endNt>
     </nucleotideRegionSelector>
 
 </alignmentColumnsSelector>

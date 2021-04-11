@@ -6,13 +6,14 @@
     <aminoAcidRegionSelector>
         <featureName>SU</featureName>
         <startCodon>1</startCodon>
-        <endCodon>412</endCodon>
+        <endCodon>197</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>SU</featureName>
-        <startNt>6087</startNt>
-        <endNt>7320</endNt>
+        <startNt>5203</startNt>
+        <endNt>5793</endNt>
     </nucleotideRegionSelector>
 
 </alignmentColumnsSelector>
+ 
