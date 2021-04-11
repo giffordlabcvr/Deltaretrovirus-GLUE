@@ -23,10 +23,10 @@
 
 	# Create phylogenies
 	#run file glue/extension/deltaCreatePhylogeniesBlv.glue
-	run file glue/extension/deltaCreatePhylogeniesPtlv1.glue
+	#run file glue/extension/deltaCreatePhylogeniesPtlv1.glue
 	run file glue/extension/deltaCreatePhylogeniesPtlv2.glue
-	run file glue/extension/deltaCreatePhylogeniesPtlv3.glue
-	run file glue/extension/deltaCreatePhylogeniesPtlv4.glue
+	#run file glue/extension/deltaCreatePhylogeniesPtlv3.glue
+	#run file glue/extension/deltaCreatePhylogeniesPtlv4.glue
 
 	# Validate
 	validate

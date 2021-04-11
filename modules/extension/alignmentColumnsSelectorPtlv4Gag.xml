@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_PTLV4</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>gag</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>425</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>gag</featureName>
+        <startNt>750</startNt>
+        <endNt>2022</endNt>
+    </nucleotideRegionSelector>
+
+</alignmentColumnsSelector>

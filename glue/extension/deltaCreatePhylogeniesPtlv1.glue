@@ -28,7 +28,7 @@
       -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/delta-ptlv1-pol.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_PTLV1 -s alignmentColumnsSelectorPtlv1Surfacerface \
+    generate nucleotide phylogeny AL_PTLV1 -s alignmentColumnsSelectorPtlv1Surface \
       -w "fLocNotes.featureLoc.feature.name = 'SU' and fLocNotes.ref_surface_coverage_pct >= 50" \
       -o trees/main-species/delta-ptlv1-surface.tre NEWICK_BOOTSTRAPS
 

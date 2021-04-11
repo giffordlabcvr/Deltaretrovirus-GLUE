@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_PTLV3</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>Pol</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>890</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>Pol</featureName>
+        <startNt>2407</startNt>
+        <endNt>5074</endNt>
+    </nucleotideRegionSelector>
+
+</alignmentColumnsSelector>

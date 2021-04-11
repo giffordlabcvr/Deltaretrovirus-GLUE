@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_PTLV4</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>env</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>486</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>env</featureName>
+        <startNt>5102</startNt>
+        <endNt>6557</endNt>
+    </nucleotideRegionSelector>
+
+</alignmentColumnsSelector>
+ 
