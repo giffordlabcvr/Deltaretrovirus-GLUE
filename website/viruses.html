@@ -49,11 +49,13 @@
 
 <blockquote>
 	    Some of the mammalian species known to harbour deltaretrovirus infections. Left to right: 
-	    (i) guenons;
-		(ii) geladas;
-		(iii) orang utan;
-		(iv) cattle.	 
+	    (i) <a target="_blank" href="https://www.neprimateconservancy.org/guenons.html">guenons</a>;
+		(ii) <a target="_blank" href="https://www.neprimateconservancy.org/gelada.html">geladas</a>;
+		(iii) <a target="_blank" href="https://doi.org/10.1111/j.1349-7006.1997.tb00293.x">orang utan</a>;
+		(iv) <a target="_blank" href="https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/bovine-leukemia-virus">cattle</a>.	 
 </blockquote>
+
+
 
 
 	   <br>
@@ -69,6 +71,26 @@
          between these data items. This creates powerful framework for performing
          <i>standardised</i> comparative analysis, via GLUE's command layer.
 	   </p>
+
+
+	   <br>
+	   <h3>
+		 <a id="schemaExtensions" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Project-specific schema extensions</strong>
+	   </h3>
+	   <hr>
+
+
+		 <p>
+		   Deltaretrovirus-GLUE extends GLUE's 
+		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
+		   through the incorporation of a number of additional fields in the 
+		   sequence table, and a project-specific custom table: 'isolate'.
+		   These schema extensions are defined <a target="_blank" href="https://github.com/giffordlabcvr/Deltaretrovirus-GLUE/blob/master/glue/core/deltaSchemaExtensions.glue"><b>here</b></a>.
+		   The isolate table is linked to the main 'sequence' table via the sequence ID field.
+		   It contains information pertaining to viral isolates,  e.g. species sampled, date and location of sample.
+		 </p>
+
+
 
 
 
@@ -180,26 +202,6 @@
           for phylogeny reconstruction, once filters have been applied.
  		</p>
  		
-
-	   <br>
-	   <h3>
-		 <a id="schemaExtensions" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Project-specific schema extensions</strong>
-	   </h3>
-	   <hr>
-
-
-		 <p>
-		   Deltaretrovirus-GLUE extends GLUE's 
-		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
-		   through the incorporation of a number of additional fields in the 
-		   sequence table, and a project-specific custom table: 'isolate'.
-		   These schema extensions are defined <a target="_blank" href="https://github.com/giffordlabcvr/Deltaretrovirus-GLUE/blob/master/glue/core/deltaSchemaExtensions.glue"><b>here</b></a>.
-		   The isolate table is linked to the main 'sequence' table via the sequence ID field.
-		   It contains information pertaining to viral isolates,  e.g. species sampled, date and location of sample.
-		 </p>
-
-
-
 
 
 
