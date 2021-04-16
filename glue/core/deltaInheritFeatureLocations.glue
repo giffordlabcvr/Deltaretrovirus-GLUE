@@ -1,8 +1,9 @@
 
 reference REF_PTLV2
 
-  inherit feature-location AL_ROOT RT
-  #inherit feature-location AL_ROOT IN
+  inherit feature-location AL_ROOT matrix
+  inherit feature-location AL_ROOT capsid
+  inherit feature-location AL_ROOT nucleocapsid
   exit
 
 reference REF_PTLV3
@@ -10,8 +11,6 @@ reference REF_PTLV3
   #inherit feature-location AL_ROOT matrix
   #inherit feature-location AL_ROOT capsid
   #inherit feature-location AL_ROOT nucleocapsid
-  inherit feature-location AL_ROOT RT
-  #inherit feature-location AL_ROOT IN
   exit
 
 reference REF_PTLV4
@@ -19,15 +18,5 @@ reference REF_PTLV4
   #inherit feature-location AL_ROOT matrix
   #inherit feature-location AL_ROOT capsid
   #inherit feature-location AL_ROOT nucleocapsid
-  inherit feature-location AL_ROOT RT
-  #inherit feature-location AL_ROOT IN
-  exit
-
-reference REF_BLV
-
-  #inherit feature-location AL_ROOT matrix
-  #inherit feature-location AL_ROOT capsid
-  #inherit feature-location AL_ROOT nucleocapsid
-  #inherit feature-location AL_ROOT RT
   exit
 

@@ -27,7 +27,22 @@
 
     add feature-location gag
     feature-location gag
-      add segment 824 2113
+      add segment 450 1739
+      exit
+
+    add feature-location matrix
+    feature-location matrix
+      add segment 450 842
+      exit
+
+    add feature-location capsid
+    feature-location capsid
+      add segment 843 1487
+      exit
+
+    add feature-location nucleocapsid
+    feature-location nucleocapsid
+      add segment 1488 1739
       exit
 
     add feature-location pol
@@ -99,7 +114,6 @@
     feature-location gag
       add segment 807 2108
       exit
-
 
     add feature-location matrix
     feature-location matrix
