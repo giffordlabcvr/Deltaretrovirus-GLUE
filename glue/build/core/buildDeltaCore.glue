@@ -3,37 +3,37 @@
   #~#  Deltaretrovirus basic skeleton project 
 
 	# Create deltavirus project extension-specific modules 
-	run file glue/core/projectSettings.glue
+	run file glue/build/core/projectSettings.glue
 
 	# Create modules
-	run file glue/core/deltaModules.glue
+	run file glue/build/core/deltaModules.glue
 
 	# Define features 
-	run file glue/core/deltaFeatures.glue
+	run file glue/build/core/deltaFeatures.glue
 
 	# Import reference sequences from GenBank XML files 
 	import source sources/ncbi-refseqs/
 
 	# Create deltavirus references and attach feature locations
-	run file glue/core/deltaMasterReferences.glue  
+	run file glue/build/core/deltaMasterReferences.glue  
 
 	# Import side data for reference sequences
-	run file glue/core/deltaImportSideDataReferences.glue
+	run file glue/build/core/deltaImportSideDataReferences.glue
 
 	# Import alignments 
-	run file glue/core/deltaAlignments.glue
+	run file glue/build/core/deltaAlignments.glue
 
 	# Define constrained alignment tree
-	run file glue/core/deltaAlignmentTree.glue
+	run file glue/build/core/deltaAlignmentTree.glue
 
 	# Create phylogenies
-	run file glue/core/deltaInheritFeatureLocations.glue
+	run file glue/build/core/deltaInheritFeatureLocations.glue
 
 	# Record feature coverage in alignments
-	run file glue/core/deltaRecordFeaturePresence.glue
+	run file glue/build/core/deltaRecordFeaturePresence.glue
 
 	# Create phylogenies
-	#run file glue/core/deltaCreateRootPhylogenies.glue
+	#run file glue/build/core/deltaCreateRootPhylogenies.glue
 
 	validate
 	exit

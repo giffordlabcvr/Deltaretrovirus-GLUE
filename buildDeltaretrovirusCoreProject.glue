@@ -6,12 +6,12 @@
 
   # Create DB schema
   schema-project deltaretrovirus
-	run file glue/core/deltaSchemaExtensions.glue
+	run file glue/build/core/deltaSchemaExtensions.glue
 	exit
 
   # Build core project (reference sequences only)
-  run file glue/core/buildDeltaCore.glue
+  run file glue/build/core/buildDeltaCore.glue
 
   # Build EVE project
-  #run file glue/erv/buildDeltaErvExtension.glue
+  #run file glue/build/erv/buildDeltaErvExtension.glue
   
