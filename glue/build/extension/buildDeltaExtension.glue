@@ -1,31 +1,25 @@
   project deltaretrovirus
 
 	# Delete previous extension build
-	run file glue/extension/deltaDeleteExtensionBuild.glue
+	run file glue/build/extension/deltaDeleteExtensionBuild.glue
 
 	# Import sources
-	run file glue/extension/deltaExtensionSources.glue
+	run file glue/build/extension/deltaExtensionSources.glue
 
 	# Link references to isolate data
-	run script glue/extension/deltaLoadCuratedIsolateData1.js
+	run script glue/build/extension/deltaLoadCuratedIsolateData1.js
 
 	# Extract data from the XML files
 	module deltaGenbankXmlPopulator populate
 
 	# Add curated sequences constrained alignment tree
-	run file glue/extension/deltaExtensionAlignmentTree.glue
+	run file glue/build/extension/deltaExtensionAlignmentTree.glue
 
 	# Create alignments
-	run file glue/extension/deltaCreateAlignments.glue
+	run file glue/build/extension/deltaCreateAlignments.glue
 
 	# Create alignments
-	run file glue/extension/deltaRecordFeaturePresence.glue
-
-	# Create phylogenies
-	run file glue/extension/deltaCreatePhylogeniesBlv.glue
-	run file glue/extension/deltaCreatePhylogeniesPtlv1.glue
-	run file glue/extension/deltaCreatePhylogeniesPtlv2.glue
-	run file glue/extension/deltaCreatePhylogeniesPtlv3.glue
+	run file glue/build/extension/deltaRecordFeaturePresence.glue
 
 	# Validate
 	validate

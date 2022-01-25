@@ -1,5 +1,5 @@
 schema-project deltaretrovirus
-  run file glue/erv/deltaErvSchemaExtensions.glue
+  run file glue/build/erv/deltaErvSchemaExtensions.glue
   exit
 
 project deltaretrovirus
@@ -9,22 +9,19 @@ project deltaretrovirus
   import source sources/fasta-refseqs-erv/
 
   # Import side data
-  run file glue/erv/deltaErvLoadData.glue
+  run file glue/build/erv/deltaErvLoadData.glue
 
   # Create deltaretrovirus ERV reference sequences
-  run file glue/erv/deltaErvReferences.glue
+  run file glue/build/erv/deltaErvReferences.glue
 
   # Import alignments
-  run file glue/erv/deltaErvAlignments.glue
+  run file glue/build/erv/deltaErvAlignments.glue
 
   # Add deltaretrovirus ERV alignments to constrained alignment tree 
-  run file glue/erv/deltaErvAlignmentTree.glue
+  run file glue/build/erv/deltaErvAlignmentTree.glue
 
   # Record feature presence
-  run file glue/erv/deltaErvRecordFeaturePresence.glue
-
-  # Create root phylogeny with ERVs
-  #run file glue/erv/deltaErvCreatePhylogeniesRoot.glue
+  run file glue/build/erv/deltaErvRecordFeaturePresence.glue
 
   # Validate
   validate

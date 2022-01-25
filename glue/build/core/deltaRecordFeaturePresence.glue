@@ -1,5 +1,5 @@
   delete module deltaFeaturePresenceRecorder
-  create module -f modules/core/deltaFeaturePresenceRecorder.xml
+  create module -f modules/build/core/deltaFeaturePresenceRecorder.xml
 
   module deltaFeaturePresenceRecorder 
 

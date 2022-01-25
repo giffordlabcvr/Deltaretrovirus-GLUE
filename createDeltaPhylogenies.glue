@@ -1,0 +1,23 @@
+  project deltaretrovirus
+
+  #~#  Deltaretrovirus phylogenies
+
+
+	# Create root phylogenies
+	#run file glue/build/core/deltaCreateRootPhylogenies.glue
+
+
+	# Create root phylogeny with ERVs
+	#run file glue/build/erv/deltaErvCreatePhylogeniesRoot.glue
+
+
+
+	# Create species-level phylogenies
+	run file glue/build/extension/deltaCreatePhylogeniesBlv.glue
+	run file glue/build/extension/deltaCreatePhylogeniesPtlv1.glue
+	run file glue/build/extension/deltaCreatePhylogeniesPtlv2.glue
+	run file glue/build/extension/deltaCreatePhylogeniesPtlv3.glue
+
+	validate
+	exit
+
