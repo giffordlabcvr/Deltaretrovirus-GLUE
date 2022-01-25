@@ -1,5 +1,5 @@
   delete module deltaFeaturePresenceRecorder
-  create module -f modules/extension/deltaFeaturePresenceRecorder.xml
+  create module -f modules/build/extension/deltaFeaturePresenceRecorder.xml
 
   module deltaFeaturePresenceRecorder 
     record feature-presence AL_BLV --recursive --featureName whole_genome --descendentFeatures

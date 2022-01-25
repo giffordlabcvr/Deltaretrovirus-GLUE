@@ -4,6 +4,7 @@
   create module -f modules/build/core/deltaGenbankXmlPopulator.xml
   create module -f modules/build/core/deltaGagPolTranslationModifier.xml
   create module -f modules/build/core/deltaTabularUtility.xml
+  create module -t fastaExporter
 
   # Importers 
   create module -f modules/build/core/unconstrainedAlignmentImporter.xml

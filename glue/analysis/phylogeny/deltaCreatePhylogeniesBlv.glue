@@ -10,13 +10,13 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/deltaPhyloUtility.xml
-  create module -f modules/core/deltaFigTreeAnnotationExporter.xml
-  create module -f modules/extension/alignmentColumnsSelectorBlvCapsid.xml
-  create module -f modules/extension/alignmentColumnsSelectorBlvMatrix.xml
-  create module -f modules/extension/alignmentColumnsSelectorBlvNucleocapsid.xml
-  create module -f modules/extension/alignmentColumnsSelectorBlvRt.xml
-  create module -f modules/extension/alignmentColumnsSelectorBlvIntegrase.xml
+  create module -f modules/analysis/phylogeny/deltaPhyloUtility.xml
+  create module -f modules/analysis/phylogeny/deltaFigTreeAnnotationExporter.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorBlvCapsid.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorBlvMatrix.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorBlvNucleocapsid.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorBlvRt.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorBlvIntegrase.xml
 
   
   # Create the phylogenies
