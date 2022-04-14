@@ -4,7 +4,10 @@
   create reference REF_MinERVa      fasta-refseqs-erv ERV-Delta.1-Miniopterus
   create reference REF_Murina       fasta-refseqs-erv ERV-Delta.3-MurAur
   create reference REF_Platanista   fasta-refseqs-erv ERV-Delta.6-PlaMin
-  
+  create reference REF_Molossus     fasta-refseqs-erv ERV-Delta.9-MolMol
+
+
+
   # Define features on references
 
   reference REF_MinERVa
@@ -69,6 +72,50 @@
       exit
 
       
+  exit 
+
+  reference REF_Molossus
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9177
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 700
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 717 1901
+      exit
+ 
+    add feature-location pol
+    feature-location pol
+      add segment 2967 6581
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 80567 9177
+      exit
+
+    add feature-location rex
+    feature-location rex
+      add segment 7054 7683
+      exit
+
+    add feature-location tax
+    feature-location tax
+      add segment 7701 8744
+      exit
+
+    add feature-location 5LTR
+      feature-location env
+      add segment 80567 9177
+      exit
+          
   exit 
 
 
