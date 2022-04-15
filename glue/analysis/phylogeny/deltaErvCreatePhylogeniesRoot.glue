@@ -10,13 +10,13 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/deltaPhyloUtility.xml
-  create module -f modules/erv/deltaErvFigTreeAnnotationExporter.xml
-  create module -f modules/core/alignmentColumnsSelectorDeltaCapsid.xml
-  create module -f modules/core/alignmentColumnsSelectorDeltaMatrix.xml
-  create module -f modules/core/alignmentColumnsSelectorDeltaNucleocapsid.xml
-  create module -f modules/core/alignmentColumnsSelectorDeltaRt.xml
-  create module -f modules/core/alignmentColumnsSelectorDeltaIntegrase.xml
+  create module -f modules/analysis/phylogeny/deltaPhyloUtility.xml
+  create module -f modules/analysis/phylogeny/deltaErvFigTreeAnnotationExporter.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorDeltaCapsid.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorDeltaMatrix.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorDeltaNucleocapsid.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorDeltaRt.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorDeltaIntegrase.xml
 
   
   # Create the phylogenies
@@ -38,9 +38,9 @@
       -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/erv-root/delta-erv-rt.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorDeltaIntegrase \
-      -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/erv-root/delta-erv-in.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorDeltaIntegrase \
+    #  -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/erv-root/delta-erv-in.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -68,10 +68,10 @@
       --midpoint \
       --outputFile trees/erv-root/delta-erv-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	reroot-phylogeny \
-      --inputFile trees/erv-root/delta-erv-in.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/erv-root/delta-erv-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+	#reroot-phylogeny \
+    #  --inputFile trees/erv-root/delta-erv-in.tre NEWICK_BOOTSTRAPS \
+    #  --midpoint \
+    #  --outputFile trees/erv-root/delta-erv-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
@@ -91,8 +91,8 @@
     export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'RT'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/delta-erv-rt.figtree-annotations.tsv
 
-    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'IN'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/delta-erv-in.figtree-annotations.tsv
+    #export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'IN'  \
+    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/delta-erv-in.figtree-annotations.tsv
 
   exit
 

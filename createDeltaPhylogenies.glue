@@ -8,15 +8,15 @@
 
 
 	# Create root phylogeny with ERVs
-	#run file glue/analysis/phylogeny/deltaErvCreatePhylogeniesRoot.glue
+	run file glue/analysis/phylogeny/deltaErvCreatePhylogeniesRoot.glue
 
 
 	# Create species-level phylogenies
 	#run file glue/analysis/phylogeny/deltaCreatePhylogeniesBlv.glue
-	run file glue/analysis/phylogeny/deltaCreatePhylogeniesPtlv1.glue
-	run file glue/analysis/phylogeny/deltaCreatePhylogeniesPtlv2.glue
-	run file glue/analysis/phylogeny/deltaCreatePhylogeniesPtlv3.glue
+	#run file glue/analysis/phylogeny/deltaCreatePhylogeniesPtlv1.glue
+	#run file glue/analysis/phylogeny/deltaCreatePhylogeniesPtlv2.glue
+	#run file glue/analysis/phylogeny/deltaCreatePhylogeniesPtlv3.glue
 
-	validate
+	#validate
 	exit
 

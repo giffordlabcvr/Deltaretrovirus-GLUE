@@ -16,5 +16,5 @@
   run file glue/build/erv/buildDeltaErvExtension.glue
   
   # Build extension project  
-  run file glue/build/extension/buildDeltaExtension.glue
+  #run file glue/build/extension/buildDeltaExtension.glue
   

@@ -1,6 +1,6 @@
 delete module deltaNcbiImporter
 
-create module -f modules/core/deltaNcbiImporterReferences.xml deltaNcbiImporter
+create module -f modules/build/core/deltaNcbiImporterReferences.xml deltaNcbiImporter
 
 # Download NCBI sequences 
 module deltaNcbiImporter import

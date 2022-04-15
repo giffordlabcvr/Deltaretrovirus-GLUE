@@ -4,7 +4,9 @@
   create reference REF_PTLV2     ncbi-refseqs M10060
   create reference REF_PTLV3     ncbi-refseqs DQ093792
   create reference REF_PTLV4     ncbi-refseqs EF488483
-  create reference REF_BLV       ncbi-refseqs K02120
+  create reference REF_BLV       ncbi-refseqs K02120     # Bovine leukemia virus
+  create reference REF_EfDRV     ncbi-refseqs MT700539   # Eptesicus fuscus deltaretrovirus strain 20-6472
+
 
   # Define features on references
 
@@ -343,4 +345,45 @@
 
 
   exit 
+
+
+  reference REF_EfDRV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 6597
+      exit
+
+    add feature-location gag
+    feature-location gag
+      add segment 1 879
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 799 1368
+      exit
+           
+    add feature-location pol
+    feature-location pol
+      add segment 1329 3887 
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 3912 5468
+      exit
+
+    add feature-location rex
+    feature-location rex
+      add segment 5440 6156
+      exit
+
+    add feature-location tax
+    feature-location tax
+      add segment 5469 6596
+      exit
+
+  exit 
+
 

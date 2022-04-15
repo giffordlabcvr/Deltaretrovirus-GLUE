@@ -83,22 +83,27 @@
 
     add feature-location 5LTR
     feature-location 5LTR
-      add segment 1 700
+      add segment 1 1125
       exit
 
     add feature-location gag
     feature-location gag
-      add segment 717 1901
+      add segment 1209 2411
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 2348 2899
       exit
  
     add feature-location pol
     feature-location pol
-      add segment 2967 6581
+      add segment 3340 4749
       exit
 
     add feature-location env
     feature-location env
-      add segment 80567 9177
+      add segment 5440 7011
       exit
 
     add feature-location rex
@@ -111,9 +116,9 @@
       add segment 7701 8744
       exit
 
-    add feature-location 5LTR
-      feature-location env
-      add segment 80567 9177
+    add feature-location 3LTR
+      feature-location 3LTR
+      add segment 8057 9177
       exit
           
   exit 
