@@ -1,8 +1,7 @@
 #NEXUS
 begin taxa;
-	dimensions ntax=10;
+	dimensions ntax=9;
 	taxlabels
-	'alignment/AL_ROOT/member/fasta-refseqs-erv/ERV-Delta.1-Miniopterus'[&name="ERV-Delta.1-Miniopterus (MinERVa)",orientation="-",scaffold="-",sequenceID="ERV-Delta.1-Miniopterus",subgenus="Unclassified"]
 	'alignment/AL_ROOT/member/fasta-refseqs-erv/ERV-Delta.3-MurAur'[&name="ERV-Delta.3-MurAur",orientation="-",scaffold="-",sequenceID="ERV-Delta.3-MurAur",subgenus="Unclassified"]
 	'alignment/AL_ROOT/member/fasta-refseqs-erv/ERV-Delta.6-PlaMin'[&name="ERV-Delta.6-PlaMin",orientation="-",scaffold="-",sequenceID="ERV-Delta.6-PlaMin",subgenus="Unclassified"]
 	'alignment/AL_ROOT/member/fasta-refseqs-erv/ERV-Delta.9-MolMol'[&name="ERV-Delta.9-MolMol",orientation="-",scaffold="-",sequenceID="ERV-Delta.9-MolMol",subgenus="Unclassified"]
@@ -16,7 +15,7 @@ begin taxa;
 end;
 
 begin trees;
-	tree tree_1 = [&R] ((('alignment/AL_ROOT/member/fasta-refseqs-erv/ERV-Delta.3-MurAur':0.571228,'alignment/AL_ROOT/member/fasta-refseqs-erv/ERV-Delta.1-Miniopterus':0.743391)[&label=100]:0.337018,('alignment/AL_ROOT/member/fasta-refseqs-erv/ERV-Delta.9-MolMol':0.320992,'alignment/AL_ROOT/member/ncbi-refseqs/MT700539':0.239997)[&label=100]:0.500277)[&label=100]:0.661091,(('alignment/AL_ROOT/member/ncbi-refseqs/DQ093792':0.210663,('alignment/AL_ROOT/member/ncbi-refseqs/J02029':0.273247,('alignment/AL_ROOT/member/ncbi-refseqs/M10060':0.235616,'alignment/AL_ROOT/member/ncbi-refseqs/EF488483':0.213352)[&label=100]:0.096115)[&label=99]:0.11032)[&label=100]:0.756965,('alignment/AL_ROOT/member/ncbi-refseqs/K02120':1.259015,'alignment/AL_ROOT/member/fasta-refseqs-erv/ERV-Delta.6-PlaMin':0.858114)[&label=100]:0.4491)[&label=100]:0.033385);
+	tree tree_1 = [&R] (('alignment/AL_ROOT/member/fasta-refseqs-erv/ERV-Delta.6-PlaMin':0.491938,'alignment/AL_ROOT/member/ncbi-refseqs/K02120':0.732136)[&label=100]:0.689228,((('alignment/AL_ROOT/member/fasta-refseqs-erv/ERV-Delta.9-MolMol':0.355806,'alignment/AL_ROOT/member/ncbi-refseqs/MT700539':0.261858)[&label=100]:0.313043,'alignment/AL_ROOT/member/fasta-refseqs-erv/ERV-Delta.3-MurAur':0.813011)[&label=100]:0.453912,('alignment/AL_ROOT/member/ncbi-refseqs/DQ093792':0.393705,('alignment/AL_ROOT/member/ncbi-refseqs/J02029':0.521773,('alignment/AL_ROOT/member/ncbi-refseqs/M10060':0.265221,'alignment/AL_ROOT/member/ncbi-refseqs/EF488483':0.24911)[&label=100]:0.14045)[&label=97]:0.084212)[&label=100]:0.388376)[&label=100]:0.154442);
 end;
 
 begin figtree;

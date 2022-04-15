@@ -2,20 +2,28 @@
   delete module raxmlPhylogenyGenerator
   delete module deltaPhyloUtility
   delete module deltaErvFigTreeAnnotationExporter 
-  delete module alignmentColumnsSelectorDeltaGagv
+  delete module alignmentColumnsSelectorDeltaGag
+  delete module alignmentColumnsSelectorDeltaPol
+  
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/analysis/phylogeny/deltaPhyloUtility.xml
   create module -f modules/analysis/phylogeny/deltaErvFigTreeAnnotationExporter.xml
   create module -f modules/analysis/phylogeny/alignmentColumnsSelectorDeltaGag.xml
-  
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorDeltaPol.xml
+
+ 
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
     generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorDeltaGag \
       -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/erv-root/delta-erv-gag.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorDeltaPol \
+      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-root/delta-erv-pol.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -28,6 +36,11 @@
       --midpoint \
       --outputFile trees/erv-root/delta-erv-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
+	reroot-phylogeny \
+      --inputFile trees/erv-root/delta-erv-pol.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/erv-root/delta-erv-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
     exit
 
 
@@ -37,5 +50,9 @@
     export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'gag'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/delta-erv-gag.figtree-annotations.tsv
 
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'pol'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/delta-erv-pol.figtree-annotations.tsv
+
   exit
+
 
