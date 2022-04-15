@@ -2,27 +2,23 @@
   feature whole_genome set field displayName "Whole genome"
   feature whole_genome set metatag INCLUDE_IN_SUMMARY true
 
-  create feature 5flank "5 prime genomic flanking sequence"
-  feature 5flank set field displayName "5' flank"
-  feature 5flank set metatag INCLUDE_IN_SUMMARY true
 
-  create feature 5LTR --parentName whole_genome "5' LTR"
-  create feature U3_5LTR --parentName 5LTR "U3 region of 5' LTR"
-  create feature R_5LTR  --parentName 5LTR "R region of 5' LTR"
-  create feature U5_5LTR --parentName 5LTR "U5 region of 5' LTR"
-  
-  create feature PBS "Primer binding site"
-  create feature LEA "Leader region"
+  ## Coding features
 
-  create feature internal_region -p whole_genome "internal region (bounded by LTRs)"
-  feature internal_region set field displayName "internal region"
+  create feature gag-pro-pol -p whole_genome "gag-pro-pol"
+  feature gag-pro-pol set field displayName "gag-pro-pol"
+  feature gag-pro-pol set metatag OWN_CODON_NUMBERING true
+  feature gag-pro-pol set metatag CODES_AMINO_ACIDS true
+
+  create feature gag-pro -p whole_genome "gag-pro"
+  feature gag-pro set field displayName "gag-pro"
+  feature gag-pro set metatag OWN_CODON_NUMBERING true
+  feature gag-pro set metatag CODES_AMINO_ACIDS true
 
   create feature gag --parentName whole_genome "Group-specific antigen"
+  feature gag set field displayName "gag"
   feature gag set metatag CODES_AMINO_ACIDS true
   feature gag set metatag OWN_CODON_NUMBERING true
-
-  create feature gag-pro-pol -p whole_genome  "gag-pro-pol fusion protein"
-  create feature gag-pro -p whole_genome  "gag-pro fusion protein"
 
   create feature matrix -p gag "matrix"
   feature matrix set field displayName "matrix"
@@ -43,14 +39,17 @@
   feature nucleocapsid set metatag CODES_AMINO_ACIDS true
   
   create feature pro "protease"
+  feature capsid set field displayName "PR"
   feature pro set metatag CODES_AMINO_ACIDS true
   feature pro set metatag OWN_CODON_NUMBERING true
 
-  create feature pol -p whole_genome  "polymerase"
+  create feature pol -p whole_genome  "Pol"
+  feature nucleocapsid set field displayName "polymerase"
   feature pol set metatag CODES_AMINO_ACIDS true
   feature pol set metatag OWN_CODON_NUMBERING true
 
-  create feature RT --parentName pol "Reverse transcriptase"
+  create feature RT --parentName pol "RT"
+  feature nucleocapsid set field displayName "Reverse transcriptase"
   feature RT set metatag CODES_AMINO_ACIDS true
   feature RT set metatag OWN_CODON_NUMBERING true
 
@@ -86,12 +85,35 @@
   create feature rex -p whole_genome  "Regulator of expression protein"
   feature rex set metatag CODES_AMINO_ACIDS true
   feature rex set metatag OWN_CODON_NUMBERING true
+
+
+  ## Non-coding features
+
+  create feature 5LTR --parentName whole_genome "5' LTR"
+  create feature U3_5LTR --parentName 5LTR "U3 region of 5' LTR"
+  create feature R_5LTR  --parentName 5LTR "R region of 5' LTR"
+  create feature U5_5LTR --parentName 5LTR "U5 region of 5' LTR"
+  
+  create feature PBS "Primer binding site"
+  create feature LEA "Leader region"
+
+  create feature internal_region -p whole_genome "internal region (bounded by LTRs)"
+  feature internal_region set field displayName "internal region"
         
   create feature PPT -p whole_genome  "polypurine tract"
   create feature 3LTR -p whole_genome  "3' LTR"
   create feature U3_3LTR --parentName 3LTR "U3 region of 3' LTR"
   create feature R_3LTR --parentName 3LTR "R region of 3' LTR"
   create feature U5_3LTR --parentName 3LTR "U5 region of 3' LTR"
+
+
+
+  ## Flanks (for proviruses/ERVs)
+
+
+  create feature 5flank "5 prime genomic flanking sequence"
+  feature 5flank set field displayName "5' flank"
+  feature 5flank set metatag INCLUDE_IN_SUMMARY true
   
   create feature 3flank "3 prime genomic flanking sequence"
   feature 3flank set field displayName "5' flank"
