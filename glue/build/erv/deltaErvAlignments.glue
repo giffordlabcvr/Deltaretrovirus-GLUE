@@ -1,6 +1,9 @@
 #~# Import pre-built alignments of ERVs
 
 module unconstrainedAlignmentImporter
-  import AL_UNC_ROOT_ERV -f alignments/root/deltaretrovirus-erv-root.aln.fna
+  import AL_UNC_ROOT_ERV        -f alignments/root/deltaretrovirus-erv-root.aln.fna
+  import AL_UNC_Cetartiodactyla -f alignments/internal/cetartiodactyl-delta-rv.aln.fna
+  import AL_UNC_Chiroptera      -f alignments/internal/chiroptera-delta-rv.aln.fna
+
   exit
 
