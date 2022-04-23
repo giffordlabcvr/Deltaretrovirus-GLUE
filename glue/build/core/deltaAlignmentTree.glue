@@ -1,4 +1,6 @@
+
 #~# Define constrained alignment tree
+
 create alignment AL_ROOT -r REF_PTLV1
 alignment AL_ROOT
 
@@ -6,6 +8,20 @@ alignment AL_ROOT
 
   # Add all members
   add member -a
+
+  extract child AL_Primate        --refName REF_PTLV1
+  demote member AL_Primate        --whereClause "sequence.subgenus = 'Primate'"
+ 
+  extract child AL_Cetartiodactyl --refName REF_BLV
+  demote member AL_Cetartiodactyl --whereClause "sequence.subgenus = 'Cetartiodactyl'"
+
+  extract child AL_Chiroptera     --refName REF_EfDRV
+  demote member AL_Chiroptera     --whereClause "sequence.subgenus = 'Chiroptera'"
+
+  exit
+
+
+alignment AL_Primate
 
   extract child AL_PTLV1     --refName REF_PTLV1
   demote member AL_PTLV1     --whereClause "sequence.name = 'PTLV-1'"
@@ -19,9 +35,14 @@ alignment AL_ROOT
   extract child AL_PTLV4     --refName REF_PTLV4
   demote member AL_PTLV4     --whereClause "sequence.name = 'PTLV-4'"
 
+  exit
+
+
+alignment AL_Cetartiodactyl
+
   extract child AL_BLV       --refName REF_BLV
   demote member AL_BLV       --whereClause "sequence.name = 'BLV'"
-  
+
   exit
 
 
