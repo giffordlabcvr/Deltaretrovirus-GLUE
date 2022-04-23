@@ -22,6 +22,11 @@
       add segment 23 777
       exit
 
+    add feature-location PBS
+    feature-location PBS
+      add segment 1124 1141
+      exit
+
     add feature-location internal_region
     feature-location internal_region
       add segment 778 8300
@@ -32,14 +37,30 @@
       add segment 824 2110
       exit
 
-     add feature-location pro
+    add feature-location gag-pro
+    feature-location gag-pro
+      add segment 824 2071 --spliceIndex 1
+      add segment 2072 2076 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 2077 2460 --spliceIndex 3
+      exit     
+
+    add feature-location gag-pro-pol
+    feature-location gag-pro-pol
+      add segment 824 2071 --spliceIndex 1
+      add segment 2072 2076 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 2077 2460 --spliceIndex 3
+      add segment 2461 2465 --translationModifier deltaGagPolTranslationModifier --spliceIndex 4
+      add segment 2466 5096 --spliceIndex 5
+      exit     
+
+    add feature-location pro
     feature-location pro
-      add segment 2074 2544
+      add segment 2077 2463
       exit
 
     add feature-location pol
     feature-location pol
-      add segment 2520 5207
+      add segment 2466 5096
       exit
 
     add feature-location RT
@@ -162,6 +183,7 @@
   exit 
 
 
+
   reference REF_PTLV3
 
     add feature-location whole_genome
@@ -169,10 +191,36 @@
       add segment 1 8917
       exit
 
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 697
+      exit
+
+    add feature-location PBS
+    feature-location PBS
+      add segment 700 717
+      exit
+
     add feature-location gag
     feature-location gag
       add segment 756 2024
       exit
+
+    add feature-location gag-pro
+    feature-location gag-pro
+      add segment 756 2024 --spliceIndex 1
+      add segment 2072 2076 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 2077 2460 --spliceIndex 3
+      exit     
+
+    add feature-location gag-pro-pol
+    feature-location gag-pro-pol
+      add segment 756 2000 --spliceIndex 1
+      add segment 2001 2005 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 2006 2473 --spliceIndex 3
+      add segment 2474 2478 --translationModifier deltaGagPolTranslationModifier --spliceIndex 4
+      add segment 2479 5076 --spliceIndex 5
+      exit     
 
     add feature-location pro
     feature-location pro
@@ -201,7 +249,13 @@
       add segment 7245 7730 --spliceIndex 2
       exit
 
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8221 8917
+      exit
+
   exit 
+
 
   reference REF_PTLV4
 
@@ -257,6 +311,11 @@
       add segment 1 530
       exit
 
+    add feature-location PBS
+    feature-location PBS
+      add segment 533 550
+      exit
+
     add feature-location internal_region
     feature-location internal_region
       add segment 628 8655
@@ -279,13 +338,29 @@
 
     add feature-location nucleocapsid
     feature-location nucleocapsid
-      add segment 1597 1803
+      add segment 1597 1782
       exit
 
     add feature-location pro
     feature-location pro
-      add segment 1804 2343
+      add segment 1788 2258
       exit
+
+    add feature-location gag-pro
+    feature-location gag-pro
+      add segment 628 1782 --spliceIndex 1
+      add segment 1783 1787 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 1788 2258 --spliceIndex 3
+      exit     
+
+    add feature-location gag-pro-pol
+    feature-location gag-pro-pol
+      add segment 628 1782 --spliceIndex 1
+      add segment 1783 1787 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 1788 2258 --spliceIndex 3
+      #add segment 1783 1787 --translationModifier deltaGagPolTranslationModifier --spliceIndex 4
+      #add segment 1788 2258 --spliceIndex 5
+      exit     
            
     add feature-location pol
     feature-location pol
@@ -346,14 +421,31 @@
 
     add feature-location gag
     feature-location gag
-      add segment 1 879
+      add segment 2 880
       exit
 
     add feature-location pro
     feature-location pro
-      add segment 799 1368
+      add segment 877 1368
       exit
-           
+
+    add feature-location gag-pro
+    feature-location gag-pro
+      add segment 2 871 --spliceIndex 1
+      add segment 872 876 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 877 1368 --spliceIndex 3
+      exit     
+
+    add feature-location gag-pro-pol
+    feature-location gag-pro-pol
+      add segment 2 871 --spliceIndex 1
+      add segment 872 876 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 877 1326 --spliceIndex 3
+      add segment 1327 1331 --translationModifier deltaGagPolTranslationModifier --spliceIndex 4
+      add segment 1332 3887 --spliceIndex 5
+
+      exit     
+                  
     add feature-location pol
     feature-location pol
       add segment 1329 3887 

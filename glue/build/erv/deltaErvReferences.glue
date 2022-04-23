@@ -1,11 +1,15 @@
   ## Endogenous deltavirus reference sequence declarations
 
-  ## Endogenous deltaviruses
+  ## Bat ERVs
   create reference REF_MinERVa      fasta-refseqs-erv ERV-Delta.1-Miniopterus
   create reference REF_Murina       fasta-refseqs-erv ERV-Delta.3-MurAur
-  create reference REF_Platanista   fasta-refseqs-erv ERV-Delta.6-PlaMin
   create reference REF_Molossus     fasta-refseqs-erv ERV-Delta.9-MolMol
+  create reference REF_Herpestoidea fasta-refseqs-erv ERV-Delta.7-Herpestoidea
 
+
+
+  ## Cetartiodactyl ERVs
+  create reference REF_Platanista   fasta-refseqs-erv ERV-Delta.6-PlaMin
 
 
   # Define features on references

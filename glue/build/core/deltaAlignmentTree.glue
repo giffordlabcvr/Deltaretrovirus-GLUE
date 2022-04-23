@@ -9,11 +9,11 @@ alignment AL_ROOT
   # Add all members
   add member -a
 
-  extract child AL_Primate        --refName REF_PTLV1
-  demote member AL_Primate        --whereClause "sequence.subgenus = 'Primate'"
+  extract child AL_Primates       --refName REF_PTLV1
+  demote member AL_Primates       --whereClause "sequence.subgenus = 'Primates'"
  
-  extract child AL_Cetartiodactyl --refName REF_BLV
-  demote member AL_Cetartiodactyl --whereClause "sequence.subgenus = 'Cetartiodactyl'"
+  extract child AL_Cetartiodactyla --refName REF_BLV
+  demote member AL_Cetartiodactyla --whereClause "sequence.subgenus = 'Cetartiodactyla'"
 
   extract child AL_Chiroptera     --refName REF_EfDRV
   demote member AL_Chiroptera     --whereClause "sequence.subgenus = 'Chiroptera'"
@@ -21,7 +21,7 @@ alignment AL_ROOT
   exit
 
 
-alignment AL_Primate
+alignment AL_Primates
 
   extract child AL_PTLV1     --refName REF_PTLV1
   demote member AL_PTLV1     --whereClause "sequence.name = 'PTLV-1'"
@@ -38,7 +38,7 @@ alignment AL_Primate
   exit
 
 
-alignment AL_Cetartiodactyl
+alignment AL_Cetartiodactyla
 
   extract child AL_BLV       --refName REF_BLV
   demote member AL_BLV       --whereClause "sequence.name = 'BLV'"
@@ -51,3 +51,6 @@ alignment AL_ROOT
   derive segments AL_UNC_ROOT -a --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
+alignment AL_Primates
+  derive segments AL_UNC_Primates -a --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
