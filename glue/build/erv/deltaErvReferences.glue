@@ -87,7 +87,12 @@
 
     add feature-location 5LTR
     feature-location 5LTR
-      add segment 1 1125
+      add segment 1 1121
+      exit
+
+    add feature-location PBS
+    feature-location PBS
+      add segment 1124 1141
       exit
 
     add feature-location gag

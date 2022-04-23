@@ -264,19 +264,45 @@
       add segment 1 8791
       exit
 
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 696
+      exit
+
+    add feature-location PBS
+    feature-location PBS
+      add segment 699 716
+      exit
+
     add feature-location gag
     feature-location gag
       add segment 750 2024
       exit
+      
+    add feature-location gag-pro
+    feature-location gag-pro
+      add segment 750 1886 --spliceIndex 1
+      add segment 1887 1891 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 1892 2533 --spliceIndex 3
+      exit     
+
+    add feature-location gag-pro-pol
+    feature-location gag-pro-pol
+      add segment 750 1886 --spliceIndex 1
+      add segment 1887 1891 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 1892 2491 --spliceIndex 3
+      add segment 2492 2496 --translationModifier deltaGagPolTranslationModifier --spliceIndex 4
+      add segment 2497 5109 --spliceIndex 5
+      exit     
 
     add feature-location pro
     feature-location pro
       add segment 1892 2533
       exit
-           
+
     add feature-location pol
     feature-location pol
-      add segment 2383 5109 
+      add segment 2497 5109 
       exit
       
     add feature-location env
@@ -294,6 +320,11 @@
     feature-location rex
       add segment 5043 5105 --spliceIndex 1
       add segment 7120 7569 --spliceIndex 2
+      exit
+  
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8096 8791
       exit
     
   exit 
