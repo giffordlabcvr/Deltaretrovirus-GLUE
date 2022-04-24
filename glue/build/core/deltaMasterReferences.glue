@@ -118,6 +118,11 @@
       add segment 1 763
       exit
 
+    add feature-location PBS
+    feature-location PBS
+      add segment 766 783
+      exit
+
     add feature-location internal_region
     feature-location internal_region
       add segment 764 8189
@@ -127,6 +132,22 @@
     feature-location gag
       add segment 807 2108
       exit
+
+    add feature-location gag-pro
+    feature-location gag-pro
+      add segment 807 2090 --spliceIndex 1
+      add segment 2091 2095 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 2096 2614 --spliceIndex 3
+      exit     
+
+    add feature-location gag-pro-pol
+    feature-location gag-pro-pol
+      add segment 807 2090 --spliceIndex 1
+      add segment 2091 2095 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 2096 2572 --spliceIndex 3
+      add segment 2573 2577 --translationModifier deltaGagPolTranslationModifier --spliceIndex 4
+      add segment 2578 5187 --spliceIndex 5
+      exit     
 
     add feature-location matrix
     feature-location matrix
@@ -145,12 +166,12 @@
       
     add feature-location pro
     feature-location pro
-      add segment 2201 2614
+      add segment 2096 2614
       exit
 
     add feature-location pol
     feature-location pol
-      add segment 2434 5187 
+      add segment 2578 5187 
       exit
 
     add feature-location hbz
