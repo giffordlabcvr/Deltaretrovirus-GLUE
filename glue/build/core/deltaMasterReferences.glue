@@ -133,22 +133,6 @@
       add segment 807 2108
       exit
 
-    add feature-location gag-pro
-    feature-location gag-pro
-      add segment 807 2090 --spliceIndex 1
-      add segment 2091 2095 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
-      add segment 2096 2614 --spliceIndex 3
-      exit     
-
-    add feature-location gag-pro-pol
-    feature-location gag-pro-pol
-      add segment 807 2090 --spliceIndex 1
-      add segment 2091 2095 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
-      add segment 2096 2572 --spliceIndex 3
-      add segment 2573 2577 --translationModifier deltaGagPolTranslationModifier --spliceIndex 4
-      add segment 2578 5187 --spliceIndex 5
-      exit     
-
     add feature-location matrix
     feature-location matrix
       add segment 807 1214
@@ -173,6 +157,23 @@
     feature-location pol
       add segment 2578 5187 
       exit
+
+    add feature-location gag-pro
+    feature-location gag-pro
+      add segment 807 2090 --spliceIndex 1
+      add segment 2091 2095 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 2096 2614 --spliceIndex 3
+      exit     
+
+    add feature-location gag-pro-pol
+    feature-location gag-pro-pol
+      add segment 807 2090 --spliceIndex 1
+      add segment 2091 2095 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 2096 2572 --spliceIndex 3
+      add segment 2573 2577 --translationModifier deltaGagPolTranslationModifier --spliceIndex 4
+      add segment 2578 5187 --spliceIndex 5
+      exit     
+
 
     add feature-location hbz
     feature-location hbz
