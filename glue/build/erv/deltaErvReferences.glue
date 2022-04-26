@@ -34,6 +34,7 @@
       
   exit 
 
+
   reference REF_Murina
 
     add feature-location whole_genome
@@ -58,13 +59,30 @@
 
     add feature-location pro
     feature-location pro
-      add segment 1880 2450
+      add segment 1880 2449
       exit
  
     add feature-location pol
     feature-location pol
-      add segment 654 1946
+      add segment 2440 4572
       exit
+
+    add feature-location gag-pro
+    feature-location gag-pro
+      add segment 654 1874 --spliceIndex 1
+      add segment 1875 1879 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 1880 2449 --spliceIndex 3
+      exit     
+
+    add feature-location gag-pro-pol
+    feature-location gag-pro-pol
+      add segment 654 1874 --spliceIndex 1
+      add segment 1875 1879 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+      add segment 1880 2434 --spliceIndex 3
+      add segment 2435 2439 --translationModifier deltaGagPolTranslationModifier --spliceIndex 4
+      add segment 2440 4572 --spliceIndex 5
+      exit     
+
 
   exit 
 
@@ -93,12 +111,24 @@
 
     add feature-location pro
     feature-location pro
-      add segment 1819 2508
+      add segment 1870 2508
       exit
  
     add feature-location pol
     feature-location pol
       add segment 2361 6581
+      exit
+
+    #add feature-location gag-pro
+    #feature-location gag-pro
+    #  add segment 717 1864 --spliceIndex 1
+    #  add segment 1865 1869 --translationModifier deltaGagPolTranslationModifier --spliceIndex 2
+    #  add segment 1870 2508 --spliceIndex 3
+    #  exit     
+ 
+    add feature-location hbz
+    feature-location hbz
+      add segment 6992 6582
       exit
 
 	add feature-location env
@@ -107,6 +137,10 @@
       exit
  
   exit 
+
+
+ 
+
 
   reference REF_Molossus
 
