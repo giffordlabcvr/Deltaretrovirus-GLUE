@@ -83,7 +83,6 @@
       add segment 2440 4572 --spliceIndex 5
       exit     
 
-
   exit 
 
 
@@ -139,9 +138,6 @@
   exit 
 
 
- 
-
-
   reference REF_Molossus
 
     add feature-location whole_genome
@@ -194,6 +190,11 @@
     feature-location env
       add segment 5412 7007
       exit
+ 
+    add feature-location hbz
+    feature-location hbz
+      add segment 7944 7480
+      exit
 
     add feature-location rex
     feature-location rex
@@ -211,5 +212,4 @@
       exit
           
   exit 
-
 
