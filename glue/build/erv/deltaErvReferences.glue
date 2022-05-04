@@ -127,7 +127,7 @@
  
     add feature-location hbz
     feature-location hbz
-      add segment 6992 6582
+      add segment 6582 6992
       exit
 
 	add feature-location env
@@ -193,7 +193,7 @@
  
     add feature-location hbz
     feature-location hbz
-      add segment 7944 7480
+      add segment 7480 7944
       exit
 
     add feature-location rex
