@@ -1,0 +1,31 @@
+# Clean up 
+delete module calculateCompositionCodonA.xml
+delete module calculateCompositionCodonT.xml
+delete module calculateCompositionCodonG.xml
+delete module calculateCompositionCodonC.xml
+
+# Create the modules 
+create module -f modules/analysis/refseq/calculateCompositionCodonA.xml
+create module -f modules/analysis/refseq/calculateCompositionCodonT.xml
+create module -f modules/analysis/refseq/calculateCompositionCodonG.xml
+create module -f modules/analysis/refseq/calculateCompositionCodonC.xml
+
+# Set the console to output tabular data
+console set cmd-output-file-format tab
+
+# Get the A codon results
+console set next-cmd-output-file codonCompositionAcodons.tsv
+module calculateCompositionCodonA invoke-function calculateCompositionCodonA
+
+# Get the T codon results
+console set next-cmd-output-file codonCompositionTcodons.tsv
+module calculateCompositionCodonT invoke-function calculateCompositionCodonT
+
+# Get the G codon results
+console set next-cmd-output-file codonCompositionGcodons.tsv
+module calculateCompositionCodonG invoke-function calculateCompositionCodonG
+
+# Get the C codon results
+console set next-cmd-output-file codonCompositionCcodons.tsv
+module calculateCompositionCodonC invoke-function calculateCompositionCodonC
+
