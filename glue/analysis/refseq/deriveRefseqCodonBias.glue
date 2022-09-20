@@ -1,0 +1,12 @@
+# Clean up 
+delete module calculateCodonBias.xml
+
+# Create the modules 
+create module -f modules/analysis/refseq/calculateCodonBias.xml
+
+# Set the console to output tabular data
+console set cmd-output-file-format tab
+
+# Get the codon bias results
+console set next-cmd-output-file codonBias.tsv
+module calculateCodonBias invoke-function calculateCodonBias
