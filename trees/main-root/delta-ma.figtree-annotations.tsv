@@ -1,6 +1,0 @@
-taxon	sequenceID	name	subgenus	isolate	orientation	country	sample_date
-alignment/AL_ROOT/member/ncbi-refseqs/DQ093792	DQ093792	HTLV-3	Primate	-	Homo sapiens	-	-
-alignment/AL_ROOT/member/ncbi-refseqs/EF488483	EF488483	HTLV-4	Primate	-	Homo sapiens	-	-
-alignment/AL_ROOT/member/ncbi-refseqs/J02029	J02029	HTLV-1	Primate	-	Homo sapiens	-	-
-alignment/AL_ROOT/member/ncbi-refseqs/K02120	K02120	BLV	Ungulate	-	Bos taurus	-	-
-alignment/AL_ROOT/member/ncbi-refseqs/M10060	M10060	HTLV-2	Primate	-	Homo sapiens	-	-

@@ -1,9 +1,0 @@
-delete module deltaCompoundAligner
-
-create module -f modules/build/extension/deltaCompoundAligner.xml
-
-compute alignment AL_BLV deltaCompoundAligner
-compute alignment AL_PTLV1 deltaCompoundAligner
-compute alignment AL_PTLV2 deltaCompoundAligner
-compute alignment AL_PTLV3 deltaCompoundAligner
-compute alignment AL_PTLV4 deltaCompoundAligner

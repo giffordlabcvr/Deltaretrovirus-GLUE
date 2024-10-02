@@ -1,7 +1,0 @@
-#~# Import unconstrained reference alignments
-
-module unconstrainedAlignmentImporter
-  import AL_UNC_ROOT -f alignments/root/deltaretrovirus-root.aln.fna
-  import AL_UNC_Primates -f alignments/internal/primate-delta-rv.aln.fna
-
-  exit
