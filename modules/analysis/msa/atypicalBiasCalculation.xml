@@ -1,0 +1,28 @@
+<ecmaFunctionInvoker>
+    <scriptFileName>atypicalBiasCalculation.js</scriptFileName>
+    <function>
+        <name>calculateBias</name>
+        <parameter>
+            <name>alignmentName</name>
+        </parameter>
+        <parameter>
+            <name>refseqName</name>
+        </parameter>
+        <parameter>
+            <name>featureName</name>
+        </parameter>
+        <parameter>
+            <name>biasType</name>
+        </parameter>
+        <parameter>
+            <name>aaConservationCutoff</name>
+        </parameter>
+        <parameter>
+            <name>codonConservationCutoff</name>
+        </parameter>
+        <parameter>
+            <name>outputMode</name>
+        </parameter>
+        <tableFromObjectsResultType/>
+    </function>
+</ecmaFunctionInvoker>
