@@ -7,7 +7,11 @@
     create field clade VARCHAR 50
     create field length INTEGER
     create field pubmed_id VARCHAR 50
-    create field lab_construct BOOLEAN
+    create field gb_ref_journal VARCHAR 300
+    create field gb_ref_title VARCHAR 500
+    create field gb_ref_doi VARCHAR 60
+
+    create field patent_related BOOLEAN
   exit
 
   table alignment
