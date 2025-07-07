@@ -34,7 +34,7 @@
 
     add feature-location gag
     feature-location gag
-      add segment 824 2110
+      add segment 824 2113
       exit
 
     add feature-location gag-pro
@@ -68,11 +68,6 @@
       add segment 2718 3230 
       exit
 
-    add feature-location hbz
-    feature-location hbz
-      add segment 6683 7312
-      exit
-
     add feature-location env
     feature-location env
       add segment 5203 6669
@@ -88,15 +83,37 @@
       add segment 5794 6666
       exit
 
+    add feature-location p30
+    feature-location p30
+      add segment 6849 7574
+      exit
+
+    add feature-location p12
+    feature-location p12
+      add segment 6857 7114
+      exit
+
+    add feature-location p13
+    feature-location p13
+      add segment 7311 7511
+      exit
+
+    add feature-location hbz
+    feature-location hbz
+      add segment 6683 7312
+      exit
+
     add feature-location tax
     feature-location tax
-      add segment 7645 8382
+      add segment 7321 8382
       exit
 
     add feature-location rex
     feature-location rex
-      add segment 7499 7834
+      add segment 5147 5206 --spliceIndex 1
+      add segment 7329 7838 --spliceIndex 2
       exit
+
 
     add feature-location 3LTR
     feature-location 3LTR
@@ -513,6 +530,7 @@
     feature-location rex
       add segment 5440 6156
       exit
+
 
     add feature-location tax
     feature-location tax

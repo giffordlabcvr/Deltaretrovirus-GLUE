@@ -77,6 +77,18 @@
   create feature TM --parentName env "Transmembrane domain"
   feature TM set metatag CODES_AMINO_ACIDS true
   feature TM set metatag OWN_CODON_NUMBERING true
+
+  create feature p12 -p whole_genome  "p12"
+  feature p12 set metatag CODES_AMINO_ACIDS true
+  feature p12 set metatag OWN_CODON_NUMBERING true
+
+  create feature p13 -p whole_genome  "p13"
+  feature p13 set metatag CODES_AMINO_ACIDS true
+  feature p13 set metatag OWN_CODON_NUMBERING true
+
+  create feature p30 -p whole_genome  "p30"
+  feature p30 set metatag CODES_AMINO_ACIDS true
+  feature p30 set metatag OWN_CODON_NUMBERING true
   
   create feature tax -p whole_genome  "Trans-activator of transcription"
   feature tax set metatag CODES_AMINO_ACIDS true
