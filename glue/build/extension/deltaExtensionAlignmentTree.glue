@@ -12,15 +12,15 @@ alignment AL_ROOT
 
 alignment AL_Cetartiodactyla
  
-  demote member AL_BLV   -w "sequence.source.name = 'ncbi-curated-blv'"
+  demote member AL_BLV   -w "sequence.source.name = 'ncbi-curated-blv' and sequence.length >= 1000"
  
   exit
 
 alignment AL_Primates
  
-  demote member AL_PTLV1 -w "sequence.source.name = 'ncbi-curated-ptlv1'"
-  demote member AL_PTLV2 -w "sequence.source.name = 'ncbi-curated-ptlv2'"
-  demote member AL_PTLV3 -w "sequence.source.name = 'ncbi-curated-ptlv3'"
-  demote member AL_PTLV4 -w "sequence.source.name = 'ncbi-curated-ptlv4'"
+  demote member AL_PTLV1 -w "sequence.source.name = 'ncbi-curated-ptlv1' and sequence.length >= 2000"
+  demote member AL_PTLV2 -w "sequence.source.name = 'ncbi-curated-ptlv2' and sequence.length >= 1000"
+  demote member AL_PTLV3 -w "sequence.source.name = 'ncbi-curated-ptlv3' and sequence.length >= 1000"
+  demote member AL_PTLV4 -w "sequence.source.name = 'ncbi-curated-ptlv4' and sequence.length >= 1000"
  
   exit
