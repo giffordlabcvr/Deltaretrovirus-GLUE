@@ -2,5 +2,4 @@
 
 ## Description
 
-This is Deltaretrovirus-GLUE - for information about this project please visit the
-[project website](https://giffordlabcvr.github.io/Deltaretrovirus-GLUE/) 
+This is Deltaretrovirus-GLUE - for information about this project please visit the **[user guide](https://github.com/giffordlabcvr/Deltaretrovirus-GLUE/wiki)**.
